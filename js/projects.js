@@ -235,69 +235,69 @@
 ]
     
     var projectKeys = {
-    "Local Weather":[
-        "featured",
-        2
-    ],
-    "Simon Says":[
-        "featured",
-        3
-    ],
-    "Finance Tracker":[
-        "projects",
-        9
-    ],
-    "Javascript Calculator":[
-        "projects",
-        2
-    ],
-    "Pomodoro Productivity Timer":[
-        "projects",
-        3
-    ],
-    "AlphaBlog":[
-        "projects",
-        11
-    ],
-    "TimeStamp":[
-        "projects",
-        6
-    ],
-    "Url Shortener":[
-        "featured",
-        1
-    ],
-    "Request Header Parser":[
-        "projects",
-        5
-    ],
-    "Tribute Project":[
-        "projects",
-        10
-    ],
-    "Random Quote Generator":[
-        "projects",
-        0
-    ],
-    "Image Search":[
-        "featured",
-        0
-    ],
-    "Wiki":[
+    "wiki":[
         "projects",
         8
     ],
-    "Twitch":[
-        "projects",
-        7
-    ],
-    "File Metadata":[
+    "file-metadata":[
         "projects",
         4
     ],
-    "Tic Tac Toe":[
+    "javascript-calculator":[
+        "projects",
+        2
+    ],
+    "request-header-parser":[
+        "projects",
+        5
+    ],
+    "timestamp":[
+        "projects",
+        6
+    ],
+    "alphablog":[
+        "projects",
+        11
+    ],
+    "image-search":[
+        "featured",
+        0
+    ],
+    "pomodoro-productivity-timer":[
+        "projects",
+        3
+    ],
+    "tribute-project":[
+        "projects",
+        10
+    ],
+    "local-weather":[
+        "featured",
+        2
+    ],
+    "tic-tac-toe":[
         "projects",
         1
+    ],
+    "simon-says":[
+        "featured",
+        3
+    ],
+    "url-shortener":[
+        "featured",
+        1
+    ],
+    "random-quote-generator":[
+        "projects",
+        0
+    ],
+    "finance-tracker":[
+        "projects",
+        9
+    ],
+    "twitch":[
+        "projects",
+        7
     ]
 }
 

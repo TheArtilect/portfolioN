@@ -24,7 +24,9 @@ def keys(arr, featured):
         listing = 'projects'
     count = 0
     for x in arr:
-        allKeys[x.__dict__["title"]] = [listing, count]
+        title = x.__dict__["title"].lower()
+        projectid = "-".join(title.split(" "))
+        allKeys[projectid] = [listing, count]
         count += 1
     
 
