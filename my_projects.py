@@ -12,7 +12,7 @@ image = Project("Image Search",
                 "Oct. 2016")
 
 shortener = Project("Url Shortener",
-                ("A url shortener microservice.  Shortened url addresses "
+                ("A url shortener microservice.  Shortened url addresses \n", 
                 "redirect to the original url.  First project using MongoDB."),
                 "https://u-short.herokuapp.com",
                 "https://github.com/TheArtilect/urlShortener",
