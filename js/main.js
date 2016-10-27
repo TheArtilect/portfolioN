@@ -1,5 +1,5 @@
 function displayAll(){
-
+    console.log(projects)
 
 }
 
