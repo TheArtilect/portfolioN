@@ -169,7 +169,7 @@ def createjs(projects):
 
 
     #webbrowser.open('/home/onyx/projects/u-portfolio/portfolio.html', new=2)
-    webbrowser.open('/home/legion/railing/u-portfolio/portfolio.html', new=2)
+    webbrowser.open('portfolio.html', new=2)
 
 
 
