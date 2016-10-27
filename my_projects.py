@@ -164,6 +164,7 @@ featured = [image.__dict__, shortener.__dict__, weather.__dict__,
 
 
 
+
 #   javascript template
 main_content = '''
     featured = {featured_insert}
@@ -187,10 +188,10 @@ def createjs(featured, projects):
     output_file.close()
 
 
-    webbrowser.open('index.html', new=2)
+    #webbrowser.open('index.html', new=2)
 
 
 
 
 
-createjs(featured, projects)
+#createjs(featured, projects)
