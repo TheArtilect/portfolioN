@@ -1,7 +1,6 @@
 import webbrowser
 import json
 
-
 from projects import Project
 
 image = Project("Image Search",
@@ -148,31 +147,39 @@ blog = Project("AlphaBlog",
 
 
 
-projects = [image.__dict__, shortener.__dict__, weather.__dict__, simon.__dict__, quote.__dict__, tictactoe.__dict__, calculator.__dict__, pomodoro.__dict__, metadata.__dict__, header.__dict__, timestamp.__dict__, twitch.__dict__, wiki.__dict__, finance.__dict__, tribute.__dict__, blog.__dict__]
+projects = [ quote.__dict__, tictactoe.__dict__, calculator.__dict__, pomodoro.__dict__, metadata.__dict__, header.__dict__, timestamp.__dict__, twitch.__dict__, wiki.__dict__, finance.__dict__, tribute.__dict__, blog.__dict__]
+
+featured = [image.__dict__, shortener.__dict__, weather.__dict__, simon.__dict__]
 
 
+
+#   javascript template
 main_content = '''
+    featured = {featured_insert}
+
     projects = {project_insert}
-
-
-
 
 '''
 
-def createjs(projects):
+#   creates javascript file of projects (featured and the rest)
+def createjs(featured, projects):
+    
     output_file = open("js/projects.js", 'w')
 
-    rendered_content = main_content.replace('{project_insert}', json.dumps(projects))
+    project_content = main_content.replace('{project_insert}',
+                   json.dumps(projects))
+
+    rendered_content = project_content.replace("{featured_insert}",
+                    json.dumps(featured))
 
     output_file.write(rendered_content)
     output_file.close()
 
 
-    #webbrowser.open('/home/onyx/projects/u-portfolio/portfolio.html', new=2)
-    webbrowser.open('portfolio.html', new=2)
+    webbrowser.open('index.html', new=2)
 
 
 
 
 
-createjs(projects)
+createjs(featured, projects)
