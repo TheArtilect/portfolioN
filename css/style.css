@@ -21,3 +21,7 @@ body {
 .title-logo {
   margin-top: 20px;
 }
+
+#project-description {
+    margin-top: 1vh;
+}

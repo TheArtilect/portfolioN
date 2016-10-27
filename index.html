@@ -7,10 +7,12 @@
     <meta author="Ian Agpawa">
     <title>Ian Agpawa Portfolio</title>
 
+
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
+
 
     <script type="text/javascript" src="js/jquery-3.1.1.slim.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -25,28 +27,28 @@
   <body>
     <div class="container">
 
-      <section>
+      <header>
         <div class="row">
-  
+
           <div class="col-md-6">
-              <img class="title-logo img-responsive" 
+              <img class="title-logo img-responsive"
                   src="http://placekitten.com/100/100" alt='placeholder'>
           </div>
-  
+
           <div class="col-md-6 text-right text-uppercase">
             <h1 class="title-super text-thin" id="name">Ian Agpawa</h1>
             <h3>Web Developer</h3>
           </div>
-  
+
         </div>
-      </section>
+    </header>
 
 
 
       <div class="row">
         <div class="col-md-12">
           <hr>
-          <img class="img-responsive" src="http://placekitten.com/1140/350" 
+          <img class="img-responsive" src="http://placekitten.com/1140/350"
               alt='placeholder'>
         </div>
       </div>
@@ -59,10 +61,10 @@
               <h2 class="text-muted">Featured Work</h2>
             </div>
           </div>
-  
-  
+
+
           <div class="row text-center" id="featured">
-    
+
           </div>
         </div>
 
@@ -72,34 +74,43 @@
               <h2 class="text-muted">Projects</h2>
             </div>
           </div>
-          
+
           <div class="row text-center" id='projects'>
-    
-  
+
+
           </div>
         </div>
       </section>
 
+      <br>
+      <footer>
+      </footer>
+
     </div>   <!-- body container -->
 
 
+
     <!-- Modal -->
-  <div class="modal fade text-center" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h4 class="modal-title" id="myModalLabel"></h4>
-              </div>
-              <div class="modal-body">
-                  <img class="img-responsive" src="http://placekitten.com/555/300">
-                  <p id='project-description'></p>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <section>
+        <div class="modal fade text-center" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h4 class="modal-title" id="myModalLabel"></h4>
+                  </div>
+                  <div class="modal-body">
+                      <a id='pj-web-link' target="_blank"><img class="img-responsive" src="http://placekitten.com/555/300"></a>
+                      <p id='project-description'></p>
+                      <a id='github-link' target="_blank">Github Repo</a>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
               </div>
           </div>
-      </div>
-  </div>
+        </div>
+    <section>
+
   </body>
-  
+
 </html>

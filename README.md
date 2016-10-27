@@ -7,9 +7,14 @@
 -Clone the repo: `git clone https://github.com/TheArtilect/u-portfolio.git`
 
 
+#### Viewing the app
 You can run the app by either opening the `index.html` file with your browser.
-Alternatively, you can run the following command in the terminal while in the project folder:
-`python my_projects.py`
+
+Alternatively, you can run the following command `python -m SimpleHTTPServer` in the terminal while in the project folder and then direct your browser to `0.0.0.0:8000`.
+
+If there are any additional projects included in the `my_projects.py` file, run `python my_projects.py` to update/generate the `projects.js` file.
+
+
 
 
 ### What's included
