@@ -12,7 +12,7 @@ image = Project("Image Search",
                 "Oct. 2016")
 
 shortener = Project("Url Shortener",
-                ("A url shortener microservice.  Shortened url addresses \n", 
+                ("A url shortener microservice.  Shortened url addresses " 
                 "redirect to the original url.  First project using MongoDB."),
                 "https://u-short.herokuapp.com",
                 "https://github.com/TheArtilect/urlShortener",
@@ -178,10 +178,10 @@ def createjs(featured, projects):
     output_file = open("js/projects.js", 'w')
 
     featured_content = main_content.replace('{featured_insert}',
-                   json.dumps(featured))
+                   json.dumps(featured, indent=4, separators=(",", ":")))
 
     rendered_content = featured_content.replace("{project_insert}",
-                    json.dumps(projects))
+                    json.dumps(projects, indent=4, separators=(",", ":")))
 
     output_file.write(rendered_content)
     output_file.close()
