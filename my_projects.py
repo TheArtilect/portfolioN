@@ -2,6 +2,8 @@ import webbrowser
 import json
 
 from projects import Project
+import transform
+
 
 image = Project("Image Search",
                 "An image search microservice using the Google Custom Search API.",
@@ -154,26 +156,35 @@ blog = Project("AlphaBlog",
 
 
 
-projects = [ quote.__dict__, tictactoe.__dict__, calculator.__dict__, 
-            pomodoro.__dict__, metadata.__dict__, header.__dict__, 
-            timestamp.__dict__, twitch.__dict__, wiki.__dict__, 
-            finance.__dict__, tribute.__dict__, blog.__dict__]
 
-featured = [image.__dict__, shortener.__dict__, weather.__dict__, 
-            simon.__dict__]
+featured = [image, shortener, weather, simon]
+
+projects = [quote, tictactoe, calculator, pomodoro, metadata, header, timestamp,
+            twitch, wiki, finance, tribute, blog]
+
+#   Creating Hash with project titles, and their position in which list
+transform.keys(featured, featured)
+transform.keys(projects, featured)
+#   all the keys are in:
+#   transform.allKeys
 
 
+#   instance objects in arr need to be transformed to instanceObj.__dict__
+featured = transform.change(featured)
+projects = transform.change(projects)
 
 
-#   javascript template
+#   template for client-side javascript
 main_content = '''
-    featured = {featured_insert}
+    var featured = {featured_insert}
 
-    projects = {project_insert}
+    var projects = {project_insert}
+    
+    var projectKeys = {keys_insert}
 
 '''
 
-#   creates javascript file of projects (featured and the rest)
+#   creates javascript file of projects (featured,  projects, projectKeys)
 def createjs(featured, projects):
     
     output_file = open("js/projects.js", 'w')
@@ -181,17 +192,21 @@ def createjs(featured, projects):
     featured_content = main_content.replace('{featured_insert}',
                    json.dumps(featured, indent=4, separators=(",", ":")))
 
-    rendered_content = featured_content.replace("{project_insert}",
+    project_content = featured_content.replace("{project_insert}",
                     json.dumps(projects, indent=4, separators=(",", ":")))
+                    
+    rendered_content = project_content.replace("{keys_insert}",
+                        json.dumps(transform.allKeys, indent=4, 
+                        separators=(",", ":")))
 
     output_file.write(rendered_content)
     output_file.close()
 
 
-    #webbrowser.open('index.html', new=2)
+    webbrowser.open('index.html', new=2)
 
 
 
 
 
-#createjs(featured, projects)
+createjs(featured, projects)

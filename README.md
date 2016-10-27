@@ -7,7 +7,9 @@
 -Clone the repo: `git clone https://github.com/TheArtilect/u-portfolio.git`
 
 
-You can run the app by either opening the `portfolio.html` file with your browser.
+You can run the app by either opening the `index.html` file with your browser.
+Alternatively, you can run the following command in the terminal while in the project folder:
+`python my_projects.py`
 
 
 ### What's included
@@ -18,16 +20,24 @@ u-portfolio/
     ├── css/
     |    └── style.css
     ├── js/
-    |    └── main.jss
-    ├── portfolio.html
-    └── README.md
+    |    ├── jquery-3.1.1.slim.js
+    |    ├── main.js
+    |    └── projects.js
+    ├── index.html
+    ├── my_projects.py
+    ├── my_projects.pyc
+    ├── projects.py
+    ├── projects.pyc
+    ├── README.md
+    ├── transform.py
+    └── transform.pyc
 ```
 
 ## Creator
 
 **Ian Agpawa**
 
-[Portfolio](https://ian-agpawa.herokuapp.com)
+[Old Portfolio](https://ian-agpawa.herokuapp.com)
 
 [Github](https://github.com/TheArtilect)
 

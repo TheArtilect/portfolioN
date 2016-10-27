@@ -1,5 +1,5 @@
 
-    featured = [
+    var featured = [
     {
         "description":"An image search microservice using the Google Custom Search API.",
         "title":"Image Search",
@@ -61,7 +61,7 @@
     }
 ]
 
-    projects = [
+    var projects = [
     {
         "description":"A few of my favorite quotes.  My first Javascript project.",
         "title":"Random Quote Generator",
@@ -233,4 +233,71 @@
         "thumbnail":"blog.png"
     }
 ]
+    
+    var projectKeys = {
+    "Local Weather":[
+        "featured",
+        2
+    ],
+    "Simon Says":[
+        "featured",
+        3
+    ],
+    "Finance Tracker":[
+        "projects",
+        9
+    ],
+    "Javascript Calculator":[
+        "projects",
+        2
+    ],
+    "Pomodoro Productivity Timer":[
+        "projects",
+        3
+    ],
+    "AlphaBlog":[
+        "projects",
+        11
+    ],
+    "TimeStamp":[
+        "projects",
+        6
+    ],
+    "Url Shortener":[
+        "featured",
+        1
+    ],
+    "Request Header Parser":[
+        "projects",
+        5
+    ],
+    "Tribute Project":[
+        "projects",
+        10
+    ],
+    "Random Quote Generator":[
+        "projects",
+        0
+    ],
+    "Image Search":[
+        "featured",
+        0
+    ],
+    "Wiki":[
+        "projects",
+        8
+    ],
+    "Twitch":[
+        "projects",
+        7
+    ],
+    "File Metadata":[
+        "projects",
+        4
+    ],
+    "Tic Tac Toe":[
+        "projects",
+        1
+    ]
+}
 
