@@ -12,7 +12,8 @@ image = Project("Image Search",
                 "Oct. 2016")
 
 shortener = Project("Url Shortener",
-                "A url shortener microservice.  Shortened url addresses " "redirect to the original url.  First project using MongoDB.",
+                ("A url shortener microservice.  Shortened url addresses "
+                "redirect to the original url.  First project using MongoDB."),
                 "https://u-short.herokuapp.com",
                 "https://github.com/TheArtilect/urlShortener",
                 ["MongoDB", "Express", "Node", "Heroku"],
@@ -21,8 +22,8 @@ shortener = Project("Url Shortener",
 
 
 weather = Project("Local Weather",
-                "Fullstack javascript local weather app, utilizing Weather "
-                "Underground API.  An improvement on previous local weather project.",
+                ("Fullstack javascript local weather app, utilizing Weather ", 
+                "Underground API.  An improvement on previous local weather project."),
                 "https://weather-ia.herokuapp.com/",
                 "https://github.com/TheArtilect/weather",
                 ["Express", "Node", "Heroku"],
@@ -30,7 +31,8 @@ weather = Project("Local Weather",
                 "Oct. 2016")
 
 simon = Project("Simon Says",
-                "A Simon Says game. First project utilizing audio elements and" " setTimeout().",
+                ("A Simon Says game. First project utilizing audio elements and", 
+                " setTimeout()."),
                 "https://simon-says-ia.herokuapp.com",
                 "https://github.com/TheArtilect/simon-says",
                 ["Ruby on Rails", "Heroku"],
@@ -65,7 +67,9 @@ calculator = Project("Javascript Calculator",
                 "Jun. 2016")
 
 pomodoro = Project("Pomodoro Productivity Timer",
-                "A timer that can be used to for cooking pomodoro sauce or " "scheduling productivity.  First project utilizing " "setInterval().",
+                ("A timer that can be used to for cooking pomodoro sauce or ", 
+                "scheduling productivity.  First project utilizing ", 
+                "setInterval()."),
                 "https://pomodoro-timer-ia.herokuapp.com",
                 "https://github.com/TheArtilect/pomodoro",
                 ["Ruby on Rails", "Heroku"],
@@ -73,9 +77,9 @@ pomodoro = Project("Pomodoro Productivity Timer",
                 "Jun. 2016")
 
 metadata = Project("File Metadata",
-                "A file metadata microservice.  Uploading files will return "
-                "a  JSON object of the file's name, file type, and size"
-                " in bytes.",
+                ("A file metadata microservice.  Uploading files will return ",
+                "a  JSON object of the file's name, file type, and size",
+                " in bytes."),
                 "https://metadata-ia.herokuapp.com",
                 "https://github.com/TheArtilect/metadata",
                 ["Express", "Node", "Heroku"],
@@ -83,7 +87,8 @@ metadata = Project("File Metadata",
                 "Oct. 2016")
 
 header = Project("Request Header Parser",
-                "A request header parser microservice that will return your " "browser IP address, language, and operating system.",
+                ("A request header parser microservice that will return your ", 
+                "browser IP address, language, and operating system."),
                 "https://header-parser-ia.herokuapp.com",
                 "https://github.com/TheArtilect/headerParser",
                 ["Express", "Node", "Heroku"],
@@ -110,7 +115,8 @@ twitch = Project("Twitch",
 
 
 wiki = Project("Wiki",
-                "For searching and viewing a listing of wikipedia articles. "  "Utilized Wikipedia API.",
+                ("For searching and viewing a listing of wikipedia articles. ",  
+                "Utilized Wikipedia API."),
                 "https://wiki-it-ia.herokuapp.com",
                 "https://github.com/TheArtilect/wiki",
                  ["Ruby on Rails", "Heroku"],
@@ -118,8 +124,9 @@ wiki = Project("Wiki",
                 "Apr. 2016")
 
 finance = Project("Finance Tracker",
-                "Ruby on Rails social stocks tracker project built using " "scaffolding and bootstrap.  Functionality complete, "
-                "styling in progress.",
+                ("Ruby on Rails social stocks tracker project built using ", 
+                "scaffolding and bootstrap.  Functionality complete, ",
+                "styling in progress."),
                 "https://thawing-plains-40720.herokuapp.com/users/sign_in",
                 "https://github.com/TheArtilect/finance-tracker",
                  ["Ruby on Rails", "Heroku"],
@@ -127,8 +134,8 @@ finance = Project("Finance Tracker",
                 "Mar. 2016")
 
 tribute = Project("Tribute Project",
-                "Tribute Project about Hunter S. Thompson.  My first HTML and"
-                " CSS project.",
+                ("Tribute Project about Hunter S. Thompson.  My first HTML and",
+                " CSS project."),
                 "https://hunter-s-tribute.herokuapp.com",
                 "https://github.com/TheArtilect/tribute",
                  ["Ruby on Rails", "Heroku"],
@@ -136,9 +143,9 @@ tribute = Project("Tribute Project",
                 "Feb. 2016")
 
 blog = Project("AlphaBlog",
-                "My first project, a Ruby on Rails blog  built from the "
-                "ground up.  Functionality finalized, styling and "
-                "content in progress.",
+                ("My first project, a Ruby on Rails blog  built from the ",
+                "ground up.  Functionality finalized, styling and ",
+                "content in progress."),
                 "https://project-prometheus-alphablog.herokuapp.com",
                 "https://github.com/TheArtilect/tribute",
                  ["Ruby on Rails", "Heroku"],
@@ -147,9 +154,13 @@ blog = Project("AlphaBlog",
 
 
 
-projects = [ quote.__dict__, tictactoe.__dict__, calculator.__dict__, pomodoro.__dict__, metadata.__dict__, header.__dict__, timestamp.__dict__, twitch.__dict__, wiki.__dict__, finance.__dict__, tribute.__dict__, blog.__dict__]
+projects = [ quote.__dict__, tictactoe.__dict__, calculator.__dict__, 
+            pomodoro.__dict__, metadata.__dict__, header.__dict__, 
+            timestamp.__dict__, twitch.__dict__, wiki.__dict__, 
+            finance.__dict__, tribute.__dict__, blog.__dict__]
 
-featured = [image.__dict__, shortener.__dict__, weather.__dict__, simon.__dict__]
+featured = [image.__dict__, shortener.__dict__, weather.__dict__, 
+            simon.__dict__]
 
 
 
@@ -166,11 +177,11 @@ def createjs(featured, projects):
     
     output_file = open("js/projects.js", 'w')
 
-    project_content = main_content.replace('{project_insert}',
-                   json.dumps(projects))
+    featured_content = main_content.replace('{featured_insert}',
+                   json.dumps(featured))
 
-    rendered_content = project_content.replace("{featured_insert}",
-                    json.dumps(featured))
+    rendered_content = featured_content.replace("{project_insert}",
+                    json.dumps(projects))
 
     output_file.write(rendered_content)
     output_file.close()

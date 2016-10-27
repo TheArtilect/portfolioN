@@ -21,7 +21,7 @@ function createProj(projectsArr){
     var projRow = "<div class='row text-center proj-row'></div>"
 
     var projStart = "<div class='col-md-" + mdSize + " project'></div>"
-    var projImg = "<img class='img-responsive' src='images/%imageSource%' alt='thumbnail of project homepage' data-toggle='modal' data-target='#%id%'>"
+    var projImg = "<img class='img-responsive' src='%images/imageSource%' alt='thumbnail of project homepage' data-toggle='modal' data-target='#%id%'>"
     var projTitle = "<h3>%title%</h3>"
 
     count = 1
@@ -35,8 +35,11 @@ function createProj(projectsArr){
 
         $(".proj-row:last").append(projStart)
         // image added to project start
-        var imgSrc = projImg.replace("%imageSource%",
-                    projectsArr[project].thumbnail)
+        
+        var imgSrc = projImg.replace("%images/imageSource%",
+                    "http://placekitten.com/555/300")
+                    // projectsArr[project].thumbnail)
+                    
         var id = imgSrc.replace("%id%", projectsArr[project].title)
         $(".project:last").append(id)
 
