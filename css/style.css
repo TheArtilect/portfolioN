@@ -25,3 +25,25 @@ body {
 #project-description {
     margin-top: 1vh;
 }
+
+.fa:hover{
+    opacity: 0.5;
+}
+
+.fa{
+    font-size: 27px;
+    color: black;
+    margin-right: 3vw;
+}
+
+.fa-google:hover{
+    opacity: 1;
+}
+
+#modal-img:hover {
+    opacity: 0.8;
+}
+
+#footer{
+    margin-bottom: 3vh;
+}

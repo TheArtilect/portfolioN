@@ -1,8 +1,7 @@
 
 
 
-//  function dynamically generates html for projects in
-//  featured and projects section
+//  fdynamically generates projects
 
 
 function createProj(projectsArr){
@@ -30,7 +29,7 @@ function createProj(projectsArr){
     count = 1
 
     for (project in projectsArr){
-        //  makes rows, 3 projects to a row
+        //  makes rows, (2 to a row for featured, 3 for projects)
         if (count % rowSize == 1){
             $("#" + divID).append(projRow)
         }
@@ -62,7 +61,6 @@ function createProj(projectsArr){
 //dynamic modal
 function modalClick(){
 
-    //  figuring out which list project belongs in
     function whichList(name){
         if (name == 'featured'){
             return featured
@@ -71,25 +69,37 @@ function modalClick(){
         }
     }
 
-    // click on project for modal
+    // modal
    $(".project").on("click", function(){
+
         //   get id of project
         var pjID = ($(this).attr('id'))
+
+
         //  set title of project
         var pjTitle = $("#" + pjID + " > h3:first").text()
         $("#myModalLabel").text(pjTitle)
+
+
         // set description of project
         var projectArrInfo = projectKeys[pjID]
         var listing = whichList(projectArrInfo[0])
         var position = projectArrInfo[1]
         var description = listing[position].description
-        $("#project-description").text(description)
+        $("#project-description").text(description + " (" +listing[position].date + ")")
+
 
         // set website link
         $("#pj-web-link").attr("href", listing[position].url)
 
+
+        // set tools
+        $("#tools").text("Made with " + listing[position].tools.join(", ") + ".")
+
+
         // set github link
         $('#github-link').attr('href', listing[position].repo)
+
 
         //  set id of modal, dynamically changes
         $(".modal").attr('id', pjID + "-modal")
