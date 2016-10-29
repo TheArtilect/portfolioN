@@ -1,8 +1,5 @@
 
-
-
 //  dynamically generates projects
-
 
 function createProj(projectsArr){
     var divID;
