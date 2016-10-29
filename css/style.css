@@ -1,10 +1,13 @@
 body {
     font-family: 'Playfair Display', serif;
     font-weight: 300;
+    background-color: #DCDCDC;
+    color: #575252;
 }
 
 #header{
     margin-top: 5vh;
+    color: #535F6B;
 }
 
 .container{
@@ -14,22 +17,30 @@ body {
 .row {
     margin-top: 2vh;
 }
+
+hr {
+    border-top: 1px solid #868889;
+}
+
 .text-muted{
-    color: #8CBBBB;
+    color: #606D7B;
     margin-bottom: -1vh;
+    font-weight: 400;
 }
-
-.text-thin{
-    font-weight: 100;
-}
-
 
 .title-super {
     font-size: 50px;
+    font-weight: 100;
 }
 
-.project{
+.project:hover,
+.project:hover h4  {
     cursor: pointer;
+    text-decoration: underline;
+}
+
+.proj-img{
+    height: auto;
 }
 
 .pj-title{
@@ -46,7 +57,7 @@ body {
 
 .fa{
     font-size: 20px;
-    color: black;
+    color: #943737;
     margin-right: 2vw;
 }
 
@@ -54,8 +65,12 @@ body {
     opacity: 1;
 }
 
+.modal-content{
+    background-color: #CBCAC8;
+}
+
 #modal-img:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 #github-link{

@@ -12,7 +12,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"ImageSearch.png"
+        "thumbnail":"image-search.png"
     },
     {
         "description":"A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.",
@@ -26,7 +26,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"UrlShortener.png"
+        "thumbnail":"url-shortener.png"
     },
     {
         "description":"Fullstack javascript local weather app, utilizing Weather Underground API.  An improvement on previous local weather project.",
@@ -54,7 +54,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"SimonSays.png"
+        "thumbnail":"simon.png"
     }
 ]
 
@@ -69,7 +69,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"RandomQuote.png"
+        "thumbnail":"random.png"
     },
     {
         "description":"A tic tac toe game.",
@@ -80,7 +80,7 @@
         "tools":[
             "Github"
         ],
-        "thumbnail":"TicTacToe.png"
+        "thumbnail":"tic.png"
     },
     {
         "description":"A fully functional simple calculator. First project utilizing 'this' in js.",
@@ -91,7 +91,7 @@
         "tools":[
             "Github"
         ],
-        "thumbnail":"calc.png"
+        "thumbnail":"calculator.png"
     },
     {
         "description":"A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval().",
@@ -103,7 +103,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"Pomodoro.png"
+        "thumbnail":"pomodoro.png"
     },
     {
         "description":"A file metadata microservice.  Uploading files will return a  JSON object of the file's name, file type, and size in bytes.",
@@ -116,7 +116,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"metadata.png"
+        "thumbnail":"meta.png"
     },
     {
         "description":"A request header parser microservice that will return your browser IP address, language, and operating system.",
@@ -129,7 +129,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"headerParser.png"
+        "thumbnail":"header.png"
     },
     {
         "description":"A timestamp microservice.  First Node api project.",
@@ -142,7 +142,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"headerParser.png"
+        "thumbnail":"timestamp.png"
     },
     {
         "description":"For tracking some Twitch streamers.  Utilized Twitch API.",
@@ -202,7 +202,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"blog.png"
+        "thumbnail":"alpha.png"
     }
 ]
 

@@ -20,7 +20,7 @@ function createProj(projectsArr){
     var projRow = "<div class='row text-center proj-row'></div>"
 
     var projStart = "<div class='col-md-" + mdSize + " project' id='%id%'></div>"
-    var projImg = "<img class='img-responsive' src='%images/imageSource%' alt='thumbnail of project homepage' data-toggle='modal' data-target='#%id%-modal'>"
+    var projImg = "<img class='img-responsive proj-img' src='%image%' alt='thumbnail of project homepage' data-toggle='modal' data-target='#%id%-modal'>"
     var projTitle = "<h4 class='pj-title'>%title%</h4>"
 
     count = 1
@@ -37,9 +37,9 @@ function createProj(projectsArr){
         $(".proj-row:last").append(projectStart)
         // image added to project start
 
-        var imgSrc = projImg.replace("%images/imageSource%",
-                    "http://placekitten.com/555/300")
-                    // projectsArr[project].thumbnail)
+        var imgSrc = projImg.replace("%image%",
+                    //"http://placekitten.com/555/300")
+                    'images/' + projectsArr[project].thumbnail)
 
         var id = imgSrc.replace("%id%", title)
         $(".project:last").append(id)
@@ -85,6 +85,8 @@ function modalClick(){
         var description = listing[position].description
         $("#project-description").text(description + " (" +listing[position].date + ")")
 
+        //  set project image
+        $("#modal-img").attr("src", 'images/' + listing[position].thumbnail)
 
         // set website link
         $("#pj-web-link").attr("href", listing[position].url)

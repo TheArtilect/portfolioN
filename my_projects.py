@@ -10,7 +10,7 @@ image = Project("Image Search",
                 "https://imgsearch-ia.herokuapp.com",
                 "https://github.com/TheArtilect/imageSearch",
                 ["MongoDB", "Express", "Node", "Heroku"],
-                "ImageSearch.png",
+                "image-search.png",
                 "Oct. 2016")
 
 shortener = Project("Url Shortener",
@@ -19,7 +19,7 @@ shortener = Project("Url Shortener",
                 "https://u-short.herokuapp.com",
                 "https://github.com/TheArtilect/urlShortener",
                 ["MongoDB", "Express", "Node", "Heroku"],
-                "UrlShortener.png",
+                "url-shortener.png",
                 "Sept. 2016")
 
 
@@ -38,7 +38,7 @@ simon = Project("Simon Says",
                 "https://simon-says-ia.herokuapp.com",
                 "https://github.com/TheArtilect/simon-says",
                 ["Ruby on Rails", "Heroku"],
-                "SimonSays.png",
+                "simon.png",
                 "Jul. 2016")
 
 quote = Project("Random Quote Generator",
@@ -46,7 +46,7 @@ quote = Project("Random Quote Generator",
                 "https://rand-quote-gen.herokuapp.com",
                 "https://github.com/TheArtilect/random-quote",
                 ["Ruby on Rails", "Heroku"],
-                "RandomQuote.png",
+                "random.png",
                 "Mar. 2016")
 
 
@@ -55,7 +55,7 @@ tictactoe = Project("Tic Tac Toe",
                 "https://theartilect.github.io/TickyTacky",
                 "https://github.com/TheArtilect/TickyTacky",
                 ["Github"],
-                "TicTacToe.png",
+                "tic.png",
                 "Jul. 2016")
 
 
@@ -65,7 +65,7 @@ calculator = Project("Javascript Calculator",
                 "https://theartilect.github.io/calculator",
                 "https://github.com/TheArtilect/calculator",
                 ["Github"],
-                "calc.png",
+                "calculator.png",
                 "Jun. 2016")
 
 pomodoro = Project("Pomodoro Productivity Timer",
@@ -75,7 +75,7 @@ pomodoro = Project("Pomodoro Productivity Timer",
                 "https://pomodoro-timer-ia.herokuapp.com",
                 "https://github.com/TheArtilect/pomodoro",
                 ["Ruby on Rails", "Heroku"],
-                "Pomodoro.png",
+                "pomodoro.png",
                 "Jun. 2016")
 
 metadata = Project("File Metadata",
@@ -85,7 +85,7 @@ metadata = Project("File Metadata",
                 "https://metadata-ia.herokuapp.com",
                 "https://github.com/TheArtilect/metadata",
                 ["Express", "Node", "Heroku"],
-                "metadata.png",
+                "meta.png",
                 "Oct. 2016")
 
 header = Project("Request Header Parser",
@@ -94,7 +94,7 @@ header = Project("Request Header Parser",
                 "https://header-parser-ia.herokuapp.com",
                 "https://github.com/TheArtilect/headerParser",
                 ["Express", "Node", "Heroku"],
-                "headerParser.png",
+                "header.png",
                 "Sep. 2016")
 
 timestamp = Project("TimeStamp",
@@ -102,7 +102,7 @@ timestamp = Project("TimeStamp",
                 "https://timestamp-microservice-ia.herokuapp.com/",
                 "https://github.com/TheArtilect/timestamp",
                 ["Express", "Node", "Heroku"],
-                "headerParser.png",
+                "timestamp.png",
                 "Sep. 2016")
 
 
@@ -151,7 +151,7 @@ blog = Project("AlphaBlog",
                 "https://project-prometheus-alphablog.herokuapp.com",
                 "https://github.com/TheArtilect/tribute",
                  ["Ruby on Rails", "Heroku"],
-                "blog.png",
+                "alpha.png",
                 "Jan. 2016")
 
 
