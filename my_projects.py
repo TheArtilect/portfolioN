@@ -14,7 +14,7 @@ image = Project("Image Search",
                 "Oct. 2016")
 
 shortener = Project("Url Shortener",
-                ("A url shortener microservice.  Shortened url addresses " 
+                ("A url shortener microservice.  Shortened url addresses "
                 "redirect to the original url.  First project using MongoDB."),
                 "https://u-short.herokuapp.com",
                 "https://github.com/TheArtilect/urlShortener",
@@ -24,7 +24,7 @@ shortener = Project("Url Shortener",
 
 
 weather = Project("Local Weather",
-                ("Fullstack javascript local weather app, utilizing Weather ", 
+                ("Fullstack javascript local weather app, utilizing Weather "
                 "Underground API.  An improvement on previous local weather project."),
                 "https://weather-ia.herokuapp.com/",
                 "https://github.com/TheArtilect/weather",
@@ -33,7 +33,7 @@ weather = Project("Local Weather",
                 "Oct. 2016")
 
 simon = Project("Simon Says",
-                ("A Simon Says game. First project utilizing audio elements and", 
+                ("A Simon Says game. First project utilizing audio elements and",
                 " setTimeout()."),
                 "https://simon-says-ia.herokuapp.com",
                 "https://github.com/TheArtilect/simon-says",
@@ -69,8 +69,8 @@ calculator = Project("Javascript Calculator",
                 "Jun. 2016")
 
 pomodoro = Project("Pomodoro Productivity Timer",
-                ("A timer that can be used to for cooking pomodoro sauce or ", 
-                "scheduling productivity.  First project utilizing ", 
+                ("A timer that can be used to for cooking pomodoro sauce or "
+                "scheduling productivity.  First project utilizing "
                 "setInterval()."),
                 "https://pomodoro-timer-ia.herokuapp.com",
                 "https://github.com/TheArtilect/pomodoro",
@@ -79,8 +79,8 @@ pomodoro = Project("Pomodoro Productivity Timer",
                 "Jun. 2016")
 
 metadata = Project("File Metadata",
-                ("A file metadata microservice.  Uploading files will return ",
-                "a  JSON object of the file's name, file type, and size",
+                ("A file metadata microservice.  Uploading files will return "
+                "a  JSON object of the file's name, file type, and size"
                 " in bytes."),
                 "https://metadata-ia.herokuapp.com",
                 "https://github.com/TheArtilect/metadata",
@@ -89,7 +89,7 @@ metadata = Project("File Metadata",
                 "Oct. 2016")
 
 header = Project("Request Header Parser",
-                ("A request header parser microservice that will return your ", 
+                ("A request header parser microservice that will return your "
                 "browser IP address, language, and operating system."),
                 "https://header-parser-ia.herokuapp.com",
                 "https://github.com/TheArtilect/headerParser",
@@ -117,7 +117,7 @@ twitch = Project("Twitch",
 
 
 wiki = Project("Wiki",
-                ("For searching and viewing a listing of wikipedia articles. ",  
+                ("For searching and viewing a listing of wikipedia articles. "
                 "Utilized Wikipedia API."),
                 "https://wiki-it-ia.herokuapp.com",
                 "https://github.com/TheArtilect/wiki",
@@ -126,8 +126,8 @@ wiki = Project("Wiki",
                 "Apr. 2016")
 
 finance = Project("Finance Tracker",
-                ("Ruby on Rails social stocks tracker project built using ", 
-                "scaffolding and bootstrap.  Functionality complete, ",
+                ("Ruby on Rails social stocks tracker project built using "
+                "scaffolding and bootstrap.  Functionality complete, "
                 "styling in progress."),
                 "https://thawing-plains-40720.herokuapp.com/users/sign_in",
                 "https://github.com/TheArtilect/finance-tracker",
@@ -136,8 +136,8 @@ finance = Project("Finance Tracker",
                 "Mar. 2016")
 
 tribute = Project("Tribute Project",
-                ("Tribute Project about Hunter S. Thompson.  My first HTML and",
-                " CSS project."),
+                ("Tribute Project about Hunter S. Thompson.  My first HTML and "
+                "CSS project."),
                 "https://hunter-s-tribute.herokuapp.com",
                 "https://github.com/TheArtilect/tribute",
                  ["Ruby on Rails", "Heroku"],
@@ -145,8 +145,8 @@ tribute = Project("Tribute Project",
                 "Feb. 2016")
 
 blog = Project("AlphaBlog",
-                ("My first project, a Ruby on Rails blog  built from the ",
-                "ground up.  Functionality finalized, styling and ",
+                ("My first project, a Ruby on Rails blog  built from the "
+                "ground up.  Functionality finalized, styling and "
                 "content in progress."),
                 "https://project-prometheus-alphablog.herokuapp.com",
                 "https://github.com/TheArtilect/tribute",
@@ -179,14 +179,14 @@ main_content = '''
     var featured = {featured_insert}
 
     var projects = {project_insert}
-    
+
     var projectKeys = {keys_insert}
 
 '''
 
 #   creates javascript file of projects (featured,  projects, projectKeys)
 def createjs(featured, projects):
-    
+
     output_file = open("js/projects.js", 'w')
 
     featured_content = main_content.replace('{featured_insert}',
@@ -194,9 +194,9 @@ def createjs(featured, projects):
 
     project_content = featured_content.replace("{project_insert}",
                     json.dumps(projects, indent=4, separators=(",", ":")))
-                    
+
     rendered_content = project_content.replace("{keys_insert}",
-                        json.dumps(transform.allKeys, indent=4, 
+                        json.dumps(transform.allKeys, indent=4,
                         separators=(",", ":")))
 
     output_file.write(rendered_content)

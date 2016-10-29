@@ -29,10 +29,7 @@
         "thumbnail":"UrlShortener.png"
     },
     {
-        "description":[
-            "Fullstack javascript local weather app, utilizing Weather ",
-            "Underground API.  An improvement on previous local weather project."
-        ],
+        "description":"Fullstack javascript local weather app, utilizing Weather Underground API.  An improvement on previous local weather project.",
         "title":"Local Weather",
         "url":"https://weather-ia.herokuapp.com/",
         "repo":"https://github.com/TheArtilect/weather",
@@ -97,11 +94,7 @@
         "thumbnail":"calc.png"
     },
     {
-        "description":[
-            "A timer that can be used to for cooking pomodoro sauce or ",
-            "scheduling productivity.  First project utilizing ",
-            "setInterval()."
-        ],
+        "description":"A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval().",
         "title":"Pomodoro Productivity Timer",
         "url":"https://pomodoro-timer-ia.herokuapp.com",
         "repo":"https://github.com/TheArtilect/pomodoro",
@@ -113,11 +106,7 @@
         "thumbnail":"Pomodoro.png"
     },
     {
-        "description":[
-            "A file metadata microservice.  Uploading files will return ",
-            "a  JSON object of the file's name, file type, and size",
-            " in bytes."
-        ],
+        "description":"A file metadata microservice.  Uploading files will return a  JSON object of the file's name, file type, and size in bytes.",
         "title":"File Metadata",
         "url":"https://metadata-ia.herokuapp.com",
         "repo":"https://github.com/TheArtilect/metadata",
@@ -130,10 +119,7 @@
         "thumbnail":"metadata.png"
     },
     {
-        "description":[
-            "A request header parser microservice that will return your ",
-            "browser IP address, language, and operating system."
-        ],
+        "description":"A request header parser microservice that will return your browser IP address, language, and operating system.",
         "title":"Request Header Parser",
         "url":"https://header-parser-ia.herokuapp.com",
         "repo":"https://github.com/TheArtilect/headerParser",
@@ -171,10 +157,7 @@
         "thumbnail":"twitch.png"
     },
     {
-        "description":[
-            "For searching and viewing a listing of wikipedia articles. ",
-            "Utilized Wikipedia API."
-        ],
+        "description":"For searching and viewing a listing of wikipedia articles. Utilized Wikipedia API.",
         "title":"Wiki",
         "url":"https://wiki-it-ia.herokuapp.com",
         "repo":"https://github.com/TheArtilect/wiki",
@@ -186,11 +169,7 @@
         "thumbnail":"wiki.png"
     },
     {
-        "description":[
-            "Ruby on Rails social stocks tracker project built using ",
-            "scaffolding and bootstrap.  Functionality complete, ",
-            "styling in progress."
-        ],
+        "description":"Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress.",
         "title":"Finance Tracker",
         "url":"https://thawing-plains-40720.herokuapp.com/users/sign_in",
         "repo":"https://github.com/TheArtilect/finance-tracker",
@@ -202,10 +181,7 @@
         "thumbnail":"finance.png"
     },
     {
-        "description":[
-            "Tribute Project about Hunter S. Thompson.  My first HTML and",
-            " CSS project."
-        ],
+        "description":"Tribute Project about Hunter S. Thompson.  My first HTML and CSS project.",
         "title":"Tribute Project",
         "url":"https://hunter-s-tribute.herokuapp.com",
         "repo":"https://github.com/TheArtilect/tribute",
@@ -217,11 +193,7 @@
         "thumbnail":"tribute.png"
     },
     {
-        "description":[
-            "My first project, a Ruby on Rails blog  built from the ",
-            "ground up.  Functionality finalized, styling and ",
-            "content in progress."
-        ],
+        "description":"My first project, a Ruby on Rails blog  built from the ground up.  Functionality finalized, styling and content in progress.",
         "title":"AlphaBlog",
         "url":"https://project-prometheus-alphablog.herokuapp.com",
         "repo":"https://github.com/TheArtilect/tribute",
@@ -233,7 +205,7 @@
         "thumbnail":"blog.png"
     }
 ]
-    
+
     var projectKeys = {
     "wiki":[
         "projects",

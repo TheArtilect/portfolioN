@@ -1,7 +1,7 @@
 
 
 
-//  fdynamically generates projects
+//  dynamically generates projects
 
 
 function createProj(projectsArr){
@@ -24,7 +24,7 @@ function createProj(projectsArr){
 
     var projStart = "<div class='col-md-" + mdSize + " project' id='%id%'></div>"
     var projImg = "<img class='img-responsive' src='%images/imageSource%' alt='thumbnail of project homepage' data-toggle='modal' data-target='#%id%-modal'>"
-    var projTitle = "<h3>%title%</h3>"
+    var projTitle = "<h4 class='pj-title'>%title%</h4>"
 
     count = 1
 
@@ -77,7 +77,7 @@ function modalClick(){
 
 
         //  set title of project
-        var pjTitle = $("#" + pjID + " > h3:first").text()
+        var pjTitle = $("#" + pjID + " > h4:first").text()
         $("#myModalLabel").text(pjTitle)
 
 
@@ -109,9 +109,9 @@ function modalClick(){
 
 
 function displayAll(){
-    createProj(featured)
-    createProj(projects)
-    modalClick()
+    createProj(featured);
+    createProj(projects);
+    modalClick();
 }
 
 

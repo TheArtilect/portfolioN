@@ -1,25 +1,39 @@
 body {
-  font-family: "Lato", sans-serif;
-  color: #747704;
-  font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
 }
 
+#header{
+    margin-top: 5vh;
+}
 
-.text-mited{
-  color: #8CBBBB;
+.container{
+    margin-top: 2vh;
+}
+
+.row {
+    margin-top: 2vh;
+}
+.text-muted{
+    color: #8CBBBB;
+    margin-bottom: -1vh;
 }
 
 .text-thin{
-  font-weight: 100;
+    font-weight: 100;
 }
 
 
 .title-super {
-  font-size: 60px;
+    font-size: 50px;
 }
 
-.title-logo {
-  margin-top: 20px;
+.project{
+    cursor: pointer;
+}
+
+.pj-title{
+    font-weight: 100;
 }
 
 #project-description {
@@ -31,9 +45,9 @@ body {
 }
 
 .fa{
-    font-size: 27px;
+    font-size: 20px;
     color: black;
-    margin-right: 3vw;
+    margin-right: 2vw;
 }
 
 .fa-google:hover{
@@ -44,6 +58,11 @@ body {
     opacity: 0.8;
 }
 
+#github-link{
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
 #footer{
     margin-bottom: 3vh;
 }
