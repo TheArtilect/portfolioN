@@ -10,7 +10,7 @@ image = Project("Image Search",
                 "https://imgsearch-ia.herokuapp.com",
                 "https://github.com/TheArtilect/imageSearch",
                 ["MongoDB", "Express", "Node", "Heroku"],
-                "image-search-600.jpg",
+                "image-search",
                 "Oct. 2016")
 
 shortener = Project("Url Shortener",
@@ -19,7 +19,7 @@ shortener = Project("Url Shortener",
                 "https://u-short.herokuapp.com",
                 "https://github.com/TheArtilect/urlShortener",
                 ["MongoDB", "Express", "Node", "Heroku"],
-                "url-shortener-600.jpg",
+                "url-shortener",
                 "Sept. 2016")
 
 
@@ -29,7 +29,7 @@ weather = Project("Local Weather",
                 "https://weather-ia.herokuapp.com/",
                 "https://github.com/TheArtilect/weather",
                 ["Express", "Node", "Heroku"],
-                "weather-600.jpg",
+                "weather",
                 "Oct. 2016")
 
 simon = Project("Simon Says",
@@ -38,7 +38,7 @@ simon = Project("Simon Says",
                 "https://simon-says-ia.herokuapp.com",
                 "https://github.com/TheArtilect/simon-says",
                 ["Ruby on Rails", "Heroku"],
-                "simon-600.jpg",
+                "simon",
                 "Jul. 2016")
 
 quote = Project("Random Quote Generator",
@@ -46,7 +46,7 @@ quote = Project("Random Quote Generator",
                 "https://rand-quote-gen.herokuapp.com",
                 "https://github.com/TheArtilect/random-quote",
                 ["Ruby on Rails", "Heroku"],
-                "random-600.jpg",
+                "random",
                 "Mar. 2016")
 
 
@@ -55,7 +55,7 @@ tictactoe = Project("Tic Tac Toe",
                 "https://theartilect.github.io/TickyTacky",
                 "https://github.com/TheArtilect/TickyTacky",
                 ["Github"],
-                "tic-600.jpg",
+                "tic",
                 "Jul. 2016")
 
 
@@ -65,7 +65,7 @@ calculator = Project("Javascript Calculator",
                 "https://theartilect.github.io/calculator",
                 "https://github.com/TheArtilect/calculator",
                 ["Github"],
-                "calculator-600.jpg",
+                "calculator",
                 "Jun. 2016")
 
 pomodoro = Project("Pomodoro Productivity Timer",
@@ -75,7 +75,7 @@ pomodoro = Project("Pomodoro Productivity Timer",
                 "https://pomodoro-timer-ia.herokuapp.com",
                 "https://github.com/TheArtilect/pomodoro",
                 ["Ruby on Rails", "Heroku"],
-                "pomodoro-600.jpg",
+                "pomodoro",
                 "Jun. 2016")
 
 metadata = Project("File Metadata",
@@ -85,7 +85,7 @@ metadata = Project("File Metadata",
                 "https://metadata-ia.herokuapp.com",
                 "https://github.com/TheArtilect/metadata",
                 ["Express", "Node", "Heroku"],
-                "meta-600.jpg",
+                "meta",
                 "Oct. 2016")
 
 header = Project("Request Header Parser",
@@ -94,7 +94,7 @@ header = Project("Request Header Parser",
                 "https://header-parser-ia.herokuapp.com",
                 "https://github.com/TheArtilect/headerParser",
                 ["Express", "Node", "Heroku"],
-                "header-600.jpg",
+                "header",
                 "Sep. 2016")
 
 timestamp = Project("TimeStamp",
@@ -102,16 +102,16 @@ timestamp = Project("TimeStamp",
                 "https://timestamp-microservice-ia.herokuapp.com/",
                 "https://github.com/TheArtilect/timestamp",
                 ["Express", "Node", "Heroku"],
-                "timestamp-600.jpg",
+                "timestamp",
                 "Sep. 2016")
 
 
 twitch = Project("Twitch",
                 "For tracking some Twitch streamers.  Utilized Twitch API.",
-                "https://timestamp-microservice-ia.herokuapp.com",
-                "https://github.com/TheArtilect/timestamp",
+                "https://twitch-it.herokuapp.com/",
+                "https://github.com/TheArtilect/twitch",
                 ["Ruby on Rails", "Heroku"],
-                "twitch-600.jpg",
+                "twitch",
                 "May 2016")
 
 
@@ -122,7 +122,7 @@ wiki = Project("Wiki",
                 "https://wiki-it-ia.herokuapp.com",
                 "https://github.com/TheArtilect/wiki",
                  ["Ruby on Rails", "Heroku"],
-                "wiki-600.jpg",
+                "wiki",
                 "Apr. 2016")
 
 finance = Project("Finance Tracker",
@@ -132,7 +132,7 @@ finance = Project("Finance Tracker",
                 "https://thawing-plains-40720.herokuapp.com/users/sign_in",
                 "https://github.com/TheArtilect/finance-tracker",
                  ["Ruby on Rails", "Heroku"],
-                "finance-600.jpg",
+                "finance",
                 "Mar. 2016")
 
 tribute = Project("Tribute Project",
@@ -141,7 +141,7 @@ tribute = Project("Tribute Project",
                 "https://hunter-s-tribute.herokuapp.com",
                 "https://github.com/TheArtilect/tribute",
                  ["Ruby on Rails", "Heroku"],
-                "tribute-600.jpg",
+                "tribute",
                 "Feb. 2016")
 
 blog = Project("AlphaBlog",
@@ -151,7 +151,7 @@ blog = Project("AlphaBlog",
                 "https://project-prometheus-alphablog.herokuapp.com",
                 "https://github.com/TheArtilect/tribute",
                  ["Ruby on Rails", "Heroku"],
-                "alpha-600.jpg",
+                "alpha",
                 "Jan. 2016")
 
 

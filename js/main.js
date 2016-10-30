@@ -38,8 +38,7 @@ function createProj(projectsArr){
         // image added to project start
 
         var imgSrc = projImg.replace("%image%",
-                    //"http://placekitten.com/555/300")
-                    'images/' + projectsArr[project].thumbnail)
+                    'images/' + projectsArr[project].thumbnail + "-600.jpg")
 
         var id = imgSrc.replace("%id%", title)
         $(".project:last").append(id)
@@ -86,7 +85,7 @@ function modalClick(){
         $("#project-description").text(description + " (" +listing[position].date + ")")
 
         //  set project image
-        $("#modal-img").attr("src", 'images/' + listing[position].thumbnail)
+        $("#modal-img").attr("src", 'images/' + listing[position].thumbnail + "-600.jpg")
 
         // set website link
         $("#pj-web-link").attr("href", listing[position].url)
@@ -97,7 +96,7 @@ function modalClick(){
 
 
         // set github link
-        $('#github-link').attr('href', listing[position].repo)
+        $('#git-repo').attr('href', listing[position].repo)
 
 
         //  set id of modal, dynamically changes

@@ -19,7 +19,7 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           src: ['*.{gif,jpg,png}'],
-          cwd: 'images-jpg/',
+          cwd: 'images/images-jpg/',
           dest: 'images/'
         }]
       }
@@ -37,6 +37,7 @@ module.exports = function(grunt) {
     /*
 
     /* Generate the images directory if it is missing */
+    /*
     mkdir: {
       dev: {
         options: {
@@ -44,13 +45,30 @@ module.exports = function(grunt) {
         },
       },
     },
+    */
+
+    /* Copy the "fixed" images that don't go through processing into the images/directory */
+    /*
+    copy: {
+      dev: {
+        files: [{
+          expand: true,
+          src: 'images_src/fixed/*.{gif,jpg,png}',
+          dest: 'images/'
+        }]
+      },
+    },
+    */
 
   });
 
   grunt.loadNpmTasks('grunt-responsive-images');
+/*
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['mkdir', 'responsive_images']);
+
+*/
+  grunt.registerTask('default', ['responsive_images']);
 
 };

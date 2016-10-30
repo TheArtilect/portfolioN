@@ -19,6 +19,9 @@
 
 
 @media screen and (max-width: 450px){
+    body {
+        width: 100vw;
+    }
 
     #name {
         font-size: 40px;
@@ -26,6 +29,10 @@
     .text-muted{
         font-size: 40px;
         font-weight: bold;
+    }
+
+    .project{
+        margin-bottom: 10vh;
     }
 
     .pj-title{
@@ -78,6 +85,10 @@
 
     .fa{
         font-size: 40px;
+    }
+
+    .project{
+        margin-bottom: 5vh;
     }
 
     #project-description {
