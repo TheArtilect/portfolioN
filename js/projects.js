@@ -12,7 +12,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"image-search-600.png"
+        "thumbnail":"image-search-600.jpg"
     },
     {
         "description":"A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.",
@@ -26,7 +26,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"url-shortener-600.png"
+        "thumbnail":"url-shortener-600.jpg"
     },
     {
         "description":"Fullstack javascript local weather app, utilizing Weather Underground API.  An improvement on previous local weather project.",
@@ -39,7 +39,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"weather-600.png"
+        "thumbnail":"weather-600.jpg"
     },
     {
         "description":[
@@ -54,7 +54,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"simon-600.png"
+        "thumbnail":"simon-600.jpg"
     }
 ]
 
@@ -69,7 +69,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"random-600.png"
+        "thumbnail":"random-600.jpg"
     },
     {
         "description":"A tic tac toe game.",
@@ -80,7 +80,7 @@
         "tools":[
             "Github"
         ],
-        "thumbnail":"tic-600.png"
+        "thumbnail":"tic-600.jpg"
     },
     {
         "description":"A fully functional simple calculator. First project utilizing 'this' in js.",
@@ -91,7 +91,7 @@
         "tools":[
             "Github"
         ],
-        "thumbnail":"calculator-600.png"
+        "thumbnail":"calculator-600.jpg"
     },
     {
         "description":"A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval().",
@@ -103,7 +103,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"pomodoro-600.png"
+        "thumbnail":"pomodoro-600.jpg"
     },
     {
         "description":"A file metadata microservice.  Uploading files will return a  JSON object of the file's name, file type, and size in bytes.",
@@ -116,7 +116,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"meta-600.png"
+        "thumbnail":"meta-600.jpg"
     },
     {
         "description":"A request header parser microservice that will return your browser IP address, language, and operating system.",
@@ -129,7 +129,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"header-600.png"
+        "thumbnail":"header-600.jpg"
     },
     {
         "description":"A timestamp microservice.  First Node api project.",
@@ -142,7 +142,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"timestamp-600.png"
+        "thumbnail":"timestamp-600.jpg"
     },
     {
         "description":"For searching and viewing a listing of wikipedia articles. Utilized Wikipedia API.",
@@ -154,7 +154,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"wiki-600.png"
+        "thumbnail":"wiki-600.jpg"
     },
     {
         "description":"Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress.",
@@ -166,7 +166,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"finance-600.png"
+        "thumbnail":"finance-600.jpg"
     },
     {
         "description":"Tribute Project about Hunter S. Thompson.  My first HTML and CSS project.",
@@ -178,7 +178,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"tribute-600.png"
+        "thumbnail":"tribute-600.jpg"
     },
     {
         "description":"My first project, a Ruby on Rails blog  built from the ground up.  Functionality finalized, styling and content in progress.",
@@ -190,7 +190,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"alpha-600.png"
+        "thumbnail":"alpha-600.jpg"
     },
     {
         "description":"For tracking some Twitch streamers.  Utilized Twitch API.",
@@ -202,7 +202,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"twitch-600.png"
+        "thumbnail":"twitch-600.jpg"
     }
 ]
 
