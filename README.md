@@ -8,19 +8,17 @@
 
 
 #### Viewing the app
-You can run the app by either opening the `index.html` file with your browser.
+You can run the app by opening the `index.html` file with your browser.  Alternatively, you can run the following command `python -m SimpleHTTPServer` in the terminal while in the project folder and then direct your browser to `0.0.0.0:8000`.
 
-Alternatively, you can run the following command `python -m SimpleHTTPServer` in the terminal while in the project folder and then direct your browser to `0.0.0.0:8000`.
+If there are any projects added in the `my_projects.py` file, run `python my_projects.py` to update/generate the `projects.js` file, and will also open the browser with `index.html`.
 
-If there are any additional projects included in the `my_projects.py` file, run `python my_projects.py` to update/generate the `projects.js` file, and will also open the browser with `index.html`.
-
-The `convertImages.py` script was used to convert the original .png files stored in `images/images_src/` into .jpg files and migrated to `images/images-jpg/`  A `grunt` command was then executed resize the images appropriately.  
+The `convertImages.py` script was used to convert the original .png files stored in `images/images_src/` into .jpg files and migrated to `images/images-jpg/`.  A `grunt` command was then executed resize the images appropriately.  
 
 
 
 
 ### What's included
-Within the project folder, you will find the following files:
+Within the project folder, you will find the following files (image files not included):
 
 ```
 u-portfolio/
