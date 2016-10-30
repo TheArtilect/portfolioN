@@ -49,13 +49,13 @@ hr {
 }
 
 .pj-title{
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 2vh;
 }
 
 #project-description {
     margin-top: 2vh;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 
@@ -65,9 +65,7 @@ hr {
     margin-right: 2vw;
 }
 
-.fa-google:hover{
-    opacity: 1;
-}
+
 
 .modal-content{
     background-color: #F2F1F0;
@@ -76,6 +74,15 @@ hr {
 #modal-img:hover,
 .fa:hover {
     opacity: 0.6;
+}
+
+.fa-google:hover{
+    opacity: 1;
+}
+
+#github-link{
+    font-size: 40px;
+    cursor: pointer;
 }
 
 
