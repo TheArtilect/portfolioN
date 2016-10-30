@@ -10,7 +10,7 @@ image = Project("Image Search",
                 "https://imgsearch-ia.herokuapp.com",
                 "https://github.com/TheArtilect/imageSearch",
                 ["MongoDB", "Express", "Node", "Heroku"],
-                "image-search.png",
+                "image-search-600.png",
                 "Oct. 2016")
 
 shortener = Project("Url Shortener",
@@ -19,7 +19,7 @@ shortener = Project("Url Shortener",
                 "https://u-short.herokuapp.com",
                 "https://github.com/TheArtilect/urlShortener",
                 ["MongoDB", "Express", "Node", "Heroku"],
-                "url-shortener.png",
+                "url-shortener-600.png",
                 "Sept. 2016")
 
 
@@ -29,7 +29,7 @@ weather = Project("Local Weather",
                 "https://weather-ia.herokuapp.com/",
                 "https://github.com/TheArtilect/weather",
                 ["Express", "Node", "Heroku"],
-                "weather.png",
+                "weather-600.png",
                 "Oct. 2016")
 
 simon = Project("Simon Says",
@@ -38,7 +38,7 @@ simon = Project("Simon Says",
                 "https://simon-says-ia.herokuapp.com",
                 "https://github.com/TheArtilect/simon-says",
                 ["Ruby on Rails", "Heroku"],
-                "simon.png",
+                "simon-600.png",
                 "Jul. 2016")
 
 quote = Project("Random Quote Generator",
@@ -46,7 +46,7 @@ quote = Project("Random Quote Generator",
                 "https://rand-quote-gen.herokuapp.com",
                 "https://github.com/TheArtilect/random-quote",
                 ["Ruby on Rails", "Heroku"],
-                "random.png",
+                "random-600.png",
                 "Mar. 2016")
 
 
@@ -55,7 +55,7 @@ tictactoe = Project("Tic Tac Toe",
                 "https://theartilect.github.io/TickyTacky",
                 "https://github.com/TheArtilect/TickyTacky",
                 ["Github"],
-                "tic.png",
+                "tic-600.png",
                 "Jul. 2016")
 
 
@@ -65,7 +65,7 @@ calculator = Project("Javascript Calculator",
                 "https://theartilect.github.io/calculator",
                 "https://github.com/TheArtilect/calculator",
                 ["Github"],
-                "calculator.png",
+                "calculator-600.png",
                 "Jun. 2016")
 
 pomodoro = Project("Pomodoro Productivity Timer",
@@ -75,7 +75,7 @@ pomodoro = Project("Pomodoro Productivity Timer",
                 "https://pomodoro-timer-ia.herokuapp.com",
                 "https://github.com/TheArtilect/pomodoro",
                 ["Ruby on Rails", "Heroku"],
-                "pomodoro.png",
+                "pomodoro-600.png",
                 "Jun. 2016")
 
 metadata = Project("File Metadata",
@@ -85,7 +85,7 @@ metadata = Project("File Metadata",
                 "https://metadata-ia.herokuapp.com",
                 "https://github.com/TheArtilect/metadata",
                 ["Express", "Node", "Heroku"],
-                "meta.png",
+                "meta-600.png",
                 "Oct. 2016")
 
 header = Project("Request Header Parser",
@@ -94,7 +94,7 @@ header = Project("Request Header Parser",
                 "https://header-parser-ia.herokuapp.com",
                 "https://github.com/TheArtilect/headerParser",
                 ["Express", "Node", "Heroku"],
-                "header.png",
+                "header-600.png",
                 "Sep. 2016")
 
 timestamp = Project("TimeStamp",
@@ -102,7 +102,7 @@ timestamp = Project("TimeStamp",
                 "https://timestamp-microservice-ia.herokuapp.com/",
                 "https://github.com/TheArtilect/timestamp",
                 ["Express", "Node", "Heroku"],
-                "timestamp.png",
+                "timestamp-600.png",
                 "Sep. 2016")
 
 
@@ -111,7 +111,7 @@ twitch = Project("Twitch",
                 "https://timestamp-microservice-ia.herokuapp.com",
                 "https://github.com/TheArtilect/timestamp",
                 ["Ruby on Rails", "Heroku"],
-                "twitch.png",
+                "twitch-600.png",
                 "May 2016")
 
 
@@ -122,7 +122,7 @@ wiki = Project("Wiki",
                 "https://wiki-it-ia.herokuapp.com",
                 "https://github.com/TheArtilect/wiki",
                  ["Ruby on Rails", "Heroku"],
-                "wiki.png",
+                "wiki-600.png",
                 "Apr. 2016")
 
 finance = Project("Finance Tracker",
@@ -132,7 +132,7 @@ finance = Project("Finance Tracker",
                 "https://thawing-plains-40720.herokuapp.com/users/sign_in",
                 "https://github.com/TheArtilect/finance-tracker",
                  ["Ruby on Rails", "Heroku"],
-                "finance.png",
+                "finance-600.png",
                 "Mar. 2016")
 
 tribute = Project("Tribute Project",
@@ -141,7 +141,7 @@ tribute = Project("Tribute Project",
                 "https://hunter-s-tribute.herokuapp.com",
                 "https://github.com/TheArtilect/tribute",
                  ["Ruby on Rails", "Heroku"],
-                "tribute.png",
+                "tribute-600.png",
                 "Feb. 2016")
 
 blog = Project("AlphaBlog",
@@ -151,7 +151,7 @@ blog = Project("AlphaBlog",
                 "https://project-prometheus-alphablog.herokuapp.com",
                 "https://github.com/TheArtilect/tribute",
                  ["Ruby on Rails", "Heroku"],
-                "alpha.png",
+                "alpha-600.png",
                 "Jan. 2016")
 
 
@@ -159,8 +159,8 @@ blog = Project("AlphaBlog",
 
 featured = [image, shortener, weather, simon]
 
-projects = [quote, tictactoe, calculator, pomodoro, metadata, header, timestamp,
-            twitch, wiki, finance, tribute, blog]
+projects = [quote, tictactoe, calculator, pomodoro, metadata, header,
+            timestamp, wiki, finance, tribute, blog, twitch]
 
 #   Creating Hash with project titles, and their position in which list
 transform.keys(featured, featured)

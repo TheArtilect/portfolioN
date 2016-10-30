@@ -1,12 +1,12 @@
 body {
     font-family: 'Playfair Display', serif;
     font-weight: 300;
-    background-color: #DCDCDC;
+    background-color: #E9EAEB;
     color: #575252;
 }
 
 #header{
-    margin-top: 5vh;
+    margin-top: 1vh;
     color: #535F6B;
 }
 
@@ -30,13 +30,14 @@ hr {
 
 .title-super {
     font-size: 50px;
-    font-weight: 100;
+    color: #575757;
 }
 
 .project:hover,
 .project:hover h4  {
     cursor: pointer;
     text-decoration: underline;
+    opacity: 0.7;
 }
 
 .proj-img{
@@ -44,16 +45,14 @@ hr {
 }
 
 .pj-title{
-    font-weight: 100;
+    font-weight: 200;
+    margin-top: 2vh;
 }
 
 #project-description {
     margin-top: 1vh;
 }
 
-.fa:hover{
-    opacity: 0.5;
-}
 
 .fa{
     font-size: 20px;
@@ -66,10 +65,11 @@ hr {
 }
 
 .modal-content{
-    background-color: #CBCAC8;
+    background-color: #F2F1F0;
 }
 
-#modal-img:hover {
+#modal-img:hover,
+.fa:hover {
     opacity: 0.6;
 }
 

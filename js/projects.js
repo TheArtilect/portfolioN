@@ -12,7 +12,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"image-search.png"
+        "thumbnail":"image-search-600.png"
     },
     {
         "description":"A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.",
@@ -26,7 +26,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"url-shortener.png"
+        "thumbnail":"url-shortener-600.png"
     },
     {
         "description":"Fullstack javascript local weather app, utilizing Weather Underground API.  An improvement on previous local weather project.",
@@ -39,7 +39,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"weather.png"
+        "thumbnail":"weather-600.png"
     },
     {
         "description":[
@@ -54,7 +54,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"simon.png"
+        "thumbnail":"simon-600.png"
     }
 ]
 
@@ -69,7 +69,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"random.png"
+        "thumbnail":"random-600.png"
     },
     {
         "description":"A tic tac toe game.",
@@ -80,7 +80,7 @@
         "tools":[
             "Github"
         ],
-        "thumbnail":"tic.png"
+        "thumbnail":"tic-600.png"
     },
     {
         "description":"A fully functional simple calculator. First project utilizing 'this' in js.",
@@ -91,7 +91,7 @@
         "tools":[
             "Github"
         ],
-        "thumbnail":"calculator.png"
+        "thumbnail":"calculator-600.png"
     },
     {
         "description":"A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval().",
@@ -103,7 +103,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"pomodoro.png"
+        "thumbnail":"pomodoro-600.png"
     },
     {
         "description":"A file metadata microservice.  Uploading files will return a  JSON object of the file's name, file type, and size in bytes.",
@@ -116,7 +116,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"meta.png"
+        "thumbnail":"meta-600.png"
     },
     {
         "description":"A request header parser microservice that will return your browser IP address, language, and operating system.",
@@ -129,7 +129,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"header.png"
+        "thumbnail":"header-600.png"
     },
     {
         "description":"A timestamp microservice.  First Node api project.",
@@ -142,19 +142,7 @@
             "Node",
             "Heroku"
         ],
-        "thumbnail":"timestamp.png"
-    },
-    {
-        "description":"For tracking some Twitch streamers.  Utilized Twitch API.",
-        "title":"Twitch",
-        "url":"https://timestamp-microservice-ia.herokuapp.com",
-        "repo":"https://github.com/TheArtilect/timestamp",
-        "date":"May 2016",
-        "tools":[
-            "Ruby on Rails",
-            "Heroku"
-        ],
-        "thumbnail":"twitch.png"
+        "thumbnail":"timestamp-600.png"
     },
     {
         "description":"For searching and viewing a listing of wikipedia articles. Utilized Wikipedia API.",
@@ -166,7 +154,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"wiki.png"
+        "thumbnail":"wiki-600.png"
     },
     {
         "description":"Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress.",
@@ -178,7 +166,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"finance.png"
+        "thumbnail":"finance-600.png"
     },
     {
         "description":"Tribute Project about Hunter S. Thompson.  My first HTML and CSS project.",
@@ -190,7 +178,7 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"tribute.png"
+        "thumbnail":"tribute-600.png"
     },
     {
         "description":"My first project, a Ruby on Rails blog  built from the ground up.  Functionality finalized, styling and content in progress.",
@@ -202,14 +190,26 @@
             "Ruby on Rails",
             "Heroku"
         ],
-        "thumbnail":"alpha.png"
+        "thumbnail":"alpha-600.png"
+    },
+    {
+        "description":"For tracking some Twitch streamers.  Utilized Twitch API.",
+        "title":"Twitch",
+        "url":"https://timestamp-microservice-ia.herokuapp.com",
+        "repo":"https://github.com/TheArtilect/timestamp",
+        "date":"May 2016",
+        "tools":[
+            "Ruby on Rails",
+            "Heroku"
+        ],
+        "thumbnail":"twitch-600.png"
     }
 ]
 
     var projectKeys = {
     "wiki":[
         "projects",
-        8
+        7
     ],
     "file-metadata":[
         "projects",
@@ -229,7 +229,7 @@
     ],
     "alphablog":[
         "projects",
-        11
+        10
     ],
     "image-search":[
         "featured",
@@ -241,7 +241,7 @@
     ],
     "tribute-project":[
         "projects",
-        10
+        9
     ],
     "local-weather":[
         "featured",
@@ -265,11 +265,11 @@
     ],
     "finance-tracker":[
         "projects",
-        9
+        8
     ],
     "twitch":[
         "projects",
-        7
+        11
     ]
 }
 
