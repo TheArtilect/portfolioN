@@ -1,6 +1,18 @@
 
     var featured = [
     {
+        "description":"A multiuser blog.",
+        "title":"The Synchronicity Collective",
+        "url":"https://synchronicity-collective.appspot.com/",
+        "repo":"https://github.com/TheArtilect/synchronicity",
+        "date":"Nov. 2016",
+        "tools":[
+            "Python",
+            "Google App Engine"
+        ],
+        "thumbnail":"synchronicity"
+    },
+    {
         "description":"An image search microservice using the Google Custom Search API.",
         "title":"Image Search",
         "url":"https://imgsearch-ia.herokuapp.com",
@@ -13,20 +25,6 @@
             "Heroku"
         ],
         "thumbnail":"image-search"
-    },
-    {
-        "description":"A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.",
-        "title":"Url Shortener",
-        "url":"https://u-short.herokuapp.com",
-        "repo":"https://github.com/TheArtilect/urlShortener",
-        "date":"Sept. 2016",
-        "tools":[
-            "MongoDB",
-            "Express",
-            "Node",
-            "Heroku"
-        ],
-        "thumbnail":"url-shortener"
     },
     {
         "description":"Fullstack javascript local weather app, utilizing Weather Underground API.  An improvement on previous local weather project.",
@@ -59,6 +57,20 @@
 ]
 
     var projects = [
+    {
+        "description":"A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.",
+        "title":"Url Shortener",
+        "url":"https://u-short.herokuapp.com",
+        "repo":"https://github.com/TheArtilect/urlShortener",
+        "date":"Sept. 2016",
+        "tools":[
+            "MongoDB",
+            "Express",
+            "Node",
+            "Heroku"
+        ],
+        "thumbnail":"url-shortener"
+    },
     {
         "description":"A few of my favorite quotes.  My first Javascript project.",
         "title":"Random Quote Generator",
@@ -209,67 +221,71 @@
     var projectKeys = {
     "wiki":[
         "projects",
-        7
+        8
     ],
     "file-metadata":[
         "projects",
-        4
-    ],
-    "javascript-calculator":[
-        "projects",
-        2
-    ],
-    "request-header-parser":[
-        "projects",
         5
-    ],
-    "timestamp":[
-        "projects",
-        6
-    ],
-    "alphablog":[
-        "projects",
-        10
-    ],
-    "image-search":[
-        "featured",
-        0
-    ],
-    "pomodoro-productivity-timer":[
-        "projects",
-        3
-    ],
-    "tribute-project":[
-        "projects",
-        9
     ],
     "local-weather":[
         "featured",
         2
     ],
+    "request-header-parser":[
+        "projects",
+        6
+    ],
+    "timestamp":[
+        "projects",
+        7
+    ],
+    "alphablog":[
+        "projects",
+        11
+    ],
+    "image-search":[
+        "featured",
+        1
+    ],
+    "pomodoro-productivity-timer":[
+        "projects",
+        4
+    ],
+    "tribute-project":[
+        "projects",
+        10
+    ],
+    "the-synchronicity-collective":[
+        "featured",
+        0
+    ],
     "tic-tac-toe":[
         "projects",
-        1
+        2
     ],
     "simon-says":[
         "featured",
         3
     ],
-    "url-shortener":[
-        "featured",
-        1
+    "javascript-calculator":[
+        "projects",
+        3
     ],
-    "random-quote-generator":[
+    "url-shortener":[
         "projects",
         0
     ],
+    "random-quote-generator":[
+        "projects",
+        1
+    ],
     "finance-tracker":[
         "projects",
-        8
+        9
     ],
     "twitch":[
         "projects",
-        11
+        12
     ]
 }
 

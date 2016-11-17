@@ -9,12 +9,12 @@ def convert():
 
     #   use your own directory path
 
-    directory = "/home/onyx/projects/u-portfolio/images/images_src/"
+    directory = "/home/onyx/projects/u-portfolio/static/images/images_src/"
 
     # create images-jpg
-    subprocess.call("mkdir" + " images/images-jpg", shell=True)
+    subprocess.call("mkdir" + " static/images/images-jpg", shell=True)
 
-    destination = '/home/onyx/projects/u-portfolio/images/images-jpg/'
+    destination = '/home/onyx/projects/u-portfolio/static/images/images-jpg/'
 
     file_list = os.listdir(directory)
 

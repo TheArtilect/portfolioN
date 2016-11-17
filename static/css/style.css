@@ -1,8 +1,8 @@
 body {
     font-family: 'Playfair Display', serif;
     font-weight: 300;
-    background-color: #E9EAEB;
     color: #575252;
+    background-size: auto;
 }
 
 #header{
@@ -61,7 +61,8 @@ hr {
 
 .fa{
     font-size: 27px;
-    color: #943737;
+   /* color: #943737; */
+   color: black;
     margin-right: 2vw;
 }
 
@@ -86,6 +87,8 @@ hr {
 }
 
 
-#footer{
-    margin-bottom: 3vh;
+footer{
+    padding-bottom: 2vh;
+    font-size: 20px;
 }
+

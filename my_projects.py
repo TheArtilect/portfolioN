@@ -4,6 +4,13 @@ import json
 from projects import Project
 import transform
 
+synchronicity = Project("The Synchronicity Collective",
+                "A multiuser blog.",
+                "https://synchronicity-collective.appspot.com/",
+                "https://github.com/TheArtilect/synchronicity",
+                ["Python", "Google App Engine"],
+                "synchronicity",
+                "Nov. 2016")
 
 image = Project("Image Search",
                 "An image search microservice using the Google Custom Search API.",
@@ -157,9 +164,9 @@ blog = Project("AlphaBlog",
 
 
 
-featured = [image, shortener, weather, simon]
+featured = [synchronicity, image, weather, simon]
 
-projects = [quote, tictactoe, calculator, pomodoro, metadata, header,
+projects = [shortener, quote, tictactoe, calculator, pomodoro, metadata, header,
             timestamp, wiki, finance, tribute, blog, twitch]
 
 #   Creating Hash with project titles, and their position in which list
@@ -187,7 +194,7 @@ main_content = '''
 #   creates javascript file of projects (featured,  projects, projectKeys)
 def createjs(featured, projects):
 
-    output_file = open("js/projects.js", 'w')
+    output_file = open("static/js/projects.js", 'w')
 
     featured_content = main_content.replace('{featured_insert}',
                    json.dumps(featured, indent=4, separators=(",", ":")))
@@ -202,8 +209,6 @@ def createjs(featured, projects):
     output_file.write(rendered_content)
     output_file.close()
 
-
-    webbrowser.open('index.html', new=2)
 
 
 
