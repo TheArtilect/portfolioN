@@ -166,7 +166,7 @@ blog = Project("AlphaBlog",
 
 featured = [synchronicity, image, weather, simon]
 
-projects = [shortener, quote, tictactoe, calculator, pomodoro, metadata, header,
+projects = [quote, shortener, tictactoe, calculator, pomodoro, metadata, header,
             timestamp, wiki, finance, tribute, blog, twitch]
 
 #   Creating Hash with project titles, and their position in which list

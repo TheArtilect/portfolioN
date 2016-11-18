@@ -58,6 +58,18 @@
 
     var projects = [
     {
+        "description":"A few of my favorite quotes.  My first Javascript project.",
+        "title":"Random Quote Generator",
+        "url":"https://rand-quote-gen.herokuapp.com",
+        "repo":"https://github.com/TheArtilect/random-quote",
+        "date":"Mar. 2016",
+        "tools":[
+            "Ruby on Rails",
+            "Heroku"
+        ],
+        "thumbnail":"random"
+    },
+    {
         "description":"A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.",
         "title":"Url Shortener",
         "url":"https://u-short.herokuapp.com",
@@ -70,18 +82,6 @@
             "Heroku"
         ],
         "thumbnail":"url-shortener"
-    },
-    {
-        "description":"A few of my favorite quotes.  My first Javascript project.",
-        "title":"Random Quote Generator",
-        "url":"https://rand-quote-gen.herokuapp.com",
-        "repo":"https://github.com/TheArtilect/random-quote",
-        "date":"Mar. 2016",
-        "tools":[
-            "Ruby on Rails",
-            "Heroku"
-        ],
-        "thumbnail":"random"
     },
     {
         "description":"A tic tac toe game.",
@@ -273,11 +273,11 @@
     ],
     "url-shortener":[
         "projects",
-        0
+        1
     ],
     "random-quote-generator":[
         "projects",
-        1
+        0
     ],
     "finance-tracker":[
         "projects",

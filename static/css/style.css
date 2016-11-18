@@ -1,7 +1,8 @@
 body {
     font-family: 'Playfair Display', serif;
     font-weight: 300;
-    background-size: cover;
+    background-color: #D0D7DB;
+    color: #515455;
 
 }
 
@@ -46,7 +47,7 @@ hr {
 
 .proj-img{
     height: auto;
-    border: 1px solid black;
+    border: 1px solid #84898C;
 }
 
 .pj-title{
@@ -62,9 +63,7 @@ hr {
 
 .fa{
     font-size: 27px;
-   /* color: #943737; */
-   color: black;
-    margin-right: 2vw;
+    color: #606D7B;
 }
 
 
