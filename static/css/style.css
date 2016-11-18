@@ -1,8 +1,8 @@
 body {
     font-family: 'Playfair Display', serif;
     font-weight: 300;
-    color: #575252;
-    background-size: auto;
+    background-size: cover;
+
 }
 
 #header{
@@ -46,6 +46,7 @@ hr {
 
 .proj-img{
     height: auto;
+    border: 1px solid black;
 }
 
 .pj-title{
