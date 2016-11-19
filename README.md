@@ -10,11 +10,11 @@
 Point your browser to `https://ian-agpawa.appspot.com/`
 
 #### Viewing the app locally
-You can run the app by opening the `index.html` file with your browser.  You can also run the following command `python -m SimpleHTTPServer` in the terminal while in the project folder and then direct your browser to `0.0.0.0:8000`.
+In order to view the app locally, you will need to have `Google App Engine` installed on your system.  Once the terminal is the project folder, run `dev_appserver.py .` and point your browser to `http://0.0.0.0:8080/`.
 
-If there are any projects added in the `my_projects.py` file, run `python my_projects.py` to update/generate the `projects.js` file, and will also open the browser with `index.html`.
+If there are any projects added in the `my_projects.py` file, run `python my_projects.py` to update/generate the `projects.js` file.
 
-The `convertImages.py` script was used to convert the original .png files stored in `images/images_src/` into .jpg files and migrated to `images/images-jpg/`.  A `grunt` command was then executed resize the images appropriately.  
+The `convertImages.py` script was used to convert the original image files stored in `images/images_src/` into .jpg files and then migrate them to `images/images-jpg/`.  A `grunt` command was then executed resize the images appropriately.  
 
 
 

@@ -19,7 +19,7 @@ function createProj(projectsArr){
 
     var projRow = "<div class='row text-center proj-row'></div>"
 
-    var projStart = "<div class='col-xs-" + mdSize + " project' id='%id%'></div>"
+    var projStart = "<div class='col-md-" + mdSize + " project' id='%id%'></div>"
     var projImg = "<img class='img-responsive proj-img' src='%image%' alt='thumbnail of project homepage' data-toggle='modal' data-target='#%id%-modal'>"
     var projTitle = "<h4 class='pj-title'>%title%</h4>"
 
