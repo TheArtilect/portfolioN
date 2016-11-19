@@ -4,11 +4,13 @@
 
 
 ### Quick Start
--Clone the repo: `git clone https://github.com/TheArtilect/u-portfolio.git`
+-Clone the repo: `git clone https://github.com/ianagpawa/u-portfolio.git`
 
+#### Viewing the deployed app
+Point your browser to `https://ian-agpawa.appspot.com/`
 
-#### Viewing the app
-You can run the app by opening the `index.html` file with your browser.  Alternatively, you can run the following command `python -m SimpleHTTPServer` in the terminal while in the project folder and then direct your browser to `0.0.0.0:8000`.
+#### Viewing the app locally
+You can run the app by opening the `index.html` file with your browser.  You can also run the following command `python -m SimpleHTTPServer` in the terminal while in the project folder and then direct your browser to `0.0.0.0:8000`.
 
 If there are any projects added in the `my_projects.py` file, run `python my_projects.py` to update/generate the `projects.js` file, and will also open the browser with `index.html`.
 
@@ -22,16 +24,19 @@ Within the project folder, you will find the following files (image files not in
 
 ```
 u-portfolio/
-    ├── css/
-    |    ├── media.css
-    |    └── style.css
-    ├── images/
-    |    ├── images_src/
-    |    |    └── fixed/
-    |    └── images-jpg/
-    ├── js/
-    |    ├── main.js
-    |    └── projects.js
+    ├── static/
+    |   ├── css/
+    |   |    ├── media.css
+    |   |    └── style.css
+    |   ├── images/
+    |   |    ├── images_src/
+    |   |    |    └── fixed/
+    |   |    └── images-jpg/
+    |   └─── js/
+    |   |    ├── main.js
+    |   |    └── projects.js
+    ├── templates/
+    |   └── index.html
     ├── .gitignore
     ├── convertImages.py
     ├── Gruntfile.js
@@ -50,8 +55,7 @@ u-portfolio/
 
 **Ian Agpawa**
 
-[Old Portfolio](https://ian-agpawa.herokuapp.com)
 
-[Github](https://github.com/TheArtilect)
+[Github](https://github.com/ianagpawa)
 
  agpawaji@gmail.com

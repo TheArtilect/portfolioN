@@ -1,8 +1,9 @@
 body {
-    font-family: 'Playfair Display', serif;
-    font-weight: 300;
-    background-color: #D0D7DB;
-    color: #515455;
+    font-family: 'Cormorant', serif;
+    font-weight: 800;
+    background-color: #F6FAFC;
+    color: #404344;
+    font-size: 19px;
 
 }
 
@@ -27,15 +28,15 @@ hr {
 
 .text-muted{
     color: #606D7B;
-    margin-bottom: -1vh;
-    font-weight: 400;
-    font-size: 40px;
+    font-weight: bold;
+    font-size: 42px;
     text-align: center;
 }
 
 .title-super {
     font-size: 50px;
     color: #575757;
+    font-weight: 600;
 }
 
 .project:hover,
@@ -51,25 +52,24 @@ hr {
 }
 
 .pj-title{
-    font-weight: 400;
     margin-top: 2vh;
+    font-size: 24px;
 }
 
 #project-description {
     margin-top: 2vh;
-    font-weight: 400;
 }
 
 
 .fa{
     font-size: 27px;
-    color: #4C5762;
+    color: #404344;
 }
 
 
 
 .modal-content{
-    background-color: #F2F1F0;
+    background-color: #F2F1F1;
 }
 
 #modal-img:hover,
@@ -91,4 +91,3 @@ footer{
     padding-bottom: 2vh;
     font-size: 20px;
 }
-
