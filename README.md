@@ -1,6 +1,6 @@
 # My Portfolio
 ### By Ian Agpawa
-##### This repo is for my portfolio project from the Udacity Full Stack Nanodegree course.    
+##### This repo is for my portfolio project from the Udacity's Full Stack Web Developer Nanodegree course.    
 
 
 ### Quick Start
