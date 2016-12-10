@@ -161,7 +161,7 @@ blog = Project("AlphaBlog",
                 "alpha",
                 "Jan. 2016")
 
-portfolio = Project("Personal Portfolio (Old)",
+portfolio = Project("Portfolio",
                     ("Personal Portfolio - NO LONGER USED."),
                     "https://ian-agpawa.herokuapp.com",
                     "https://github.com/ianagpawa/old-portfolio",

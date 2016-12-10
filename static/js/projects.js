@@ -59,18 +59,6 @@
 
     var projects = [
     {
-        "description":"A few of my favorite quotes.  My first Javascript project.",
-        "title":"Random Quote Generator",
-        "url":"https://rand-quote-gen.herokuapp.com",
-        "repo":"https://github.com/ianagpawa/random-quote",
-        "date":"Mar. 2016",
-        "tools":[
-            "Ruby on Rails",
-            "Heroku"
-        ],
-        "thumbnail":"random"
-    },
-    {
         "description":"A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.",
         "title":"Url Shortener",
         "url":"https://u-short.herokuapp.com",
@@ -83,6 +71,18 @@
             "Heroku"
         ],
         "thumbnail":"url-shortener"
+    },
+    {
+        "description":"A few of my favorite quotes.  My first Javascript project.",
+        "title":"Random Quote Generator",
+        "url":"https://rand-quote-gen.herokuapp.com",
+        "repo":"https://github.com/ianagpawa/random-quote",
+        "date":"Mar. 2016",
+        "tools":[
+            "Ruby on Rails",
+            "Heroku"
+        ],
+        "thumbnail":"random"
     },
     {
         "description":"A tic tac toe game.",
@@ -197,13 +197,25 @@
         "description":"My first project, a Ruby on Rails blog  built from the ground up.  Functionality finalized, styling and content in progress.",
         "title":"AlphaBlog",
         "url":"https://project-prometheus-alphablog.herokuapp.com",
-        "repo":"https://github.com/ianagpawa/tribute",
+        "repo":"https://github.com/ianagpawa/alpha-blog",
         "date":"Jan. 2016",
         "tools":[
             "Ruby on Rails",
             "Heroku"
         ],
         "thumbnail":"alpha"
+    },
+    {
+        "description":"Personal Portfolio - NO LONGER USED.",
+        "title":"Portfolio",
+        "url":"https://ian-agpawa.herokuapp.com",
+        "repo":"https://github.com/ianagpawa/old-portfolio",
+        "date":"Apr. 2016",
+        "tools":[
+            "Ruby on Rails",
+            "Heroku"
+        ],
+        "thumbnail":"portfolio"
     },
     {
         "description":"For tracking some Twitch streamers.  Utilized Twitch API.",
@@ -274,11 +286,15 @@
     ],
     "url-shortener":[
         "projects",
-        1
+        0
     ],
     "random-quote-generator":[
         "projects",
-        0
+        1
+    ],
+    "portfolio":[
+        "projects",
+        12
     ],
     "finance-tracker":[
         "projects",
@@ -286,7 +302,7 @@
     ],
     "twitch":[
         "projects",
-        12
+        13
     ]
 }
 
