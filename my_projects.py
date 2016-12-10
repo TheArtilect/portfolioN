@@ -156,18 +156,26 @@ blog = Project("AlphaBlog",
                 "ground up.  Functionality finalized, styling and "
                 "content in progress."),
                 "https://project-prometheus-alphablog.herokuapp.com",
-                "https://github.com/ianagpawa/tribute",
+                "https://github.com/ianagpawa/alpha-blog",
                  ["Ruby on Rails", "Heroku"],
                 "alpha",
                 "Jan. 2016")
+
+portfolio = Project("Personal Portfolio (Old)",
+                    ("Personal Portfolio - NO LONGER USED."),
+                    "https://ian-agpawa.herokuapp.com",
+                    "https://github.com/ianagpawa/old-portfolio",
+                    ["Ruby on Rails", "Heroku"],
+                    "portfolio",
+                    "Apr. 2016")
 
 
 
 
 featured = [synchronicity, image, weather, simon]
 
-projects = [quote, shortener, tictactoe, calculator, pomodoro, metadata, header,
-            timestamp, wiki, finance, tribute, blog, twitch]
+projects = [shortener, quote, tictactoe, calculator, pomodoro, metadata, header,
+            timestamp, wiki, finance, tribute, blog, portfolio, twitch]
 
 #   Creating Hash with project titles, and their position in which list
 transform.keys(featured, featured)
