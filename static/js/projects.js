@@ -1,6 +1,34 @@
 
     var featured = [
     {
+        "description":"Neighborhood map of Spanish Harlem's finest tacos.  Utilizes Foursquare API.",
+        "title":"TacoHub",
+        "url":"https://tacohub-155203.appspot.com/",
+        "repo":"https://github.com/ianagpawa/neighborhood-map",
+        "date":"Jan. 2017",
+        "tools":[
+            "Knockoutjs",
+            "Python",
+            "Google App Engine",
+            "Jinja"
+        ],
+        "thumbnail":"tacohub"
+    },
+    {
+        "description":"An item catalog",
+        "title":"Item Catalog",
+        "url":"https://github.com/ianagpawa/catalog",
+        "repo":"https://github.com/ianagpawa/catalog",
+        "date":"Dec. 2016",
+        "tools":[
+            "Flask",
+            "SQLAlchemy",
+            "Python",
+            "Google App Engine"
+        ],
+        "thumbnail":"600kitten"
+    },
+    {
         "description":"A multiuser blog.",
         "title":"The Synchronicity Collective",
         "url":"https://synchronicity-collective.appspot.com/",
@@ -94,6 +122,17 @@
             "Github"
         ],
         "thumbnail":"tic"
+    },
+    {
+        "description":"Simple script for music playlists.",
+        "title":"Audacious",
+        "url":"https://github.com/ianagpawa/audacious",
+        "repo":"https://github.com/ianagpawa/audacious",
+        "date":"Jan. 2017",
+        "tools":[
+            "Python"
+        ],
+        "thumbnail":"400kitten"
     },
     {
         "description":"A fully functional simple calculator. First project utilizing 'this' in js.",
@@ -234,43 +273,47 @@
     var projectKeys = {
     "wiki":[
         "projects",
-        8
+        9
     ],
     "file-metadata":[
         "projects",
-        5
+        6
     ],
     "local-weather":[
         "featured",
-        2
+        4
     ],
     "request-header-parser":[
         "projects",
-        6
+        7
     ],
     "timestamp":[
         "projects",
-        7
+        8
     ],
     "alphablog":[
         "projects",
-        11
+        12
     ],
     "image-search":[
         "featured",
-        1
+        3
     ],
     "pomodoro-productivity-timer":[
         "projects",
-        4
+        5
     ],
-    "tribute-project":[
+    "audacious":[
         "projects",
-        10
+        3
     ],
     "the-synchronicity-collective":[
         "featured",
-        0
+        2
+    ],
+    "javascript-calculator":[
+        "projects",
+        4
     ],
     "tic-tac-toe":[
         "projects",
@@ -278,14 +321,18 @@
     ],
     "simon-says":[
         "featured",
-        3
+        5
     ],
-    "javascript-calculator":[
-        "projects",
-        3
+    "item-catalog":[
+        "featured",
+        1
     ],
     "url-shortener":[
         "projects",
+        0
+    ],
+    "tacohub":[
+        "featured",
         0
     ],
     "random-quote-generator":[
@@ -294,15 +341,19 @@
     ],
     "portfolio":[
         "projects",
-        12
+        13
     ],
     "finance-tracker":[
         "projects",
-        9
+        10
     ],
     "twitch":[
         "projects",
-        13
+        14
+    ],
+    "tribute-project":[
+        "projects",
+        11
     ]
 }
 

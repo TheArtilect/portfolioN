@@ -4,6 +4,30 @@ import json
 from projects import Project
 import transform
 
+tacohub = Project("TacoHub",
+                "Neighborhood map of Spanish Harlem's finest tacos.  Utilizes Foursquare API.",
+                "https://tacohub-155203.appspot.com/",
+                "https://github.com/ianagpawa/neighborhood-map",
+                ["Knockoutjs", "Python", "Google App Engine", "Jinja"],
+                "tacohub",
+                "Jan. 2017")
+
+audacious = Project("Audacious",
+                "Simple script for music playlists.",
+                "https://github.com/ianagpawa/audacious",
+                "https://github.com/ianagpawa/audacious",
+                ["Python"],
+                "400kitten",
+                "Jan. 2017")
+
+catalog = Project("Item Catalog",
+                "An item catalog",
+                "https://github.com/ianagpawa/catalog",
+                "https://github.com/ianagpawa/catalog",
+                ["Flask", "SQLAlchemy","Python", "Google App Engine"],
+                "600kitten",
+                "Dec. 2016")
+
 synchronicity = Project("The Synchronicity Collective",
                 "A multiuser blog.",
                 "https://synchronicity-collective.appspot.com/",
@@ -172,9 +196,9 @@ portfolio = Project("Portfolio",
 
 
 
-featured = [synchronicity, image, weather, simon]
+featured = [tacohub, catalog, synchronicity, image, weather, simon]
 
-projects = [shortener, quote, tictactoe, calculator, pomodoro, metadata, header,
+projects = [shortener, quote, tictactoe, audacious, calculator, pomodoro, metadata, header,
             timestamp, wiki, finance, tribute, blog, portfolio, twitch]
 
 #   Creating Hash with project titles, and their position in which list
