@@ -26,7 +26,7 @@
             "Python",
             "Google App Engine"
         ],
-        "thumbnail":"600kitten"
+        "thumbnail":"github"
     },
     {
         "description":"A multiuser blog.",
@@ -132,7 +132,7 @@
         "tools":[
             "Python"
         ],
-        "thumbnail":"400kitten"
+        "thumbnail":"github"
     },
     {
         "description":"A fully functional simple calculator. First project utilizing 'this' in js.",

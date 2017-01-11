@@ -38,7 +38,7 @@ function createProj(projectsArr){
         // image added to project start
 
         var imgSrc = projImg.replace("%image%",
-                    '/static/images/' + projectsArr[project].thumbnail + "-600x400.jpg")
+                    '/static/images/' + projectsArr[project].thumbnail + "-600.jpg")
 
         var id = imgSrc.replace("%id%", title)
         $(".project:last").append(id)
@@ -85,7 +85,7 @@ function modalClick(){
         $("#project-description").text(description + " (" +listing[position].date + ")")
 
         //  set project image
-        $("#modal-img").attr("src", '/static/images/' + listing[position].thumbnail + "-600x400.jpg")
+        $("#modal-img").attr("src", '/static/images/' + listing[position].thumbnail + "-600.jpg")
 
         // set website link
         $("#pj-web-link").attr("href", listing[position].url)

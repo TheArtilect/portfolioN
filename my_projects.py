@@ -17,7 +17,7 @@ audacious = Project("Audacious",
                 "https://github.com/ianagpawa/audacious",
                 "https://github.com/ianagpawa/audacious",
                 ["Python"],
-                "400kitten",
+                "github",
                 "Jan. 2017")
 
 catalog = Project("Item Catalog",
@@ -25,7 +25,7 @@ catalog = Project("Item Catalog",
                 "https://github.com/ianagpawa/catalog",
                 "https://github.com/ianagpawa/catalog",
                 ["Flask", "SQLAlchemy","Python", "Google App Engine"],
-                "600kitten",
+                "github",
                 "Dec. 2016")
 
 synchronicity = Project("The Synchronicity Collective",
