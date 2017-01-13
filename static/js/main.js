@@ -81,30 +81,32 @@ function modalClick(){
         var projectArrInfo = projectKeys[pjID]
         var listing = whichList(projectArrInfo[0])
         var position = projectArrInfo[1]
-        var description = listing[position].description
-        $("#project-description").text(description + " (" +listing[position].date + ")")
+
+        $("#date-completed").text(listing[position].date)
+
+        var description = listing[position].description;
+        $("#project-description").text(description);
+
+        // set bulletpoints, ul needs to be emptied first
+        $("#bullets").empty();
+        var bullets = listing[position].bullets;
+        bullets.forEach(function(bullet){
+            var bulletpoint = `<li class='bullet-points text-left'>${bullet}</li>`;
+            $("#bullets").append(bulletpoint);
+        });
 
         //  set project image
         $("#modal-img").attr("src", '/static/images/' + listing[position].thumbnail + "-600.jpg")
-
         // set website link
-        $("#pj-web-link").attr("href", listing[position].url)
-
-
+        $("#pj-web-link").attr("href", listing[position].url);
         // set tools
-        $("#tools").text("Made with " + listing[position].tools.join(", ") + ".")
-
-
+        $("#tools").text("Made with " + listing[position].tools.join(", ") + ".");
         // set github link
-        $('#git-repo').attr('href', listing[position].repo)
-
-
+        $('#git-repo').attr('href', listing[position].repo);
         //  set id of modal, dynamically changes
-        $(".modal").attr('id', pjID + "-modal")
-   })
+        $(".modal").attr('id', pjID + "-modal");
+   });
 }
-
-
 
 function displayAll(){
     createProj(featured);

@@ -5,6 +5,10 @@
         "title":"TacoHub",
         "url":"https://tacohub-155203.appspot.com/",
         "repo":"https://github.com/ianagpawa/neighborhood-map",
+        "bullets":[
+            "Developed single-page application that utilizes Foursquare API to asynchronously display restaurant info on Google Maps.",
+            "Implemented functionality of dynamically updating and filtering restaurant map markers and info with Knockoutjs."
+        ],
         "date":"Jan. 2017",
         "tools":[
             "Knockoutjs",
@@ -15,24 +19,33 @@
         "thumbnail":"tacohub"
     },
     {
-        "description":"An item catalog",
+        "description":"Item catalog that stores playlists of songs.",
         "title":"Item Catalog",
         "url":"https://github.com/ianagpawa/catalog",
         "repo":"https://github.com/ianagpawa/catalog",
+        "bullets":[
+            "Provided user registration and authentication system, where only users can post, edit and delete their own items.",
+            "Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.",
+            "Developed database schema for storing playlists of songs."
+        ],
         "date":"Dec. 2016",
         "tools":[
             "Flask",
-            "SQLAlchemy",
+            "SQLite",
             "Python",
             "Google App Engine"
         ],
         "thumbnail":"github"
     },
     {
-        "description":"A multiuser blog.",
+        "description":"Multi-user blog focusing on music and personal history curated with snippets of prose.",
         "title":"The Synchronicity Collective",
         "url":"https://synchronicity-collective.appspot.com/",
         "repo":"https://github.com/ianagpawa/synchronicity",
+        "bullets":[
+            "Built an authentication system for users to register, sign in, and then create posts.  Set permissions so that only users can 'Like' and comment on posts.",
+            "Developed database schema for storing users and their content."
+        ],
         "date":"Nov. 2016",
         "tools":[
             "Python",
@@ -46,6 +59,9 @@
         "title":"Image Search",
         "url":"https://imgsearch-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/imageSearch",
+        "bullets":[
+            ""
+        ],
         "date":"Oct. 2016",
         "tools":[
             "MongoDB",
@@ -60,6 +76,9 @@
         "title":"Local Weather",
         "url":"https://weather-ia.herokuapp.com/",
         "repo":"https://github.com/ianagpawa/weather",
+        "bullets":[
+            ""
+        ],
         "date":"Oct. 2016",
         "tools":[
             "Express",
@@ -76,6 +95,9 @@
         "title":"Simon Says",
         "url":"https://simon-says-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/simon-says",
+        "bullets":[
+            ""
+        ],
         "date":"Jul. 2016",
         "tools":[
             "Ruby on Rails",
@@ -91,6 +113,9 @@
         "title":"Url Shortener",
         "url":"https://u-short.herokuapp.com",
         "repo":"https://github.com/ianagpawa/urlShortener",
+        "bullets":[
+            ""
+        ],
         "date":"Sept. 2016",
         "tools":[
             "MongoDB",
@@ -105,6 +130,9 @@
         "title":"Random Quote Generator",
         "url":"https://rand-quote-gen.herokuapp.com",
         "repo":"https://github.com/ianagpawa/random-quote",
+        "bullets":[
+            ""
+        ],
         "date":"Mar. 2016",
         "tools":[
             "Ruby on Rails",
@@ -117,6 +145,9 @@
         "title":"Tic Tac Toe",
         "url":"https://ianagpawa.github.io/TickyTacky",
         "repo":"https://github.com/ianagpawa/TickyTacky",
+        "bullets":[
+            ""
+        ],
         "date":"Jul. 2016",
         "tools":[
             "Github"
@@ -128,6 +159,9 @@
         "title":"Audacious",
         "url":"https://github.com/ianagpawa/audacious",
         "repo":"https://github.com/ianagpawa/audacious",
+        "bullets":[
+            ""
+        ],
         "date":"Jan. 2017",
         "tools":[
             "Python"
@@ -139,6 +173,9 @@
         "title":"Javascript Calculator",
         "url":"https://ianagpawa.github.io/calculator",
         "repo":"https://github.com/ianagpawa/calculator",
+        "bullets":[
+            ""
+        ],
         "date":"Jun. 2016",
         "tools":[
             "Github"
@@ -150,6 +187,9 @@
         "title":"Pomodoro Productivity Timer",
         "url":"https://pomodoro-timer-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/pomodoro",
+        "bullets":[
+            ""
+        ],
         "date":"Jun. 2016",
         "tools":[
             "Ruby on Rails",
@@ -162,6 +202,9 @@
         "title":"File Metadata",
         "url":"https://metadata-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/metadata",
+        "bullets":[
+            ""
+        ],
         "date":"Oct. 2016",
         "tools":[
             "Express",
@@ -175,6 +218,9 @@
         "title":"Request Header Parser",
         "url":"https://header-parser-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/headerParser",
+        "bullets":[
+            ""
+        ],
         "date":"Sep. 2016",
         "tools":[
             "Express",
@@ -188,6 +234,9 @@
         "title":"TimeStamp",
         "url":"https://timestamp-microservice-ia.herokuapp.com/",
         "repo":"https://github.com/ianagpawa/timestamp",
+        "bullets":[
+            ""
+        ],
         "date":"Sep. 2016",
         "tools":[
             "Express",
@@ -201,6 +250,9 @@
         "title":"Wiki",
         "url":"https://wiki-it-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/wiki",
+        "bullets":[
+            ""
+        ],
         "date":"Apr. 2016",
         "tools":[
             "Ruby on Rails",
@@ -213,6 +265,9 @@
         "title":"Finance Tracker",
         "url":"https://thawing-plains-40720.herokuapp.com/users/sign_in",
         "repo":"https://github.com/ianagpawa/finance-tracker",
+        "bullets":[
+            ""
+        ],
         "date":"Mar. 2016",
         "tools":[
             "Ruby on Rails",
@@ -225,6 +280,9 @@
         "title":"Tribute Project",
         "url":"https://hunter-s-tribute.herokuapp.com",
         "repo":"https://github.com/ianagpawa/tribute",
+        "bullets":[
+            ""
+        ],
         "date":"Feb. 2016",
         "tools":[
             "Ruby on Rails",
@@ -237,6 +295,9 @@
         "title":"AlphaBlog",
         "url":"https://project-prometheus-alphablog.herokuapp.com",
         "repo":"https://github.com/ianagpawa/alpha-blog",
+        "bullets":[
+            ""
+        ],
         "date":"Jan. 2016",
         "tools":[
             "Ruby on Rails",
@@ -249,6 +310,9 @@
         "title":"Portfolio",
         "url":"https://ian-agpawa.herokuapp.com",
         "repo":"https://github.com/ianagpawa/old-portfolio",
+        "bullets":[
+            ""
+        ],
         "date":"Apr. 2016",
         "tools":[
             "Ruby on Rails",
@@ -261,6 +325,9 @@
         "title":"Twitch",
         "url":"https://twitch-it.herokuapp.com/",
         "repo":"https://github.com/ianagpawa/twitch",
+        "bullets":[
+            ""
+        ],
         "date":"May 2016",
         "tools":[
             "Ruby on Rails",
