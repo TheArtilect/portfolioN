@@ -44,8 +44,8 @@ synchronicity = Project("The Synchronicity Collective",
                 "Nov. 2016")
 
 image = Project("Image Search",
-                "An image search microservice using the Google Custom Search API.",
-                [""],
+                "An image search microservice.",
+                ["Developed middleware for Google Custom Search API and created API endpoints.", "Set up MongoDB to record searches and display most recent searches."],
                 "https://imgsearch-ia.herokuapp.com",
                 "https://github.com/ianagpawa/imageSearch",
                 ["MongoDB", "Express", "Node", "Heroku"],

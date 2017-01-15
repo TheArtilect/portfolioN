@@ -55,12 +55,13 @@
         "thumbnail":"synchronicity"
     },
     {
-        "description":"An image search microservice using the Google Custom Search API.",
+        "description":"An image search microservice.",
         "title":"Image Search",
         "url":"https://imgsearch-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/imageSearch",
         "bullets":[
-            ""
+            "Developed middleware for Google Custom Search API and created API endpoints.",
+            "Set up MongoDB to record searches and display most recent searches."
         ],
         "date":"Oct. 2016",
         "tools":[
