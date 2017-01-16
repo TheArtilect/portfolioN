@@ -55,7 +55,7 @@ image = Project("Image Search",
 shortener = Project("Url Shortener",
                 ("A url shortener microservice.  Shortened url addresses "
                 "redirect to the original url.  First project using MongoDB."),
-                [""],
+                ["Developed API endpoint for shortening url addresses."  "Set up MongoDB to store and map shortened URLs to their original address for later retrieval and use."],
                 "https://u-short.herokuapp.com",
                 "https://github.com/ianagpawa/urlShortener",
                 ["MongoDB", "Express", "Node", "Heroku"],
