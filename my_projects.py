@@ -30,7 +30,7 @@ catalog = Project("Item Catalog",
                 "https://github.com/ianagpawa/catalog",
                 "https://github.com/ianagpawa/catalog",
                 ["Flask", "SQLite","Python", "Google App Engine"],
-                "github",
+                "catalog",
                 "Dec. 2016")
 
 synchronicity = Project("The Synchronicity Collective",

@@ -35,7 +35,7 @@
             "Python",
             "Google App Engine"
         ],
-        "thumbnail":"github"
+        "thumbnail":"catalog"
     },
     {
         "description":"Multi-user blog focusing on music and personal history curated with snippets of prose.",
@@ -115,7 +115,7 @@
         "url":"https://u-short.herokuapp.com",
         "repo":"https://github.com/ianagpawa/urlShortener",
         "bullets":[
-            ""
+            "Developed API endpoint for shortening url addresses.Set up MongoDB to store and map shortened URLs to their original address for later retrieval and use."
         ],
         "date":"Sept. 2016",
         "tools":[
