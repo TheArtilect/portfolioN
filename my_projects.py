@@ -55,7 +55,7 @@ image = Project("Image Search",
 shortener = Project("Url Shortener",
                 ("A url shortener microservice.  Shortened url addresses "
                 "redirect to the original url.  First project using MongoDB."),
-                ["Developed API endpoint for shortening url addresses."  "Set up MongoDB to store and map shortened URLs to their original address for later retrieval and use."],
+                ["Developed API endpoint for shortening url addresses.", "Set up MongoDB to store and map shortened URLs to their original address for later retrieval and use."],
                 "https://u-short.herokuapp.com",
                 "https://github.com/ianagpawa/urlShortener",
                 ["MongoDB", "Express", "Node", "Heroku"],
@@ -64,9 +64,8 @@ shortener = Project("Url Shortener",
 
 
 weather = Project("Local Weather",
-                ("Fullstack javascript local weather app, utilizing Weather "
-                "Underground API.  An improvement on previous local weather project."),
-                [""],
+                ("Fullstack javascript local weather app"),
+                ["Utilizes Express as middleware for retrieving weather info from Weather Underground API"],
                 "https://weather-ia.herokuapp.com/",
                 "https://github.com/ianagpawa/weather",
                 ["Express", "Node", "Heroku"],

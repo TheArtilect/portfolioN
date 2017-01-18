@@ -73,12 +73,12 @@
         "thumbnail":"image"
     },
     {
-        "description":"Fullstack javascript local weather app, utilizing Weather Underground API.  An improvement on previous local weather project.",
+        "description":"Fullstack javascript local weather app",
         "title":"Local Weather",
         "url":"https://weather-ia.herokuapp.com/",
         "repo":"https://github.com/ianagpawa/weather",
         "bullets":[
-            ""
+            "Utilizes Express as middleware for retrieving weather info from Weather Underground API"
         ],
         "date":"Oct. 2016",
         "tools":[
@@ -115,7 +115,8 @@
         "url":"https://u-short.herokuapp.com",
         "repo":"https://github.com/ianagpawa/urlShortener",
         "bullets":[
-            "Developed API endpoint for shortening url addresses.Set up MongoDB to store and map shortened URLs to their original address for later retrieval and use."
+            "Developed API endpoint for shortening url addresses.",
+            "Set up MongoDB to store and map shortened URLs to their original address for later retrieval and use."
         ],
         "date":"Sept. 2016",
         "tools":[
