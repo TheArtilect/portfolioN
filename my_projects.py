@@ -29,7 +29,7 @@ catalog = Project("Item Catalog",
                 "Developed database schema for storing playlists of songs."],
                 "https://github.com/ianagpawa/catalog",
                 "https://github.com/ianagpawa/catalog",
-                ["Flask", "SQLite","Python", "Google App Engine"],
+                ["Flask", "PostgreSQL","Python", "Amazon Web Services"],
                 "catalog",
                 "Dec. 2016")
 
