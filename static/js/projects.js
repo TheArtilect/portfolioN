@@ -21,7 +21,7 @@
     {
         "description":"Item catalog that stores playlists of songs.",
         "title":"Item Catalog",
-        "url":"https://github.com/ianagpawa/catalog",
+        "url":"http://ec2-35-165-176-112.us-west-2.compute.amazonaws.com",
         "repo":"https://github.com/ianagpawa/catalog",
         "bullets":[
             "Provided user registration and authentication system, where only users can post, edit and delete their own items.",
@@ -31,9 +31,9 @@
         "date":"Dec. 2016",
         "tools":[
             "Flask",
-            "SQLite",
+            "PostgreSQL",
             "Python",
-            "Google App Engine"
+            "Amazon Web Services"
         ],
         "thumbnail":"catalog"
     },
@@ -78,7 +78,7 @@
         "url":"https://weather-ia.herokuapp.com/",
         "repo":"https://github.com/ianagpawa/weather",
         "bullets":[
-            "Utilizes Express as middleware for retrieving weather info from Weather Underground API"
+            "Utilized Express as middleware for retrieving weather info from Weather Underground API"
         ],
         "date":"Oct. 2016",
         "tools":[
@@ -89,15 +89,12 @@
         "thumbnail":"weather"
     },
     {
-        "description":[
-            "A Simon Says game. First project utilizing audio elements and",
-            " setTimeout()."
-        ],
+        "description":"A Simon Says clone.",
         "title":"Simon Says",
         "url":"https://simon-says-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/simon-says",
         "bullets":[
-            ""
+            "Developed game that uses light and audio elements."
         ],
         "date":"Jul. 2016",
         "tools":[
