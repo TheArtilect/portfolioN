@@ -72,19 +72,20 @@ hr {
     color: #8F5C00;
 }
 
+.modal-header,
+.modal-footer{
+    background-color: black;
+    color: white;
+}
 .modal-title{
     font-weight: bold;
 }
 .modal-content{
     background-color: #F2F1F1;
 }
-#bullets{
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-}
-.bullet-points{
+
+#details{
     font-size: 16px;
-    margin-top: 1vh;
 }
 
 #modal-img:hover,

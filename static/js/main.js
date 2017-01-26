@@ -87,13 +87,9 @@ function modalClick(){
         var description = listing[position].description;
         $("#project-description").text(description);
 
-        // set bulletpoints, ul needs to be emptied first
-        $("#bullets").empty();
-        var bullets = listing[position].bullets;
-        bullets.forEach(function(bullet){
-            var bulletpoint = `<li class='bullet-points text-left'>${bullet}</li>`;
-            $("#bullets").append(bulletpoint);
-        });
+        // set details of project
+        var details = listing[position].details;
+        $("#details").text(details);
 
         //  set project image
         $("#modal-img").attr("src", '/static/images/' + listing[position].thumbnail + "-600.jpg")

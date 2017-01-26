@@ -3,7 +3,7 @@ class Project():
     Attributes:
         title (str):  Title of project.
         description (str): Description of project.
-        bullets (arr): Bullet points of project.
+        details (str): Details of the project.
         url (str): Url link to website.
         source_code (str): Url link to github repo.
         tools (arr): Tools used in the development of project.
@@ -11,10 +11,10 @@ class Project():
         date (str): Date completed.
     '''
 
-    def __init__(self, title, description, bullets, url, repo, tools, thumbnail, date):
+    def __init__(self, title, description, details, url, repo, tools, thumbnail, date):
         self.title = title
         self.description = description
-        self.bullets = bullets
+        self.details = details
         self.url = url
         self.repo = repo
         self.tools = tools
