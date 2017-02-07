@@ -74,9 +74,10 @@ hr {
 
 .modal-header,
 .modal-footer{
-    background-color: black;
+    background-color: #404344;
     color: white;
 }
+
 .modal-title{
     font-weight: bold;
 }
@@ -85,6 +86,10 @@ hr {
 }
 
 #details{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     font-size: 16px;
 }
 

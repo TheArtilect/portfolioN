@@ -5,7 +5,7 @@ from projects import Project
 import transform
 
 tacohub = Project("TacoHub",
-                "Neighborhood map of Spanish Harlem's finest tacos.  Utilizes Foursquare API.",
+                "Neighborhood map of Spanish Harlem's finest tacos.",
                 "Developed single-page application that utilizes Foursquare API to asynchronously display restaurant info on Google Maps.  Implemented functionality of dynamically updating and filtering restaurant map markers and info with Knockoutjs.",
                 "https://tacohub-155203.appspot.com/",
                 "https://github.com/ianagpawa/neighborhood-map",
@@ -24,7 +24,7 @@ audacious = Project("Audacious",
 
 catalog = Project("Item Catalog",
                 "Item catalog that stores playlists of songs.",
-                "Provided user registration and authentication system, where only users can post, edit and delete their own items.  Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.  Developed database schema for storing playlists of songs.",
+                "Provided user registration and authentication system, where only users can post, edit and delete their own items.  Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.  Developed database schema for storing playlists of songs.  Configured and secured a baseline Ubuntu Amazon Web Services server into an Apache Web Server and PostgreSQL database server.",
                 "http://ec2-35-165-176-112.us-west-2.compute.amazonaws.com",
                 "https://github.com/ianagpawa/catalog",
                 ["Flask", "PostgreSQL","Python", "Amazon Web Services"],
@@ -42,7 +42,7 @@ synchronicity = Project("The Synchronicity Collective",
 
 image = Project("Image Search",
                 "An image search microservice.",
-                "Developed middleware for Google Custom Search API and created API endpoints.  Set up MongoDB to record searches and display most recent searches.",
+                "Developed an image search API microservice using the Google Custom Search API.  Search terms can be passed as parameters and a JSON output will be received.  Search results can be paginated through by passing an additional parameter.  Search terms are recorded and the ten most recent search can be viewed via an API endpoint. ",
                 "https://imgsearch-ia.herokuapp.com",
                 "https://github.com/ianagpawa/imageSearch",
                 ["MongoDB", "Express", "Node", "Heroku"],
@@ -79,8 +79,8 @@ simon = Project("Simon Says",
                 "Jul. 2016")
 
 quote = Project("Random Quote Generator",
-                "A few of my favorite quotes.  My first Javascript project.",
-                "",
+                "A few of my favorite quotes.",
+                "My first Javascript project.",
                 "https://rand-quote-gen.herokuapp.com",
                 "https://github.com/ianagpawa/random-quote",
                 ["Ruby on Rails", "Heroku"],
@@ -99,9 +99,9 @@ tictactoe = Project("Tic Tac Toe",
 
 
 calculator = Project("Javascript Calculator",
-                "A fully functional simple calculator. First project "
+                "A fully functional simple calculator.",
+                "First project "
                 "utilizing 'this' in js.",
-                "",
                 "https://ianagpawa.github.io/calculator",
                 "https://github.com/ianagpawa/calculator",
                 ["Github"],
@@ -110,9 +110,8 @@ calculator = Project("Javascript Calculator",
 
 pomodoro = Project("Pomodoro Productivity Timer",
                 ("A timer that can be used to for cooking pomodoro sauce or "
-                "scheduling productivity.  First project utilizing "
-                "setInterval()."),
-                "",
+                "scheduling productivity."),
+                "First project utilizing setInterval().",
                 "https://pomodoro-timer-ia.herokuapp.com",
                 "https://github.com/ianagpawa/pomodoro",
                 ["Ruby on Rails", "Heroku"],
@@ -151,8 +150,8 @@ timestamp = Project("TimeStamp",
 
 
 twitch = Project("Twitch",
-                "For tracking some Twitch streamers.  Utilized Twitch API.",
-                "",
+                "For tracking some Twitch streamers.",
+                "Utilized Twitch API.",
                 "https://twitch-it.herokuapp.com/",
                 "https://github.com/ianagpawa/twitch",
                 ["Ruby on Rails", "Heroku"],
@@ -162,9 +161,8 @@ twitch = Project("Twitch",
 
 
 wiki = Project("Wiki",
-                ("For searching and viewing a listing of wikipedia articles. "
-                "Utilized Wikipedia API."),
-                "",
+                ("For searching and viewing a listing of wikipedia articles. "),
+                "Utilized Wikipedia API.",
                 "https://wiki-it-ia.herokuapp.com",
                 "https://github.com/ianagpawa/wiki",
                  ["Ruby on Rails", "Heroku"],
@@ -172,10 +170,8 @@ wiki = Project("Wiki",
                 "Apr. 2016")
 
 finance = Project("Finance Tracker",
-                ("Ruby on Rails social stocks tracker project built using "
-                "scaffolding and bootstrap.  Functionality complete, "
-                "styling in progress."),
-                "",
+                ("Ruby on Rails social stocks tracker project."),
+                "Built using scaffolding and bootstrap.  Styling in progress,functionality complete.",
                 "https://thawing-plains-40720.herokuapp.com/users/sign_in",
                 "https://github.com/ianagpawa/finance-tracker",
                  ["Ruby on Rails", "Heroku"],
@@ -183,9 +179,8 @@ finance = Project("Finance Tracker",
                 "Mar. 2016")
 
 tribute = Project("Tribute Project",
-                ("Tribute Project about Hunter S. Thompson.  My first HTML and "
-                "CSS project."),
-                "",
+                ("Tribute Project about Hunter S. Thompson."),
+                "My first HTML and CSS project.",
                 "https://hunter-s-tribute.herokuapp.com",
                 "https://github.com/ianagpawa/tribute",
                  ["Ruby on Rails", "Heroku"],
@@ -193,10 +188,8 @@ tribute = Project("Tribute Project",
                 "Feb. 2016")
 
 blog = Project("AlphaBlog",
-                ("My first project, a Ruby on Rails blog  built from the "
-                "ground up.  Functionality finalized, styling and "
-                "content in progress."),
-                "",
+                ("Ruby on Rails multi-user blog."),
+                "My first project, built from the ground up.  Styling and content in progress, functionality completed.",
                 "https://project-prometheus-alphablog.herokuapp.com",
                 "https://github.com/ianagpawa/alpha-blog",
                  ["Ruby on Rails", "Heroku"],

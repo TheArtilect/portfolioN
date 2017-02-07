@@ -1,7 +1,7 @@
 
     var featured = [
     {
-        "description":"Neighborhood map of Spanish Harlem's finest tacos.  Utilizes Foursquare API.",
+        "description":"Neighborhood map of Spanish Harlem's finest tacos.",
         "title":"TacoHub",
         "url":"https://tacohub-155203.appspot.com/",
         "repo":"https://github.com/ianagpawa/neighborhood-map",
@@ -20,7 +20,7 @@
         "title":"Item Catalog",
         "url":"http://ec2-35-165-176-112.us-west-2.compute.amazonaws.com",
         "repo":"https://github.com/ianagpawa/catalog",
-        "details":"Provided user registration and authentication system, where only users can post, edit and delete their own items.  Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.  Developed database schema for storing playlists of songs.",
+        "details":"Provided user registration and authentication system, where only users can post, edit and delete their own items.  Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.  Developed database schema for storing playlists of songs.  Configured and secured a baseline Ubuntu Amazon Web Services server into an Apache Web Server and PostgreSQL database server.",
         "date":"Dec. 2016",
         "tools":[
             "Flask",
@@ -49,7 +49,7 @@
         "title":"Image Search",
         "url":"https://imgsearch-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/imageSearch",
-        "details":"Developed middleware for Google Custom Search API and created API endpoints.  Set up MongoDB to record searches and display most recent searches.",
+        "details":"Developed an image search API microservice using the Google Custom Search API.  Search terms can be passed as parameters and a JSON output will be received.  Search results can be paginated through by passing an additional parameter.  Search terms are recorded and the ten most recent search can be viewed via an API endpoint. ",
         "date":"Oct. 2016",
         "tools":[
             "MongoDB",
@@ -105,11 +105,11 @@
         "thumbnail":"url-shortener"
     },
     {
-        "description":"A few of my favorite quotes.  My first Javascript project.",
+        "description":"A few of my favorite quotes.",
         "title":"Random Quote Generator",
         "url":"https://rand-quote-gen.herokuapp.com",
         "repo":"https://github.com/ianagpawa/random-quote",
-        "details":"",
+        "details":"My first Javascript project.",
         "date":"Mar. 2016",
         "tools":[
             "Ruby on Rails",
@@ -144,11 +144,11 @@
         "thumbnail":"github"
     },
     {
-        "description":"A fully functional simple calculator. First project utilizing 'this' in js.",
+        "description":"A fully functional simple calculator.",
         "title":"Javascript Calculator",
         "url":"https://ianagpawa.github.io/calculator",
         "repo":"https://github.com/ianagpawa/calculator",
-        "details":"",
+        "details":"First project utilizing 'this' in js.",
         "date":"Jun. 2016",
         "tools":[
             "Github"
@@ -156,11 +156,11 @@
         "thumbnail":"calculator"
     },
     {
-        "description":"A timer that can be used to for cooking pomodoro sauce or scheduling productivity.  First project utilizing setInterval().",
+        "description":"A timer that can be used to for cooking pomodoro sauce or scheduling productivity.",
         "title":"Pomodoro Productivity Timer",
         "url":"https://pomodoro-timer-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/pomodoro",
-        "details":"",
+        "details":"First project utilizing setInterval().",
         "date":"Jun. 2016",
         "tools":[
             "Ruby on Rails",
@@ -211,11 +211,11 @@
         "thumbnail":"timestamp"
     },
     {
-        "description":"For searching and viewing a listing of wikipedia articles. Utilized Wikipedia API.",
+        "description":"For searching and viewing a listing of wikipedia articles. ",
         "title":"Wiki",
         "url":"https://wiki-it-ia.herokuapp.com",
         "repo":"https://github.com/ianagpawa/wiki",
-        "details":"",
+        "details":"Utilized Wikipedia API.",
         "date":"Apr. 2016",
         "tools":[
             "Ruby on Rails",
@@ -224,11 +224,11 @@
         "thumbnail":"wiki"
     },
     {
-        "description":"Ruby on Rails social stocks tracker project built using scaffolding and bootstrap.  Functionality complete, styling in progress.",
+        "description":"Ruby on Rails social stocks tracker project.",
         "title":"Finance Tracker",
         "url":"https://thawing-plains-40720.herokuapp.com/users/sign_in",
         "repo":"https://github.com/ianagpawa/finance-tracker",
-        "details":"",
+        "details":"Built using scaffolding and bootstrap.  Styling in progress,functionality complete.",
         "date":"Mar. 2016",
         "tools":[
             "Ruby on Rails",
@@ -237,11 +237,11 @@
         "thumbnail":"finance"
     },
     {
-        "description":"Tribute Project about Hunter S. Thompson.  My first HTML and CSS project.",
+        "description":"Tribute Project about Hunter S. Thompson.",
         "title":"Tribute Project",
         "url":"https://hunter-s-tribute.herokuapp.com",
         "repo":"https://github.com/ianagpawa/tribute",
-        "details":"",
+        "details":"My first HTML and CSS project.",
         "date":"Feb. 2016",
         "tools":[
             "Ruby on Rails",
@@ -250,11 +250,11 @@
         "thumbnail":"tribute"
     },
     {
-        "description":"My first project, a Ruby on Rails blog  built from the ground up.  Functionality finalized, styling and content in progress.",
+        "description":"Ruby on Rails multi-user blog.",
         "title":"AlphaBlog",
         "url":"https://project-prometheus-alphablog.herokuapp.com",
         "repo":"https://github.com/ianagpawa/alpha-blog",
-        "details":"",
+        "details":"My first project, built from the ground up.  Styling and content in progress, functionality completed.",
         "date":"Jan. 2016",
         "tools":[
             "Ruby on Rails",
@@ -276,11 +276,11 @@
         "thumbnail":"portfolio"
     },
     {
-        "description":"For tracking some Twitch streamers.  Utilized Twitch API.",
+        "description":"For tracking some Twitch streamers.",
         "title":"Twitch",
         "url":"https://twitch-it.herokuapp.com/",
         "repo":"https://github.com/ianagpawa/twitch",
-        "details":"",
+        "details":"Utilized Twitch API.",
         "date":"May 2016",
         "tools":[
             "Ruby on Rails",
