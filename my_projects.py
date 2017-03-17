@@ -25,7 +25,7 @@ audacious = Project("Audacious",
 catalog = Project("Item Catalog",
                 "Item catalog that stores playlists of songs.",
                 "Provided user registration and authentication system, where only users can post, edit and delete their own items.  Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.  Developed database schema for storing playlists of songs.  Configured and secured a baseline Ubuntu Amazon Web Services server into an Apache Web Server and PostgreSQL database server.",
-                "http://ec2-35-165-176-112.us-west-2.compute.amazonaws.com",
+                "http://ec2-107-23-78-53.compute-1.amazonaws.com",
                 "https://github.com/ianagpawa/catalog",
                 ["Flask", "PostgreSQL","Python", "Amazon Web Services"],
                 "catalog",
@@ -208,7 +208,7 @@ portfolio = Project("Portfolio",
 
 
 
-featured = [tacohub, catalog, synchronicity, image, weather, simon]
+featured = [catalog, tacohub, synchronicity, image, weather, simon]
 
 projects = [shortener, quote, tictactoe, audacious, calculator, pomodoro, metadata, header,
             timestamp, wiki, finance, tribute, blog, portfolio, twitch]

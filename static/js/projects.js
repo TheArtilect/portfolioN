@@ -1,6 +1,21 @@
 
     var featured = [
     {
+        "description":"Item catalog that stores playlists of songs.",
+        "title":"Item Catalog",
+        "url":"http://ec2-107-23-78-53.compute-1.amazonaws.com",
+        "repo":"https://github.com/ianagpawa/catalog",
+        "details":"Provided user registration and authentication system, where only users can post, edit and delete their own items.  Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.  Developed database schema for storing playlists of songs.  Configured and secured a baseline Ubuntu Amazon Web Services server into an Apache Web Server and PostgreSQL database server.",
+        "date":"Dec. 2016",
+        "tools":[
+            "Flask",
+            "PostgreSQL",
+            "Python",
+            "Amazon Web Services"
+        ],
+        "thumbnail":"catalog"
+    },
+    {
         "description":"Neighborhood map of Spanish Harlem's finest tacos.",
         "title":"TacoHub",
         "url":"https://tacohub-155203.appspot.com/",
@@ -14,21 +29,6 @@
             "Jinja"
         ],
         "thumbnail":"tacohub"
-    },
-    {
-        "description":"Item catalog that stores playlists of songs.",
-        "title":"Item Catalog",
-        "url":"http://ec2-35-165-176-112.us-west-2.compute.amazonaws.com",
-        "repo":"https://github.com/ianagpawa/catalog",
-        "details":"Provided user registration and authentication system, where only users can post, edit and delete their own items.  Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.  Developed database schema for storing playlists of songs.  Configured and secured a baseline Ubuntu Amazon Web Services server into an Apache Web Server and PostgreSQL database server.",
-        "date":"Dec. 2016",
-        "tools":[
-            "Flask",
-            "PostgreSQL",
-            "Python",
-            "Amazon Web Services"
-        ],
-        "thumbnail":"catalog"
     },
     {
         "description":"Multi-user blog focusing on music and personal history curated with snippets of prose.",
@@ -345,7 +345,7 @@
     ],
     "item-catalog":[
         "featured",
-        1
+        0
     ],
     "url-shortener":[
         "projects",
@@ -353,7 +353,7 @@
     ],
     "tacohub":[
         "featured",
-        0
+        1
     ],
     "random-quote-generator":[
         "projects",
