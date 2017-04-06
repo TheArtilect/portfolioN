@@ -22,13 +22,13 @@ audacious = Project("Audacious",
                 "github",
                 "Jan. 2017")
 
-catalog = Project("Item Catalog",
+catalog = Project("Music Catalog",
                 "Item catalog that stores playlists of songs.",
                 "Provided user registration and authentication system, where only users can post, edit and delete their own items.  Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.  Developed database schema for storing playlists of songs.  Configured and secured a baseline Ubuntu Amazon Web Services server into an Apache Web Server and PostgreSQL database server.",
                 "http://ec2-107-23-78-53.compute-1.amazonaws.com",
                 "https://github.com/ianagpawa/catalog",
                 ["Flask", "PostgreSQL","Python", "Amazon Web Services"],
-                "catalog",
+                "catalog1",
                 "Dec. 2016")
 
 synchronicity = Project("The Synchronicity Collective",

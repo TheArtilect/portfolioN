@@ -2,7 +2,7 @@
     var featured = [
     {
         "description":"Item catalog that stores playlists of songs.",
-        "title":"Item Catalog",
+        "title":"Music Catalog",
         "url":"http://ec2-107-23-78-53.compute-1.amazonaws.com",
         "repo":"https://github.com/ianagpawa/catalog",
         "details":"Provided user registration and authentication system, where only users can post, edit and delete their own items.  Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.  Developed database schema for storing playlists of songs.  Configured and secured a baseline Ubuntu Amazon Web Services server into an Apache Web Server and PostgreSQL database server.",
@@ -13,7 +13,7 @@
             "Python",
             "Amazon Web Services"
         ],
-        "thumbnail":"catalog"
+        "thumbnail":"catalog1"
     },
     {
         "description":"Neighborhood map of Spanish Harlem's finest tacos.",
@@ -331,10 +331,6 @@
         "featured",
         2
     ],
-    "javascript-calculator":[
-        "projects",
-        4
-    ],
     "tic-tac-toe":[
         "projects",
         2
@@ -343,9 +339,9 @@
         "featured",
         5
     ],
-    "item-catalog":[
-        "featured",
-        0
+    "javascript-calculator":[
+        "projects",
+        4
     ],
     "url-shortener":[
         "projects",
@@ -374,6 +370,10 @@
     "tribute-project":[
         "projects",
         11
+    ],
+    "music-catalog":[
+        "featured",
+        0
     ]
 }
 
