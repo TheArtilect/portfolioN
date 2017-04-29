@@ -90,21 +90,6 @@
 
     var projects = [
     {
-        "description":"A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.",
-        "title":"Url Shortener",
-        "url":"https://u-short.herokuapp.com",
-        "repo":"https://github.com/ianagpawa/urlShortener",
-        "details":"Developed API endpoint for shortening url addresses.  Set up MongoDB to store and map shortened URLs to their original address for later retrieval and use.",
-        "date":"Sept. 2016",
-        "tools":[
-            "MongoDB",
-            "Express",
-            "Node",
-            "Heroku"
-        ],
-        "thumbnail":"url-shortener"
-    },
-    {
         "description":"A few of my favorite quotes.",
         "title":"Random Quote Generator",
         "url":"https://rand-quote-gen.herokuapp.com",
@@ -128,20 +113,6 @@
             "Github"
         ],
         "thumbnail":"tic"
-    },
-    {
-        "description":"Simple script for music playlists.",
-        "title":"Audacious",
-        "url":"https://github.com/ianagpawa/audacious",
-        "repo":"https://github.com/ianagpawa/audacious",
-        "details":[
-            ""
-        ],
-        "date":"Jan. 2017",
-        "tools":[
-            "Python"
-        ],
-        "thumbnail":"github"
     },
     {
         "description":"A fully functional simple calculator.",
@@ -169,18 +140,46 @@
         "thumbnail":"pomodoro"
     },
     {
-        "description":"A file metadata microservice.  Uploading files will return a  JSON object of the file's name, file type, and size in bytes.",
-        "title":"File Metadata",
-        "url":"https://metadata-ia.herokuapp.com",
-        "repo":"https://github.com/ianagpawa/metadata",
-        "details":"",
-        "date":"Oct. 2016",
+        "description":"A url shortener microservice.  Shortened url addresses redirect to the original url.  First project using MongoDB.",
+        "title":"Url Shortener",
+        "url":"https://u-short.herokuapp.com",
+        "repo":"https://github.com/ianagpawa/urlShortener",
+        "details":"Developed API endpoint for shortening url addresses.  Set up MongoDB to store and map shortened URLs to their original address for later retrieval and use.",
+        "date":"Sept. 2016",
         "tools":[
+            "MongoDB",
             "Express",
             "Node",
             "Heroku"
         ],
-        "thumbnail":"meta"
+        "thumbnail":"url-shortener"
+    },
+    {
+        "description":"Simple script for music playlists.",
+        "title":"Audacious",
+        "url":"https://github.com/ianagpawa/audacious",
+        "repo":"https://github.com/ianagpawa/audacious",
+        "details":[
+            ""
+        ],
+        "date":"Jan. 2017",
+        "tools":[
+            "Python"
+        ],
+        "thumbnail":"github"
+    },
+    {
+        "description":"For searching and viewing a listing of wikipedia articles. ",
+        "title":"Wiki",
+        "url":"https://wiki-it-ia.herokuapp.com",
+        "repo":"https://github.com/ianagpawa/wiki",
+        "details":"Utilized Wikipedia API.",
+        "date":"Apr. 2016",
+        "tools":[
+            "Ruby on Rails",
+            "Heroku"
+        ],
+        "thumbnail":"wiki"
     },
     {
         "description":"A request header parser microservice that will return your browser IP address, language, and operating system.",
@@ -211,17 +210,18 @@
         "thumbnail":"timestamp"
     },
     {
-        "description":"For searching and viewing a listing of wikipedia articles. ",
-        "title":"Wiki",
-        "url":"https://wiki-it-ia.herokuapp.com",
-        "repo":"https://github.com/ianagpawa/wiki",
-        "details":"Utilized Wikipedia API.",
-        "date":"Apr. 2016",
+        "description":"A file metadata microservice.  Uploading files will return a  JSON object of the file's name, file type, and size in bytes.",
+        "title":"File Metadata",
+        "url":"https://metadata-ia.herokuapp.com",
+        "repo":"https://github.com/ianagpawa/metadata",
+        "details":"",
+        "date":"Oct. 2016",
         "tools":[
-            "Ruby on Rails",
+            "Express",
+            "Node",
             "Heroku"
         ],
-        "thumbnail":"wiki"
+        "thumbnail":"meta"
     },
     {
         "description":"Ruby on Rails social stocks tracker project.",
@@ -274,30 +274,17 @@
             "Heroku"
         ],
         "thumbnail":"portfolio"
-    },
-    {
-        "description":"For tracking some Twitch streamers.",
-        "title":"Twitch",
-        "url":"https://twitch-it.herokuapp.com/",
-        "repo":"https://github.com/ianagpawa/twitch",
-        "details":"Utilized Twitch API.",
-        "date":"May 2016",
-        "tools":[
-            "Ruby on Rails",
-            "Heroku"
-        ],
-        "thumbnail":"twitch"
     }
 ]
 
     var projectKeys = {
     "wiki":[
         "projects",
-        9
+        6
     ],
     "file-metadata":[
         "projects",
-        6
+        9
     ],
     "local-weather":[
         "featured",
@@ -321,11 +308,11 @@
     ],
     "pomodoro-productivity-timer":[
         "projects",
-        5
+        3
     ],
     "audacious":[
         "projects",
-        3
+        5
     ],
     "the-synchronicity-collective":[
         "featured",
@@ -333,7 +320,7 @@
     ],
     "tic-tac-toe":[
         "projects",
-        2
+        1
     ],
     "simon-says":[
         "featured",
@@ -341,11 +328,11 @@
     ],
     "javascript-calculator":[
         "projects",
-        4
+        2
     ],
     "url-shortener":[
         "projects",
-        0
+        4
     ],
     "tacohub":[
         "featured",
@@ -353,7 +340,7 @@
     ],
     "random-quote-generator":[
         "projects",
-        1
+        0
     ],
     "portfolio":[
         "projects",
@@ -362,10 +349,6 @@
     "finance-tracker":[
         "projects",
         10
-    ],
-    "twitch":[
-        "projects",
-        14
     ],
     "tribute-project":[
         "projects",

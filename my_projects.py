@@ -210,8 +210,8 @@ portfolio = Project("Portfolio",
 
 featured = [catalog, tacohub, synchronicity, image, weather, simon]
 
-projects = [shortener, quote, tictactoe, audacious, calculator, pomodoro, metadata, header,
-            timestamp, wiki, finance, tribute, blog, portfolio, twitch]
+projects = [quote, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
+            timestamp, metadata , finance, tribute, blog, portfolio]
 
 #   Creating Hash with project titles, and their position in which list
 transform.keys(featured, featured)
