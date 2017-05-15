@@ -3,7 +3,7 @@
     {
         "description":"Item catalog that stores playlists of songs.",
         "title":"Music Catalog",
-        "url":"http://ec2-107-23-78-53.compute-1.amazonaws.com",
+        "url":"http://ec2-54-236-32-135.compute-1.amazonaws.com/",
         "repo":"https://github.com/ianagpawa/catalog",
         "details":"Provided user registration and authentication system, where only users can post, edit and delete their own items.  Authentication is handled by Oauth2 through Facebook and Google, and HTTP methods are mapped to CRUD operations to implement a properly secured web application.  Developed database schema for storing playlists of songs.  Configured and secured a baseline Ubuntu Amazon Web Services server into an Apache Web Server and PostgreSQL database server.",
         "date":"Dec. 2016",
