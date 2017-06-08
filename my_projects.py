@@ -4,6 +4,15 @@ import json
 from projects import Project
 import transform
 
+weather2.0 = Project("Weather Forecast",
+                "Local weather forecast.",
+                "Developed a seven day weather forecast web app utilizing the Weather Underground API",
+                "https://weather-169903.appspot.com",
+                "https://github.com/ianagpawa/weather2.0",
+                ["Python", "Google App Engine", "Jinja"],
+                "weather2",
+                "Jun. 2017")
+
 tacohub = Project("TacoHub",
                 "Neighborhood map of Spanish Harlem's finest tacos.",
                 "Developed single-page application that utilizes Foursquare API to asynchronously display restaurant info on Google Maps.  Implemented functionality of dynamically updating and filtering restaurant map markers and info with Knockoutjs.",
@@ -208,10 +217,10 @@ portfolio = Project("Portfolio",
 
 
 
-featured = [catalog, tacohub, synchronicity, image, weather, simon]
+featured = [catalog, tacohub, synchronicity, weather2.0, simon, image]
 
 projects = [quote, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
-            timestamp, metadata , finance, tribute, blog, portfolio]
+            timestamp, metadata, weather, finance, tribute, blog, portfolio]
 
 #   Creating Hash with project titles, and their position in which list
 transform.keys(featured, featured)
