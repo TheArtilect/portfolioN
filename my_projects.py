@@ -6,7 +6,7 @@ import transform
 
 weather2 = Project("Weather Forecast",
                 "Local weather forecast.",
-                "Developed a seven day weather forecast web app utilizing the Weather Underground API",
+                "Developed a seven day weather forecast web app utilizing the Weather Underground API.  An update on previous weather app.",
                 "https://weather-169903.appspot.com",
                 "https://github.com/ianagpawa/weather2.0",
                 ["Python", "Google App Engine", "Jinja"],

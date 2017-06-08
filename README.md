@@ -16,6 +16,7 @@ dev_appserver.py .
 ```
 Then point your browser to `http://0.0.0.0:8080/`.
 
+
 #### Updating Projects
 Updating project information is done within the `my_projects.py` file.  To add projects, an instance of `Project` is created, then added to either the `featured` or `projects` array.
 
@@ -24,7 +25,14 @@ After which, using the following command will update/generate the `projects.js` 
 python my_projects.py
 ```
 
-The `convertImages.py` script was used to convert the original image files stored in `images/images_src/` into .jpg files and then migrate them to `images/images-jpg/`.  A `grunt` command was then executed resize the images appropriately.  
+The `convertImages.py` script was used to convert the original image files stored in `images/images_src/` into .jpg files and then migrate them to `images/images-jpg/`.  
+
+A `grunt` command was then executed resize the images appropriately.  In order to run the `grunt` command, `grunt` must be installed on your system.  To do so, run the following commands to install `grunt` on your system, and install the necessary dependencies.
+```
+npm install -g grunt-cli
+npm install
+```
+
 
 ### What's included
 Within the project folder, you will find the following files (image files not included):
