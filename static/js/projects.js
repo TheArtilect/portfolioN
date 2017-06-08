@@ -45,33 +45,18 @@
         "thumbnail":"synchronicity"
     },
     {
-        "description":"An image search microservice.",
-        "title":"Image Search",
-        "url":"https://imgsearch-ia.herokuapp.com",
-        "repo":"https://github.com/ianagpawa/imageSearch",
-        "details":"Developed an image search API microservice using the Google Custom Search API.  Search terms can be passed as parameters and a JSON output will be received.  Search results can be paginated through by passing an additional parameter.  Search terms are recorded and the ten most recent search can be viewed via an API endpoint. ",
-        "date":"Oct. 2016",
+        "description":"Local weather forecast.",
+        "title":"Weather Forecast",
+        "url":"https://weather-169903.appspot.com",
+        "repo":"https://github.com/ianagpawa/weather2.0",
+        "details":"Developed a seven day weather forecast web app utilizing the Weather Underground API",
+        "date":"Jun. 2017",
         "tools":[
-            "MongoDB",
-            "Express",
-            "Node",
-            "Heroku"
+            "Python",
+            "Google App Engine",
+            "Jinja"
         ],
-        "thumbnail":"image"
-    },
-    {
-        "description":"Fullstack javascript local weather app",
-        "title":"Local Weather",
-        "url":"https://weather-ia.herokuapp.com/",
-        "repo":"https://github.com/ianagpawa/weather",
-        "details":"Utilized Express as middleware for retrieving weather info from Weather Underground API",
-        "date":"Oct. 2016",
-        "tools":[
-            "Express",
-            "Node",
-            "Heroku"
-        ],
-        "thumbnail":"weather"
+        "thumbnail":"weather2"
     },
     {
         "description":"A Simon Says clone.",
@@ -85,6 +70,21 @@
             "Heroku"
         ],
         "thumbnail":"simon"
+    },
+    {
+        "description":"An image search microservice.",
+        "title":"Image Search",
+        "url":"https://imgsearch-ia.herokuapp.com",
+        "repo":"https://github.com/ianagpawa/imageSearch",
+        "details":"Developed an image search API microservice using the Google Custom Search API.  Search terms can be passed as parameters and a JSON output will be received.  Search results can be paginated through by passing an additional parameter.  Search terms are recorded and the ten most recent search can be viewed via an API endpoint. ",
+        "date":"Oct. 2016",
+        "tools":[
+            "MongoDB",
+            "Express",
+            "Node",
+            "Heroku"
+        ],
+        "thumbnail":"image"
     }
 ]
 
@@ -224,6 +224,20 @@
         "thumbnail":"meta"
     },
     {
+        "description":"Fullstack javascript local weather app",
+        "title":"Local Weather",
+        "url":"https://weather-ia.herokuapp.com/",
+        "repo":"https://github.com/ianagpawa/weather",
+        "details":"Utilized Express as middleware for retrieving weather info from Weather Underground API",
+        "date":"Oct. 2016",
+        "tools":[
+            "Express",
+            "Node",
+            "Heroku"
+        ],
+        "thumbnail":"weather"
+    },
+    {
         "description":"Ruby on Rails social stocks tracker project.",
         "title":"Finance Tracker",
         "url":"https://thawing-plains-40720.herokuapp.com/users/sign_in",
@@ -286,9 +300,9 @@
         "projects",
         9
     ],
-    "local-weather":[
-        "featured",
-        4
+    "javascript-calculator":[
+        "projects",
+        2
     ],
     "request-header-parser":[
         "projects",
@@ -300,11 +314,11 @@
     ],
     "alphablog":[
         "projects",
-        12
+        13
     ],
     "image-search":[
         "featured",
-        3
+        5
     ],
     "pomodoro-productivity-timer":[
         "projects",
@@ -318,17 +332,21 @@
         "featured",
         2
     ],
+    "local-weather":[
+        "projects",
+        10
+    ],
+    "weather-forecast":[
+        "featured",
+        3
+    ],
     "tic-tac-toe":[
         "projects",
         1
     ],
     "simon-says":[
         "featured",
-        5
-    ],
-    "javascript-calculator":[
-        "projects",
-        2
+        4
     ],
     "url-shortener":[
         "projects",
@@ -344,15 +362,15 @@
     ],
     "portfolio":[
         "projects",
-        13
+        14
     ],
     "finance-tracker":[
         "projects",
-        10
+        11
     ],
     "tribute-project":[
         "projects",
-        11
+        12
     ],
     "music-catalog":[
         "featured",

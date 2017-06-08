@@ -4,7 +4,7 @@ import json
 from projects import Project
 import transform
 
-weather2.0 = Project("Weather Forecast",
+weather2 = Project("Weather Forecast",
                 "Local weather forecast.",
                 "Developed a seven day weather forecast web app utilizing the Weather Underground API",
                 "https://weather-169903.appspot.com",
@@ -217,7 +217,7 @@ portfolio = Project("Portfolio",
 
 
 
-featured = [catalog, tacohub, synchronicity, weather2.0, simon, image]
+featured = [catalog, tacohub, synchronicity, weather2, simon, image]
 
 projects = [quote, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
             timestamp, metadata, weather, finance, tribute, blog, portfolio]
