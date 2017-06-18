@@ -83,8 +83,16 @@
                 </div>
 
                 {% for project in featured %}
-                <div class='col-md-6'>
-                    <h4>{{project.title}}</h4>
+                <div class='col-md-6' data-toggle='modal' data-target='#Modal'
+                    data-title='{{project.title}}'
+                    data-thumbnail='{{project.thumbnail}}'
+                    data-description='{{project.description}}'
+                    data-details="{{project.details}}"
+                    data-url="{{project.url}}"
+                    data-repo="{{project.repo}}"
+                    data-date='{{project.date}}'
+                    data-tools="{{project.tools}}"
+                    >
                     <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
                 </div>
                 {% endfor %}
@@ -163,7 +171,7 @@
     <!-- Modal -->
 
     <section>
-        <div class="modal fade text-center" tabindex="-1" role="dialog"
+        <div class="modal fade text-center" id="Modal" tabindex="-1" role="dialog"
             aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
