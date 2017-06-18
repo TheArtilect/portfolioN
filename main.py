@@ -1,6 +1,7 @@
 import os
 import jinja2
 import webapp2
+from my_projects import featured, projects
 
 
 template_dir = os.path.join(os.path.dirname(__file__), 'templates')
@@ -52,7 +53,9 @@ class Handler(webapp2.RequestHandler):
 
 
     def get(self):
-        self.render("index.html")
+        print featured
+        print projects
+        self.render("index.html", featured=featured)
 
 
 

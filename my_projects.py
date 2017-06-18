@@ -2,7 +2,7 @@ import webbrowser
 import json
 
 from projects import Project
-import transform
+# import transform
 
 chronicle = Project("Tech Blog",
                     "Personal tech blog.",
@@ -230,50 +230,50 @@ featured = [catalog, chronicle, tacohub, weather2, synchronicity, simon]
 
 projects = [quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
             timestamp, metadata, weather, finance, tribute, blog, portfolio]
-
-#   Creating Hash with project titles, and their position in which list
-transform.keys(featured, featured)
-transform.keys(projects, featured)
-#   all the keys are in:
-#   transform.allKeys
-
-
-#   instance objects in arr need to be transformed to instanceObj.__dict__
-featured = transform.change(featured)
-projects = transform.change(projects)
-
-
-#   template for client-side javascript
-main_content = '''
-    var featured = {featured_insert}
-
-    var projects = {project_insert}
-
-    var projectKeys = {keys_insert}
-
-'''
-
-#   creates javascript file of projects (featured,  projects, projectKeys)
-def createjs(featured, projects):
-
-    output_file = open("static/js/projects.js", 'w')
-
-    featured_content = main_content.replace('{featured_insert}',
-                   json.dumps(featured, indent=4, separators=(",", ":")))
-
-    project_content = featured_content.replace("{project_insert}",
-                    json.dumps(projects, indent=4, separators=(",", ":")))
-
-    rendered_content = project_content.replace("{keys_insert}",
-                        json.dumps(transform.allKeys, indent=4,
-                        separators=(",", ":")))
-
-    output_file.write(rendered_content)
-    output_file.close()
-
-
-
-
-
-
-createjs(featured, projects)
+# 
+# #   Creating Hash with project titles, and their position in which list
+# transform.keys(featured, featured)
+# transform.keys(projects, featured)
+# #   all the keys are in:
+# #   transform.allKeys
+#
+#
+# #   instance objects in arr need to be transformed to instanceObj.__dict__
+# featured = transform.change(featured)
+# projects = transform.change(projects)
+#
+#
+# #   template for client-side javascript
+# main_content = '''
+#     var featured = {featured_insert}
+#
+#     var projects = {project_insert}
+#
+#     var projectKeys = {keys_insert}
+#
+# '''
+#
+# #   creates javascript file of projects (featured,  projects, projectKeys)
+# def createjs(featured, projects):
+#
+#     output_file = open("static/js/projects.js", 'w')
+#
+#     featured_content = main_content.replace('{featured_insert}',
+#                    json.dumps(featured, indent=4, separators=(",", ":")))
+#
+#     project_content = featured_content.replace("{project_insert}",
+#                     json.dumps(projects, indent=4, separators=(",", ":")))
+#
+#     rendered_content = project_content.replace("{keys_insert}",
+#                         json.dumps(transform.allKeys, indent=4,
+#                         separators=(",", ":")))
+#
+#     output_file.write(rendered_content)
+#     output_file.close()
+#
+#
+#
+#
+#
+#
+# createjs(featured, projects)
