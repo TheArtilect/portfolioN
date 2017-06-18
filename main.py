@@ -53,9 +53,7 @@ class Handler(webapp2.RequestHandler):
 
 
     def get(self):
-        print featured
-        print projects
-        self.render("index.html", featured=featured)
+        return self.render("index.html", featured=featured, projects=projects)
 
 
 

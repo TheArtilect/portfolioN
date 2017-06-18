@@ -82,8 +82,13 @@
                     <h2 class="text-muted">Featured Works</h2>
                 </div>
 
+
+            </div>
+
+
+            <div class="row text-center" id="featured">
                 {% for project in featured %}
-                <div class='col-md-6' data-toggle='modal' data-target='#Modal'
+                <div class='col-md-6 featured-pj' data-toggle='modal' data-target='#Modal'
                     data-title='{{project.title}}'
                     data-thumbnail='{{project.thumbnail}}'
                     data-description='{{project.description}}'
@@ -97,11 +102,6 @@
                 </div>
                 {% endfor %}
             </div>
-
-
-            <div class="row text-center" id="featured">
-
-            </div>
         </div>
 
 
@@ -114,7 +114,20 @@
             </div>
 
             <div class="row text-center" id='projects'>
-
+                {% for project in projects %}
+                <div class='col-md-4 project-pj' data-toggle='modal' data-target='#Modal'
+                    data-title='{{project.title}}'
+                    data-thumbnail='{{project.thumbnail}}'
+                    data-description='{{project.description}}'
+                    data-details="{{project.details}}"
+                    data-url="{{project.url}}"
+                    data-repo="{{project.repo}}"
+                    data-date='{{project.date}}'
+                    data-tools="{{project.tools}}"
+                    >
+                    <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
+                </div>
+                {% endfor %}
 
             </div>
 
