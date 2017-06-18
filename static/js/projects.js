@@ -16,6 +16,20 @@
         "thumbnail":"catalog1"
     },
     {
+        "description":"Personal tech blog.",
+        "title":"Tech Blog",
+        "url":"https://chronicle-170419.appspot.com/",
+        "repo":"https://github.com/ianagpawa/tech-blog",
+        "details":"Developed a blog chronicling personal tech projects.",
+        "date":"Jun. 2017",
+        "tools":[
+            "Python",
+            "Flask",
+            "Google App Engine"
+        ],
+        "thumbnail":"chronicle"
+    },
+    {
         "description":"Neighborhood map of Spanish Harlem's finest tacos.",
         "title":"TacoHub",
         "url":"https://tacohub-155203.appspot.com/",
@@ -29,6 +43,20 @@
             "Jinja"
         ],
         "thumbnail":"tacohub"
+    },
+    {
+        "description":"Local weather forecast.",
+        "title":"Weather Forecast",
+        "url":"https://weather-169903.appspot.com",
+        "repo":"https://github.com/ianagpawa/weather2.0",
+        "details":"Developed a seven day weather forecast web app utilizing the Weather Underground API.  An update on previous weather app.",
+        "date":"Jun. 2017",
+        "tools":[
+            "Python",
+            "Google App Engine",
+            "Jinja"
+        ],
+        "thumbnail":"weather2"
     },
     {
         "description":"Multi-user blog focusing on music and personal history curated with snippets of prose.",
@@ -45,20 +73,6 @@
         "thumbnail":"synchronicity"
     },
     {
-        "description":"Local weather forecast.",
-        "title":"Weather Forecast",
-        "url":"https://weather-169903.appspot.com",
-        "repo":"https://github.com/ianagpawa/weather2.0",
-        "details":"Developed a seven day weather forecast web app utilizing the Weather Underground API",
-        "date":"Jun. 2017",
-        "tools":[
-            "Python",
-            "Google App Engine",
-            "Jinja"
-        ],
-        "thumbnail":"weather2"
-    },
-    {
         "description":"A Simon Says clone.",
         "title":"Simon Says",
         "url":"https://simon-says-ia.herokuapp.com",
@@ -70,21 +84,6 @@
             "Heroku"
         ],
         "thumbnail":"simon"
-    },
-    {
-        "description":"An image search microservice.",
-        "title":"Image Search",
-        "url":"https://imgsearch-ia.herokuapp.com",
-        "repo":"https://github.com/ianagpawa/imageSearch",
-        "details":"Developed an image search API microservice using the Google Custom Search API.  Search terms can be passed as parameters and a JSON output will be received.  Search results can be paginated through by passing an additional parameter.  Search terms are recorded and the ten most recent search can be viewed via an API endpoint. ",
-        "date":"Oct. 2016",
-        "tools":[
-            "MongoDB",
-            "Express",
-            "Node",
-            "Heroku"
-        ],
-        "thumbnail":"image"
     }
 ]
 
@@ -101,6 +100,21 @@
             "Heroku"
         ],
         "thumbnail":"random"
+    },
+    {
+        "description":"An image search microservice.",
+        "title":"Image Search",
+        "url":"https://imgsearch-ia.herokuapp.com",
+        "repo":"https://github.com/ianagpawa/imageSearch",
+        "details":"Developed an image search API microservice using the Google Custom Search API.  Search terms can be passed as parameters and a JSON output will be received.  Search results can be paginated through by passing an additional parameter.  Search terms are recorded and the ten most recent search can be viewed via an API endpoint. ",
+        "date":"Oct. 2016",
+        "tools":[
+            "MongoDB",
+            "Express",
+            "Node",
+            "Heroku"
+        ],
+        "thumbnail":"image"
     },
     {
         "description":"A tic tac toe game.",
@@ -294,87 +308,91 @@
     var projectKeys = {
     "wiki":[
         "projects",
-        6
-    ],
-    "file-metadata":[
-        "projects",
-        9
-    ],
-    "javascript-calculator":[
-        "projects",
-        2
-    ],
-    "request-header-parser":[
-        "projects",
         7
     ],
-    "timestamp":[
-        "projects",
-        8
-    ],
-    "alphablog":[
+    "tribute-project":[
         "projects",
         13
     ],
-    "image-search":[
+    "simon-says":[
         "featured",
         5
     ],
-    "pomodoro-productivity-timer":[
+    "portfolio":[
         "projects",
-        3
+        15
     ],
-    "audacious":[
-        "projects",
-        5
-    ],
-    "the-synchronicity-collective":[
-        "featured",
-        2
-    ],
-    "local-weather":[
+    "file-metadata":[
         "projects",
         10
     ],
-    "weather-forecast":[
-        "featured",
+    "javascript-calculator":[
+        "projects",
         3
+    ],
+    "request-header-parser":[
+        "projects",
+        8
+    ],
+    "image-search":[
+        "projects",
+        1
+    ],
+    "the-synchronicity-collective":[
+        "featured",
+        4
     ],
     "tic-tac-toe":[
         "projects",
-        1
+        2
     ],
-    "simon-says":[
-        "featured",
-        4
-    ],
-    "url-shortener":[
+    "pomodoro-productivity-timer":[
         "projects",
         4
-    ],
-    "tacohub":[
-        "featured",
-        1
     ],
     "random-quote-generator":[
         "projects",
         0
     ],
-    "portfolio":[
-        "projects",
-        14
-    ],
-    "finance-tracker":[
-        "projects",
-        11
-    ],
-    "tribute-project":[
-        "projects",
-        12
-    ],
     "music-catalog":[
         "featured",
         0
+    ],
+    "local-weather":[
+        "projects",
+        11
+    ],
+    "timestamp":[
+        "projects",
+        9
+    ],
+    "audacious":[
+        "projects",
+        6
+    ],
+    "weather-forecast":[
+        "featured",
+        3
+    ],
+    "tacohub":[
+        "featured",
+        2
+    ],
+    "url-shortener":[
+        "projects",
+        5
+    ],
+    "alphablog":[
+        "projects",
+        14
+    ],
+    "tech-blog":[
+        "featured",
+        1
+    ],
+    "finance-tracker":[
+        "projects",
+        12
     ]
 }
 
