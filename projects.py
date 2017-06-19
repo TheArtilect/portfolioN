@@ -17,6 +17,13 @@ class Project():
         self.details = details
         self.url = url
         self.repo = repo
-        self.tools = tools
+        toolString = ''
+        i = 0
+        while i < (len(tools) - 1):
+            toolString += tools[i] + ", "
+            i += 1
+        toolString += "and " + tools[i]
+
+        self.tools = toolString
         self.thumbnail = thumbnail
         self.date = date

@@ -49,7 +49,7 @@ class Handler(webapp2.RequestHandler):
         Returns:
             Returns a rendered html template.
         """
-        self.write(self.render_str(template, **keywords))
+        return self.write(self.render_str(template, **keywords))
 
 
     def get(self):
