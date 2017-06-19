@@ -17,14 +17,16 @@ function modalClick(){
         var date = button.data('date')
         var tools = button.data('tools')
 
+        console.log(repo)
+        console.log(url)
         var modal = $(this)
 
         modal.find('.modal-title').text(title)
         modal.find('#modal-img').attr("src", thumbnail)
         modal.find('#project-description').text(description)
         modal.find('#details').text(details)
-        modal.find('#pj-web-link').attr("src", url)
-        modal.find('#github-repo').attr("src", repo)
+        modal.find('#pj-web-link').attr("href", url)
+        modal.find('#git-repo').attr("href", repo)
         modal.find('#date-completed').text(date)
         modal.find('#tools').text(tools)
     })
