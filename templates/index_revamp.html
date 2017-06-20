@@ -56,39 +56,39 @@
 
                 <div class="col-md-4 col-md-offset-6 text-right">
                     <h1 class="title-super" id="name">IAN AGPAWA</h1>
-                    <h3 id='job'>Web Developer</h3>
+                    <p id='job'>Web Developer</p>
                 </div>
 
             </div>
         </header>
-
-
-
-        <div class="row">
-            <div class="col-md-12">
-                <hr>
-                <img class="img-responsive"
-                src="/static/images/images_src/fixed/350kittens.jpg"
-              alt='placeholder image of kittens from http://placekitten.com'>
-            </div>
-        </div>
         <hr>
+        <div class='container-fluid'>
 
-
-        <section>
-        <div class='container'>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-muted">Featured Works</h2>
-                </div>
-
-
+            <div class='col-md-10 col-md-offset-1 special-pj' data-toggle='modal' data-target='#Modal'
+                data-title='{{special.title}}'
+                data-thumbnail='{{special.thumbnail}}'
+                data-description='{{special.description}}'
+                data-details="{{special.details}}"
+                data-url="{{special.url}}"
+                data-repo="{{special.repo}}"
+                data-date='{{special.date}}'
+                data-tools="{{special.tools}}">
+                <h2 class='text-center hidden'>{{special.title}}</h2>
+                <img class='img-responsive proj-img special-img' src="/static/images/images_src/{{special.thumbnail}}.png">
             </div>
 
+        </div>
+        <br>
 
-            <div class="row text-center" id="featured">
+
+        <section class='container-fluid'>
+        <div class="col-md-12 text-left  id="featured"">
+            <h2 class="text-muted ">Featured Works</h2>
+            <hr>
+
+            <div class="row text-center">
                 {% for project in featured %}
-                <div class='col-md-6 featured-pj' data-toggle='modal' data-target='#Modal'
+                <div class='col-md-3 featured-pj' data-toggle='modal' data-target='#Modal'
                     data-title='{{project.title}}'
                     data-thumbnail='{{project.thumbnail}}'
                     data-description='{{project.description}}'
@@ -104,38 +104,11 @@
             </div>
         </div>
 
-
-        <hr>
-        <div class='container'>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-muted">Projects</h2>
-                </div>
-            </div>
-
-            <div class="row text-center" id='projects'>
-                {% for project in projects %}
-                <div class='col-md-4 project-pj' data-toggle='modal' data-target='#Modal'
-                    data-title='{{project.title}}'
-                    data-thumbnail='{{project.thumbnail}}'
-                    data-description='{{project.description}}'
-                    data-details="{{project.details}}"
-                    data-url="{{project.url}}"
-                    data-repo="{{project.repo}}"
-                    data-date='{{project.date}}'
-                    data-tools="{{project.tools}}"
-                    >
-                    <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
-                </div>
-                {% endfor %}
-
-            </div>
-
-        </div>
         </section>
-
         <hr>
+        <div class='container-fluid footer'>
         <footer class="row">
+
             <div class="col-md-2 col-md-offset-1">
                 <p> &copy; 2016 Ian Agpawa</p>
             </div>
@@ -171,11 +144,8 @@
                 </a>
             </div>
 
-
-
-
-
         </footer>
+        </div>
 
     </div>   <!-- body container -->
 

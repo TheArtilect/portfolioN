@@ -17,8 +17,7 @@ function modalClick(){
         var date = button.data('date')
         var tools = button.data('tools')
 
-        console.log(repo)
-        console.log(url)
+
         var modal = $(this)
 
         modal.find('.modal-title').text(title)
@@ -33,7 +32,6 @@ function modalClick(){
 }
 
 function displayAll(){
-
     modalClick();
 }
 

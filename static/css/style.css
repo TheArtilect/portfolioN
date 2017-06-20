@@ -1,7 +1,7 @@
 body {
     font-family: 'Cormorant', serif;
     font-weight: 800;
-    background-color: #F6FAFC;
+    background-color: #E2EDF4;
     color: #404344;
     font-size: 19px;
 
@@ -13,15 +13,6 @@ body {
 }
 
 
-
-.container{
-    margin-top: 2vh;
-}
-
-.row {
-    margin-top: 2vh;
-}
-
 hr {
     border-top: 1px solid #868889;
 }
@@ -29,28 +20,34 @@ hr {
 .text-muted{
     color: #606D7B;
     font-weight: bold;
-    font-size: 42px;
-    text-align: center;
+
 }
 
 .title-super {
-    font-size: 50px;
+    font-size: 40px;
     color: #575757;
     font-weight: 600;
 }
 
-.project:hover,
-.project:hover h4  {
+
+.featured-pj:hover,
+.special-img:hover {
     cursor: pointer;
-    text-decoration: underline;
-    color: #8F5C00;
+    opacity: 0;
+
+}
+
+
+.project:hover  {
+    cursor: pointer;
     opacity: 0.8;
 }
 
 .proj-img{
-    height: auto;
-    border: 2px solid #84898C;
+
+    border: 2px solid #828283;
 }
+
 
 .pj-title{
     margin-top: 2vh;
@@ -109,6 +106,5 @@ hr {
 
 
 footer{
-    padding-bottom: 2vh;
     font-size: 20px;
 }

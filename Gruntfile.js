@@ -28,13 +28,12 @@ module.exports = function(grunt) {
 
 
     /* Clear out the images directory if it exists */
-    /* Don't need right now
     clean: {
       dev: {
         src: ['images'],
       },
     },
-    /*
+
 
     /* Generate the images directory if it is missing */
     /*
