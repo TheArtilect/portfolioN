@@ -33,10 +33,22 @@ hr {
 .featured-pj:hover,
 .special-img:hover {
     cursor: pointer;
-    opacity: 0;
 
 }
 
+.special-img,
+.proj-img{
+    position: relative;
+}
+
+.inside {
+    display: none;
+    position: absolute;
+}
+
+.inside-special{
+    bottom: 10em;
+}
 
 .project:hover  {
     cursor: pointer;
@@ -44,7 +56,6 @@ hr {
 }
 
 .proj-img{
-
     border: 2px solid #828283;
 }
 

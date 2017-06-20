@@ -64,7 +64,7 @@
         <hr>
         <div class='container-fluid'>
 
-            <div class='col-md-10 col-md-offset-1 special-pj' data-toggle='modal' data-target='#Modal'
+            <div class='col-md-10 col-md-offset-1 special-pj project' data-toggle='modal' data-target='#Modal'
                 data-title='{{special.title}}'
                 data-thumbnail='{{special.thumbnail}}'
                 data-description='{{special.description}}'
@@ -73,7 +73,10 @@
                 data-repo="{{special.repo}}"
                 data-date='{{special.date}}'
                 data-tools="{{special.tools}}">
-                <h2 class='text-center hidden'>{{special.title}}</h2>
+                <div class='inside inside-special text-center col-md-10 col-md-offset-1'>
+                    <h1>{{special.title}}</h1>
+                    <h3>{{special.description}}</h3>
+                </div>
                 <img class='img-responsive proj-img special-img' src="/static/images/images_src/{{special.thumbnail}}.png">
             </div>
 
@@ -88,7 +91,7 @@
 
             <div class="row text-center">
                 {% for project in featured %}
-                <div class='col-md-3 featured-pj' data-toggle='modal' data-target='#Modal'
+                <div class='col-md-3 featured-pj project' data-toggle='modal' data-target='#Modal'
                     data-title='{{project.title}}'
                     data-thumbnail='{{project.thumbnail}}'
                     data-description='{{project.description}}'
@@ -98,6 +101,10 @@
                     data-date='{{project.date}}'
                     data-tools="{{project.tools}}"
                     >
+                    <div class='inside text-center col-md-10 col-md-offset-1'>
+                        <h2>{{project.title}}</h2>
+                        <h4>{{project.description}}</h4>
+                    </div>
                     <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
                 </div>
                 {% endfor %}

@@ -1,7 +1,4 @@
 
-
-
-
 //dynamic modal
 function modalClick(){
     $("#Modal").on('show.bs.modal', function (event) {
@@ -31,8 +28,23 @@ function modalClick(){
     })
 }
 
+
+function projectDisplay(){
+    $(".project")
+        .mouseover( function() {
+            $(this).find('.proj-img').css('opacity', '0')
+            $(this).find('.inside').css('display', 'block')
+        })
+        .mouseout( function() {
+            $(this).find('.proj-img').css('opacity', '1')
+            $(this).find('.inside').css('display', 'none')
+        })
+
+}
+
 function displayAll(){
     modalClick();
+    projectDisplay();
 }
 
 
