@@ -22,7 +22,7 @@ class Project():
         while i < (len(tools) - 1):
             toolString += tools[i] + ", "
             i += 1
-        toolString += "and " + tools[i]
+        toolString += "and " + tools[i] + '.'
 
         self.tools = toolString
         self.thumbnail = thumbnail

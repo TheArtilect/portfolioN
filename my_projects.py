@@ -18,7 +18,7 @@ weather2 = Project("Weather Forecast",
                 "Developed a seven day weather forecast web app utilizing the Weather Underground API.  An update on previous weather app.",
                 "https://weather-169903.appspot.com",
                 "https://github.com/ianagpawa/weather2.0",
-                ["Python", "Google App Engine", "Jinja"],
+                ["Python", "Google App Engine", "Weather Underground API"],
                 "weather2",
                 "Jun. 2017")
 

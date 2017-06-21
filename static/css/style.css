@@ -107,7 +107,10 @@ hr {
     margin-bottom: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
-    font-size: 16px;
+}
+
+#tools{
+    font-size: 0.9em;
 }
 
 #modal-img:hover,
