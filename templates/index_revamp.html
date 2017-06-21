@@ -74,8 +74,8 @@
                 data-date='{{special.date}}'
                 data-tools="{{special.tools}}">
                 <div class='inside inside-special text-center col-md-10 col-md-offset-1'>
-                    <h1>{{special.title}}</h1>
-                    <h3>{{special.description}}</h3>
+                    <h1 class='inside-text'>{{special.title}}</h1>
+                    <h3 class='inside-text'>{{special.description}}</h3>
                 </div>
                 <img class='img-responsive proj-img special-img' src="/static/images/images_src/{{special.thumbnail}}.png">
             </div>
@@ -102,8 +102,8 @@
                     data-tools="{{project.tools}}"
                     >
                     <div class='inside text-center col-md-10 col-md-offset-1'>
-                        <h2>{{project.title}}</h2>
-                        <h4>{{project.description}}</h4>
+                        <h2 class='inside-text'>{{project.title}}</h2>
+                        <h4 class='inside-text'>{{project.description}}</h4>
                     </div>
                     <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
                 </div>
@@ -170,7 +170,7 @@
                         <p id='date-completed'></p>
                     </div>
                     <div class="modal-body">
-                        <p id='project-description'></p>
+                        <!-- <p id='project-description'></p> -->
                         <a id='pj-web-link' target="_blank">
                             <img class="img-responsive"
                             id="modal-img" alt="screenshot of project homepage">

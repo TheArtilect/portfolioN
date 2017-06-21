@@ -41,14 +41,23 @@ hr {
     position: relative;
 }
 
+
 .inside {
     display: none;
     position: absolute;
 }
 
+.inside-text{
+    font-weight: bold;
+    color: white;
+}
+
 .inside-special{
     bottom: 10em;
 }
+
+
+
 
 .project:hover  {
     cursor: pointer;
