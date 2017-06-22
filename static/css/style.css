@@ -1,8 +1,7 @@
 body {
     font-family: 'Cormorant', serif;
     font-weight: 800;
-    background-color: #E2EDF4;
-    color: #404344;
+    background-color: #F4F4F4;
     font-size: 19px;
 
 }
@@ -27,6 +26,7 @@ hr {
     font-size: 40px;
     color: #575757;
     font-weight: 600;
+    font-variant: small-caps;
 }
 
 
@@ -81,8 +81,12 @@ hr {
 
 
 .fa{
-    font-size: 27px;
+    font-size: 28px;
     color: #404344;
+}
+
+.fa-f {
+    margin-left: 2vw;
 }
 
 .fa:hover{

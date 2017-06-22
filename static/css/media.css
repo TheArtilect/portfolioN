@@ -10,9 +10,19 @@
         width: 20%;
     }
 
-    .text-muted{
-        text-align: center;
+
+    .inside-special,
+    .inside-pj {
+        width: 50vw;
+        margin-left: 18vw;
+        margin-right: 18vw;
+        margin-top: 15vh;
     }
+
+    .fa-row {
+        margin-top: 2vh;
+    }
+
 }
 
 
