@@ -7,8 +7,9 @@
     </div>
 </div>
 <div class="text-center container-fluid" id='projects'>
+    <div class='row pj-row'>
     {% for project in projects %}
-    <div class='col-md-3 project-pj' data-toggle='modal' data-target='#Modal'
+    <div class='col-md-3 project-pj project' data-toggle='modal' data-target='#Modal'
         data-title='{{project.title}}'
         data-thumbnail='{{project.thumbnail}}'
         data-description='{{project.description}}'
@@ -18,9 +19,17 @@
         data-date='{{project.date}}'
         data-tools="{{project.tools}}"
         >
+        <div class='inside inside-pj container text-center'>
+
+            <h2 class='inside-text'>{{project.title}}</h2>
+
+            <h4 class='inside-text'>{{project.description}}</h4>
+
+        </div>
         <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
     </div>
     {% endfor %}
+    </div>
 
 </div>
 
