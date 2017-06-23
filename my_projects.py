@@ -229,4 +229,4 @@ special = catalog
 featured = [chronicle, tacohub, weather2, simon]
 
 projects = [synchronicity, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
-            timestamp, metadata, weather, finance, tribute, blog, portfolio]
+            timestamp, metadata, weather, finance, tribute, blog, portfolio, chronicle, tacohub, weather2, simon, catalog]
