@@ -3,12 +3,10 @@ body {
     font-weight: 800;
     background-color: #F4F4F4;
     font-size: 19px;
-
 }
 
 #header{
     margin-top: 1vh;
-    color: #535F6B;
 }
 
 
@@ -17,14 +15,13 @@ hr {
 }
 
 .text-muted{
-    color: #606D7B;
+    color: #575757;
     font-weight: bold;
 
 }
 
 .title-super {
     font-size: 40px;
-    color: #575757;
     font-weight: 600;
     font-variant: small-caps;
 }
@@ -50,10 +47,17 @@ hr {
 .inside-text{
     font-weight: bold;
     color: white;
+    margin-right: 3vw;
 }
 
 .inside-special{
     bottom: 10em;
+}
+
+.inside-pj {
+
+    width: 25vw;
+
 }
 
 

@@ -1,5 +1,5 @@
 from Handler import Handler
-from my_projects import featured, projects, special
+from my_projects import featured, special
 
 class FrontPage(Handler):
     def get(self):
