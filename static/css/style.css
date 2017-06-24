@@ -3,7 +3,7 @@ body {
     font-weight: 800;
     /*background-color: #F4F4F4;*/
     font-size: 19px;
-    background-image: url('/static/images/images_src/fixed/cheap_diagonal_fabric.png')
+    background-image: url('/static/images/images_src/fixed/fabric_of_squares_gray.png')
 }
 
 #header{
@@ -26,6 +26,7 @@ hr {
     font-weight: 600;
     font-variant: small-caps;
 }
+
 
 
 .featured-pj:hover,
@@ -118,6 +119,7 @@ hr {
     padding-bottom: 3px;
 }
 
+
 #tools{
     font-size: 0.9em;
 }
@@ -204,4 +206,23 @@ footer{
 .inside-pj-all {
     margin-top: 5vh;
     width: 25vw;
+}
+
+
+/*PROJECTS*/
+
+.pj-tile{
+    margin-top: 8vh;
+}
+
+.pj-left-text{
+    font-weight: bold;
+}
+
+.website-link{
+    color: black;
+}
+
+.pj-bottom{
+    position: 200px;
 }
