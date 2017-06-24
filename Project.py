@@ -29,7 +29,7 @@ class Project():
 
 
 
-        toolString = "Made with: " + toolString
+        toolString = "Made with " + toolString
 
         self.tools = toolString
         self.thumbnail = thumbnail

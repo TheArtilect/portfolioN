@@ -63,13 +63,14 @@ function showcaseProject(){
         var date = info.date
         var tools = info.tools
 
-        // $("#showcase").css("background-image", "url('/static/images/" + thumbnail + "-600.jpg')")
+        $("#showcase").css("background-image", "url('/static/images/" + thumbnail + "-600.jpg')")
 
         $("#direction").hide()
 
         $("#showcase-title").text(title)
         $("#showcase-description").text(description)
         $("#showcase-details").text(details)
+        $("#showcase-date").text(date)
 
         $("#showcase-website").text(url)
         $("#showcase-link").attr("href", url)

@@ -3,24 +3,61 @@
 {% block content %}
 
 <div class='container-fluid'>
-    <div class='col-md-10 col-md-offset-1 text-center showcase-project' id='showcase'>
+    <div class='col-md-8 col-md-offset-1 text-center showcase-project' id='showcase'>
         <h1 class='showcase-project-text' id='direction'>Click on a project to display details.</h1>
-        <h1  class='showcase-project-text' id='showcase-title'>
-        </h1>
-        <h2  class='showcase-project-text' id='showcase-description'>
-        </h2>
-        <h3 class='showcase-project-text' id='showcase-details'></h3>
-        <a id='showcase-link'>
-            <h4 class='showcase-project-text' id='showcase-website'></h4>
-        </a>
-        <a id='showcase-git'>
-            <h4 class='showcase-project-text' id='showcase-repo'></h4>
-        </a>
-        <h3 class='showcase-project-text' id='showcase-tools'>
-        </h3>
+        <div class='col-md-5 col-md-offset-6 text-left' id='showcase-top-right'>
+
+            <h1  class='showcase-project-text' id='showcase-title'>
+            </h1>
+            <h2  class='showcase-project-text' id='showcase-description'>
+            </h2>
+            <h3 class='showcase-project-text' id='showcase-date'></h3>
+            <a id='showcase-link'>
+                <h4 class='showcase-project-text' id='showcase-website'></h4>
+            </a>
+            <a id='showcase-git'>
+                <h4 class='showcase-project-text' id='showcase-repo'></h4>
+            </a>
+        </div>
+        <div class='col-md-12 text-left' id='showcase-bottom'>
+            <div class='col-md-9'>
+                <h3 class='showcase-project-text' id='showcase-details'></h3>
+
+                <h3 class='showcase-project-text' id='showcase-tools'>
+                    </h3>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="text-center col-md-12" id='projects'>
+        <div class='row pj-row'>
+        {% for project in projects %}
+        <div class='col-md-3 project-pj project' data-target='#showcase'
+            data-title='{{project.title}}'
+            data-thumbnail='{{project.thumbnail}}'
+            data-description='{{project.description}}'
+            data-details="{{project.details}}"
+            data-url="{{project.url}}"
+            data-repo="{{project.repo}}"
+            data-date='{{project.date}}'
+            data-tools="{{project.tools}}"
+            >
+            <div class='inside inside-pj inside-pj-all text-center'>
+
+                <h2 class='inside-text all'>{{project.title}}</h2>
+
+                <h4 class='inside-text all'>{{project.description}}</h4>
+
+            </div>
+            <img class='img-responsive proj-img all-img' src="/static/images/{{project.thumbnail}}-600.jpg">
+        </div>
+        {% endfor %}
+        </div>
+
     </div>
 </div>
-<div class="text-center container-fluid" id='projects'>
+<!-- <div class="text-center container-fluid" id='projects'>
     <div class='row pj-row'>
     {% for project in projects %}
     <div class='col-md-3 project-pj project' data-target='#showcase'
@@ -45,7 +82,7 @@
     {% endfor %}
     </div>
 
-</div>
+</div> -->
 
 
 {% endblock %}
