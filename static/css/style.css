@@ -159,3 +159,12 @@ footer{
     overflow: auto;
     white-space: nowrap;
 }
+
+.all {
+    margin: 1vw;
+}
+
+.inside-pj-all {
+    margin-top: 5vh;
+    width: 25vw;
+}

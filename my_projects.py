@@ -23,7 +23,7 @@ weather2 = Project("Weather Forecast",
                 "Jun. 2017")
 
 tacohub = Project("TacoHub",
-                "Neighborhood map of Spanish Harlem's finest tacos.",
+                "Map of Spanish Harlem's finest tacos.",
                 "Developed single-page application that utilizes Foursquare API to asynchronously display restaurant info on Google Maps.  Implemented functionality of dynamically updating and filtering restaurant map markers and info with Knockoutjs.",
                 "https://tacohub-155203.appspot.com/",
                 "https://github.com/ianagpawa/neighborhood-map",
@@ -50,7 +50,7 @@ catalog = Project("Music Catalog",
                 "Dec. 2016")
 
 synchronicity = Project("The Synchronicity Collective",
-                "Multi-user blog focusing on music and personal history curated with snippets of prose.",
+                "Multi-user music blog.",
                 "Built an authentication system for users to register, sign in, and then create posts.  Set permissions so that only users can 'Like' and comment on posts.  Developed database schema for storing users and their content.",
                 "https://synchronicity-collective.appspot.com/",
                 "https://github.com/ianagpawa/synchronicity",
@@ -68,8 +68,7 @@ image = Project("Image Search",
                 "Oct. 2016")
 
 shortener = Project("Url Shortener",
-                ("A url shortener microservice.  Shortened url addresses "
-                "redirect to the original url.  First project using MongoDB."),
+                ("A url shortener microservice."),
                 "Developed API endpoint for shortening url addresses.  Set up MongoDB to store and map shortened URLs to their original address for later retrieval and use.",
                 "https://u-short.herokuapp.com",
                 "https://github.com/ianagpawa/urlShortener",
@@ -98,7 +97,7 @@ simon = Project("Simon Says",
 
 quote = Project("Random Quote Generator",
                 "A few of my favorite quotes.",
-                "My first Javascript project.",
+                "",
                 "https://rand-quote-gen.herokuapp.com",
                 "https://github.com/ianagpawa/random-quote",
                 ["Ruby on Rails", "Heroku"],
@@ -127,8 +126,7 @@ calculator = Project("Javascript Calculator",
                 "Jun. 2016")
 
 pomodoro = Project("Pomodoro Productivity Timer",
-                ("A timer that can be used to for cooking pomodoro sauce or "
-                "scheduling productivity."),
+                ("Productivity timer."),
                 "First project utilizing setInterval().",
                 "https://pomodoro-timer-ia.herokuapp.com",
                 "https://github.com/ianagpawa/pomodoro",
@@ -137,10 +135,10 @@ pomodoro = Project("Pomodoro Productivity Timer",
                 "Jun. 2016")
 
 metadata = Project("File Metadata",
-                ("A file metadata microservice.  Uploading files will return "
+                ("A file metadata microservice."),
+                "Uploading files will return "
                 "a  JSON object of the file's name, file type, and size"
-                " in bytes."),
-                "",
+                " in bytes.",
                 "https://metadata-ia.herokuapp.com",
                 "https://github.com/ianagpawa/metadata",
                 ["Express", "Node", "Heroku"],
@@ -179,7 +177,7 @@ twitch = Project("Twitch",
 
 
 wiki = Project("Wiki",
-                ("For searching and viewing a listing of wikipedia articles. "),
+                ("Search and view a listing of Wikipedia articles."),
                 "Utilized Wikipedia API.",
                 "https://wiki-it-ia.herokuapp.com",
                 "https://github.com/ianagpawa/wiki",
