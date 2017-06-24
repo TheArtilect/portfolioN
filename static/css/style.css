@@ -1,8 +1,9 @@
 body {
     font-family: 'Cormorant', serif;
     font-weight: 800;
-    background-color: #F4F4F4;
+    /*background-color: #F4F4F4;*/
     font-size: 19px;
+    background-image: url('/static/images/images_src/fixed/cheap_diagonal_fabric.png')
 }
 
 #header{
@@ -149,7 +150,7 @@ footer{
     /*font-weight: bold;*/
     /*background-color: red;*/
     background-repeat: no-repeat;
-    margin-top: 5vh;
+    margin-top: 7vh;
     margin-left: 15vw;
 }
 
@@ -162,7 +163,7 @@ footer{
 
 #showcase-title,
 #direction {
-    margin-top: 10vh;
+    margin-top: 8vh;
 }
 
 #direction{
