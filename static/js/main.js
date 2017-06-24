@@ -47,9 +47,46 @@ function projectDisplay(){
 
 }
 
+function showcaseProject(){
+    $(".project-pj").on('click',function(){
+
+
+
+        var info = $(this).data()
+
+        var title = info.title
+        var thumbnail = info.thumbnail
+        var description = info.description
+        var details = info.details
+        var url = info.url
+        var repo = info.repo
+        var date = info.date
+        var tools = info.tools
+
+        // $("#showcase").css("background-image", "url('/static/images/" + thumbnail + "-600.jpg')")
+
+        $("#direction").hide()
+
+        $("#showcase-title").text(title)
+        $("#showcase-description").text(description)
+        $("#showcase-details").text(details)
+
+        $("#showcase-website").text(url)
+        $("#showcase-link").attr("href", url)
+
+        $("#showcase-repo").text("Github Repo")
+        $("#showcase-git").attr('href', repo)
+
+        $("#showcase-tools").text(tools)
+
+
+    })
+}
+
 function displayAll(){
     modalClick();
     projectDisplay();
+    showcaseProject();
 }
 
 

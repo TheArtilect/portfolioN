@@ -142,12 +142,32 @@ footer{
 
 
 /*Other Projects*/
+#showcase{
+    display: block;
+    width: 80vw;
+    height: 72vh;
+    /*font-weight: bold;*/
+    background-color: red;
+
+}
+
+
+#showcase-title,
+#direction {
+    margin-top: 15vh;
+}
+
+.showcase-project-text{
+    font-weight: bold;
+}
+
 
 .project-pj{
     margin: 0;
     padding: 0;
     display: inline-block;
     float: none;
+
 }
 
 .project-pj:hover{

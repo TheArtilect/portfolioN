@@ -1,7 +1,7 @@
 import webbrowser
 import json
 
-from projects import Project
+from Project import Project
 # import transform
 
 chronicle = Project("Tech Blog",
@@ -33,7 +33,7 @@ tacohub = Project("TacoHub",
 
 audacious = Project("Audacious",
                 "Simple script for music playlists.",
-                [""],
+                "",
                 "https://github.com/ianagpawa/audacious",
                 "https://github.com/ianagpawa/audacious",
                 ["Python"],
