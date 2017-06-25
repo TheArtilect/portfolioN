@@ -85,19 +85,6 @@ hr {
     border: 2px solid #828283;
 }
 
-.pj-tile:hover{
-    opacity: 0.8;
-}
-
-.pj-title{
-    margin-top: 2vh;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-#project-description {
-    margin-top: 1vh;
-}
 
 
 .fa{
@@ -168,18 +155,26 @@ footer{
     margin-top: 5vh;
 }
 
-.website{
-    font-variant: small-caps;
-}
 
 .pj-left-text{
     font-weight: bold;
 }
 
+.description{
+    margin-top: 3vh;
+    margin-bottom:2vh;
+}
 .pj-icon{
     color: black;
     display: inline;
     font-size: 40px;
+}
+
+
+.pj-icon-git{
+    margin-left: 5vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
 a:hover{
@@ -190,10 +185,11 @@ a:hover{
 
 }
 
-.pj-icon-git{
-    margin-left: 3vw;
-    margin-right: 2vw;
+.pj-hr {
+    margin-top: 5vh;
 }
+
+
 
 
 .pj-bottom{

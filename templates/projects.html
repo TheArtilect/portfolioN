@@ -6,32 +6,37 @@
     <div class='col-md-12 text-center projects-page'>
         <h1>Projects</h1>
     </div>
-    <div class="text-right col-md-12" id='projects'>
+    <div class="text-left col-md-12" id='projects'>
 
         {% for project in projects %}
 
         <div class='row col-md-10 col-md-offset-1 pj-tile'>
-            <div class='col-md-5 pj-left bold'>
-                <h1 class="pj-left-text">{{project.title}}</h1>
+            <div class='col-md-offset-2 col-md-4 pj-left bold'>
+                <h1 class="pj-left-text text-center">{{project.title}}</h1>
                 <h5 class="pj-left-text">{{project.date}}</h5>
-                <h4 class="pj-left-text description">{{project.description}}</h4>
+                <h3 class="pj-left-text description">{{project.description}}</h3>
                 <h4 class='pj-left-text tools'>{{project.tools}}</h4>
-                <a href="{{project.url}}" class='pj-icon links' target="_blank">
-                    <i class="fa fa-link pj-icon" aria-hidden="true"></i>
-                </a>
-                <a href="{{project.repo}}" class='pj-icon links' target="_blank">
-                    <i class="fa fa-github-square pj-icon pj-icon-git"></i>
-                </a>
+                <div class='links text-center'>
+                    <a href="{{project.url}}" class='pj-icon links' target="_blank">
+                        <i class="fa fa-link pj-icon pj-icon-link" aria-hidden="true"></i>
+                    </a>
+                    <a href="{{project.repo}}" class='pj-icon links' target="_blank">
+                        <i class="fa fa-github-square pj-icon pj-icon-git"></i>
+                    </a>
+                </div>
             </div>
 
-            <div class='col-md-6  pj-right'>
+            <div class='col-md-5  pj-right'>
                 <div class='inside col-md-12 inside-pj-all text-left'>
                     <h4 class='inside-text all'>{{project.details}}</h4>
                 </div>
 
                 <img class='img-responsive proj-img all-img' src="/static/images/{{project.thumbnail}}-600.jpg">
             </div>
+
         </div>
+
+        <hr class='col-md-8 col-md-offset-2 pj-hr'>
 
         {% endfor %}
     </div>
