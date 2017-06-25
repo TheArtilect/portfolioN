@@ -191,6 +191,10 @@ footer{
     margin-top: 3vh;
 }
 
+.fa-row{
+    margin-left: 2vw;
+}
+
 /*PROJECTS*/
 .projects-page h1{
     font-weight: bold;
