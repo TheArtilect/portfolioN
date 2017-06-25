@@ -3,43 +3,39 @@
 {% block content %}
 
 <div class='container-fluid'>
+    <div class='col-md-12 text-center projects-page'>
+        <h1>Projects</h1>
+    </div>
     <div class="text-right col-md-12" id='projects'>
 
         {% for project in projects %}
+
         <div class='row col-md-10 col-md-offset-1 pj-tile'>
             <div class='col-md-5 pj-left bold'>
                 <h1 class="pj-left-text">{{project.title}}</h1>
-                <h5 class="pj-left-text">{{project.date}}<h5>
+                <h5 class="pj-left-text">{{project.date}}</h5>
                 <h4 class="pj-left-text description">{{project.description}}</h4>
                 <h4 class='pj-left-text tools'>{{project.tools}}</h4>
-                <p class='pj-left-text details'>{{project.details}}</p>
-
-                <p class='pj-left-text pj-bottom'><a href="{{project.repo}}">
-                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                <a href="{{project.url}}" class='pj-icon links' target="_blank">
+                    <i class="fa fa-link pj-icon" aria-hidden="true"></i>
                 </a>
-                </p>
+                <a href="{{project.repo}}" class='pj-icon links' target="_blank">
+                    <i class="fa fa-github-square pj-icon pj-icon-git"></i>
+                </a>
             </div>
-            <div class='col-md-6 col-md-offset-1' data-target='#showcase'
-                data-title='{{project.title}}'
-                data-thumbnail='{{project.thumbnail}}'
-                data-description='{{project.description}}'
-                data-details="{{project.details}}"
-                data-url="{{project.url}}"
-                data-repo="{{project.repo}}"
-                data-date='{{project.date}}'
-                data-tools="{{project.tools}}"
-                >
-                <a href="{{project.url}}" class='website-link' target="_blank">
-                    <img class='img-responsive proj-img all-img' src="/static/images/{{project.thumbnail}}-600.jpg">
-                </a>
 
+            <div class='col-md-6  pj-right'>
+                <div class='inside col-md-12 inside-pj-all text-left'>
+                    <h4 class='inside-text all'>{{project.details}}</h4>
+                </div>
+
+                <img class='img-responsive proj-img all-img' src="/static/images/{{project.thumbnail}}-600.jpg">
             </div>
         </div>
 
         {% endfor %}
-
-
     </div>
+
 </div>
 
 {% endblock %}

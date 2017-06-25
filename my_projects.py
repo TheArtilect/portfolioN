@@ -226,5 +226,5 @@ portfolio = Project("Portfolio",
 special = catalog
 featured = [chronicle, tacohub, weather2, simon]
 
-projects = [synchronicity, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
-            timestamp, metadata, weather, finance, tribute, blog, portfolio, chronicle, tacohub, weather2, simon, catalog]
+projects = [catalog, chronicle, tacohub, weather2, simon, synchronicity, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
+            timestamp, metadata, weather, finance, tribute, blog, portfolio]

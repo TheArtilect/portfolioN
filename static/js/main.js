@@ -31,16 +31,18 @@ function modalClick(){
 
 
 function projectDisplay(){
-    $(".project")
+    $(".project, .pj-right")
         .mouseover( function() {
             $(this).find('.proj-img').css('opacity', '0')
             $(this).find('.inside').css('display', 'block')
+            $(this).find(".pj-icon").css('color', 'white')
 
             $(this).css('background-color', "black")
         })
         .mouseout( function() {
             $(this).find('.proj-img').css('opacity', '1')
             $(this).find('.inside').css('display', 'none')
+            $(this).find(".pj-icon").css('color', 'initial')
 
             $(this).css('background-color', "initial")
         })
@@ -48,9 +50,11 @@ function projectDisplay(){
 }
 
 
+
 function displayAll(){
     modalClick();
     projectDisplay();
+    // allProjects();
 }
 
 

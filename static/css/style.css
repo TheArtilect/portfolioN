@@ -21,6 +21,17 @@ hr {
 
 }
 
+#featured h2{
+    display: inline;
+}
+
+.featured-works{
+    text-decoration: underline;
+}
+
+#projects-page-link{
+
+}
 .title-super {
     font-size: 40px;
     font-weight: 600;
@@ -53,11 +64,11 @@ hr {
 }
 
 .inside-special{
-    bottom: 10em;
+    bottom: 12em;
 }
 
 .inside-pj {
-
+    margin-top: 5vh;
     width: 25vw;
 
 }
@@ -74,6 +85,9 @@ hr {
     border: 2px solid #828283;
 }
 
+.pj-tile:hover{
+    opacity: 0.8;
+}
 
 .pj-title{
     margin-top: 2vh;
@@ -143,86 +157,49 @@ footer{
     font-size: 20px;
 }
 
-
-/*Other Projects*/
-#showcase{
-    display: block;
-    width: 80vw;
-    height: 60vh;
-    /*font-weight: bold;*/
-    /*background-color: red;*/
-    background-repeat: no-repeat;
-    margin-top: 7vh;
-    margin-left: 15vw;
-}
-
-
-#showcase-bottom{
-    margin-top: 3vh;
-    margin-left: -5vh;
-}
-
-
-#showcase-title,
-#direction {
-    margin-top: 8vh;
-}
-
-#direction{
-    margin-left: -15vw;
-}
-
-.showcase-project-text{
-    font-weight: bold;
-}
-
-
-.project-pj{
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    float: none;
-    margin-top: 5vh;
-}
-
-.project-pj:hover{
-    cursor: pointer;
-}
-
-
-.all-img{
-    height: 25
-}
-.pj-row {
-    overflow-x: scroll;
-    overflow: auto;
-    white-space: nowrap;
-}
-
-.all {
-    margin: 1vw;
-}
-
-.inside-pj-all {
-    margin-top: 5vh;
-    width: 25vw;
-}
-
-
 /*PROJECTS*/
+.projects-page h1{
+    font-weight: bold;
+    font-variant:small-caps;
+    font-size: 4em;
+}
 
 .pj-tile{
-    margin-top: 8vh;
+    margin-top: 5vh;
+}
+
+.website{
+    font-variant: small-caps;
 }
 
 .pj-left-text{
     font-weight: bold;
 }
 
-.website-link{
+.pj-icon{
     color: black;
+    display: inline;
+    font-size: 40px;
 }
+
+a:hover{
+    text-decoration: none;
+}
+.links:hover{
+    color: orange;
+
+}
+
+.pj-icon-git{
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+
 
 .pj-bottom{
     position: 200px;
+}
+
+.inside-pj-all h4{
+    margin-top: 4vh;
 }
