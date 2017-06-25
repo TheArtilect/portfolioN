@@ -6,7 +6,6 @@
 
         <div class='container-fluid'>
 
-            <hr>
             <div class='col-md-8 col-md-offset-2 special-pj project' data-toggle='modal' data-target='#Modal'
                 data-title='{{special.title}}'
                 data-thumbnail='{{special.thumbnail}}'
@@ -32,11 +31,6 @@
         <div class="col-md-12 text-left"  id="featured">
             <div class='container-fluid'>
                 <h2 class="text-muted col-md-3 featured-works ">Featured Works</h2>
-                <h2 class="text-right col-md-3 col-md-offset-6">
-                    <a href='/projects' id='projects-page-link' class='text-muted'>
-                        All Projects
-                    </a>
-                </h2>
             </div>
                 <hr>
 
@@ -82,7 +76,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h3 class="modal-title" id="myModalLabel"></h3>
-                        
+
                     </div>
                     <div class="modal-body">
 
@@ -95,7 +89,11 @@
                         <p id='details'></p>
 
                         <p id='tools'></p>
-                        <a target="_blank" id="git-repo">
+                        <a target="_blank" id='web-link' class='modal-link'>
+                            <i class="fa fa-link"
+                                aria-hidden="true"></i>
+                        </a>
+                        <a target="_blank" id="git-repo" class='modal-link'>
                             <i class="fa fa-github" id='github-link'
                                 aria-hidden="true"></i>
                         </a>

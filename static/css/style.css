@@ -2,7 +2,7 @@ body {
     font-family: 'Cormorant', serif;
     font-weight: 800;
     /*background-color: #F4F4F4;*/
-    font-size: 19px;
+    font-size: 20px;
     background-image: url('/static/images/images_src/fixed/fabric_of_squares_gray.png')
 }
 
@@ -10,6 +10,14 @@ body {
     margin-top: 1vh;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
+.fa:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
 
 hr {
     border-top: 1px solid #868889;
@@ -21,23 +29,55 @@ hr {
 
 }
 
+
+/* NAV */
+
+#close-btn{
+    font-size: 50px;
+}
+
+#fixed-side-nav{
+  position: fixed;
+  top: 0;
+  left: 5vw;
+  z-index: 9999;
+  width: 10vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.01);
+  overflow-x: hidden;
+  padding-top: 1vh;
+
+}
+
+.nav-li{
+  list-style-type: none;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: block;
+  float: right;
+  color: black;
+
+}
+
+.h-li:hover{
+    color: red;
+}
+
+.h-li{
+  display: none;
+}
+
+
+
 #featured h2{
     display: inline;
 }
 
-.featured-works{
-    text-decoration: underline;
-}
-
-#projects-page-link{
-
-}
 .title-super {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
     font-variant: small-caps;
 }
-
 
 
 .featured-pj:hover,
@@ -113,6 +153,11 @@ hr {
     background-color: #F2F1F1;
 }
 
+.modal-link{
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
 #details{
     margin-top: 3px;
     margin-bottom: 3px;
@@ -125,8 +170,7 @@ hr {
     font-size: 0.9em;
 }
 
-#modal-img:hover,
-.fa:hover {
+#modal-img:hover {
     opacity: 0.6;
 }
 
@@ -177,9 +221,8 @@ footer{
     margin-bottom: 4vh;
 }
 
-a:hover{
-    text-decoration: none;
-}
+
+
 .links:hover{
     color: orange;
 
@@ -187,13 +230,6 @@ a:hover{
 
 .pj-hr {
     margin-top: 5vh;
-}
-
-
-
-
-.pj-bottom{
-    position: 200px;
 }
 
 .inside-pj-all h4{
