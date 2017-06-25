@@ -10,6 +10,7 @@ body {
     margin-top: 1vh;
 }
 
+
 a:hover{
     text-decoration: none;
 }
@@ -34,6 +35,7 @@ hr {
 
 #close-btn{
     font-size: 50px;
+    color: #575757;
 }
 
 #fixed-side-nav{
@@ -51,18 +53,22 @@ hr {
 
 .nav-li{
   list-style-type: none;
-  padding: 5px 15px;
+  padding: 11px 15px;
   text-decoration: none;
   display: block;
   float: right;
 
 }
 
+.n-link{
+    color: #575757;
+}
 
 .h-li{
   display: none;
 }
 
+/*FRONTPAGE*/
 
 
 #featured h2{
@@ -70,7 +76,7 @@ hr {
 }
 
 .title-super {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 600;
     font-variant: small-caps;
 }
@@ -136,6 +142,7 @@ hr {
     color: #8F5C00;
 }
 
+/*MODAL*/
 .modal-header,
 .modal-footer{
     background-color: #404344;

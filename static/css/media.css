@@ -1,15 +1,32 @@
 
 
-@media screen and (max-width: 949px){
+@media screen and (min-width: 700px) and (max-width: 990px){
 
     #name{
-        margin-top: -7vh;
+        font-size: 35px;
+    }
+
+    #job{
+        font-size: 15px;
     }
 
     .title-logo {
         width: 20%;
     }
 
+
+    #close-btn{
+        font-size: 30px;
+        margin-top: 2vh;
+    }
+
+    .nav-li{
+      padding: 0;
+    }
+
+    .featured-works{
+        font-size: 5px;
+    }
 
     .inside-special,
     .inside-pj {
@@ -33,12 +50,11 @@
         width: 100vw;
     }
 
-    #name {
-        font-size: 40px;
-    }
+
     .text-muted{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bold;
+        text-align: center;
     }
 
     .project{
