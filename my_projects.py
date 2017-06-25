@@ -4,6 +4,16 @@ import json
 from Project import Project
 # import transform
 
+portfolio = Project("Portfolio",
+                    "Personal portfolio of projects.",
+                    "Developed ",
+                    "",
+                    "https://ian-agpawa.appspot.com/",
+                    "https://github.com/ianagpawa/portfolio",
+                    ["Python", "Jinja2", "Webapp2", "Grunt", "Google App Engine"],
+                    "Oct. 2017"
+
+                    )
 chronicle = Project("Tech Blog",
                     "Personal tech blog.",
                     "Developed a blog chronicling personal tech projects.",
@@ -212,7 +222,7 @@ blog = Project("AlphaBlog",
                 "alpha",
                 "Jan. 2016")
 
-portfolio = Project("Portfolio",
+portfolio_old = Project("Portfolio",
                     ("Personal Portfolio - NO LONGER USED."),
                     "",
                     "https://ian-agpawa.herokuapp.com",
@@ -226,5 +236,5 @@ portfolio = Project("Portfolio",
 special = catalog
 featured = [chronicle, tacohub, weather2, simon]
 
-projects = [catalog, chronicle, tacohub, weather2, simon, synchronicity, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
-            timestamp, metadata, weather, finance, tribute, blog, portfolio]
+projects = [special] + featured + [synchronicity, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
+            timestamp, metadata, weather, finance, tribute, blog, portfolio_old]

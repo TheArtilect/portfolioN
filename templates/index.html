@@ -1,94 +1,48 @@
-<!DOCTYPE html>
-<html>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta name="viewport" content='width=device-width, initial-scale=1'>
-    <meta name="author" content="Ian Agpawa">
-    <meta name="description" content="Ian Agpawa's Portfolio">
-    <title>Ian Agpawa Portfolio</title>
+{% extends "base.html" %}
 
-    <link href="https://fonts.googleapis.com/css?family=Cormorant"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-    <link
-        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
-    <link href="/static/css/style.css" rel="stylesheet">
-    <link href="/static/css/media.css" rel="stylesheet">
+{% block content %}
+    <div class="container-fluid">
 
+        <div class='container-fluid'>
 
-    <script crossorigin="anonymous"
-        src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous">
-    </script>
-    <!-- <script type="text/javascript" src="static/js/projects.js"></script> -->
-    <script type="text/javascript" src="static/js/main.js"></script>
-
-  </head>
-
-  <body>
+            <hr>
+            <div class='col-md-8 col-md-offset-2 special-pj project' data-toggle='modal' data-target='#Modal'
+                data-title='{{special.title}}'
+                data-thumbnail='{{special.thumbnail}}'
+                data-description='{{special.description}}'
+                data-details="{{special.details}}"
+                data-url="{{special.url}}"
+                data-repo="{{special.repo}}"
+                data-date='{{special.date}}'
+                data-tools="{{special.tools}}">
+                <div class='inside inside-special text-center col-md-10 col-md-offset-1'>
+                    <h1 class='inside-text'>{{special.title}}</h1>
+                    <h3 class='inside-text'>{{special.description}}</h3>
+                </div>
+                <img class='img-responsive proj-img special-img' src="/static/images/images-jpg/{{special.thumbnail}}.jpg">
+            </div>
 
 
-    <div class="container">
+        </div>
+        <br>
 
 
-        <header>
-            <div class="row" id='header'>
-
-                <div class="col-md-2">
-                    <a href="https://github.com/ianagpawa/u-portfolio"
-                        target="_blank">
-                        <img class="title-logo img-responsive"
-                        src="/static/images/images_src/fixed/100kitten.jpg"
-                        alt='placeholder image of a kitten
-                        from http://placekitten.com'>
+        <section class='container-fluid'>
+        <div class="col-md-12 text-left"  id="featured">
+            <div class='container-fluid'>
+                <h2 class="text-muted col-md-3 featured-works ">Featured Works</h2>
+                <h2 class="text-right col-md-3 col-md-offset-6">
+                    <a href='/projects' id='projects-page-link' class='text-muted'>
+                        All Projects
                     </a>
-                </div>
-
-                <div class="col-md-4 col-md-offset-6 text-right">
-                    <h1 class="title-super" id="name">IAN AGPAWA</h1>
-                    <h3 id='job'>Web Developer</h3>
-                </div>
-
+                </h2>
             </div>
-        </header>
-
-
-
-        <div class="row">
-            <div class="col-md-12">
                 <hr>
-                <img class="img-responsive"
-                src="/static/images/images_src/fixed/350kittens.jpg"
-              alt='placeholder image of kittens from http://placekitten.com'>
-            </div>
-        </div>
-        <hr>
 
-
-        <section>
-        <div class='container'>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-muted">Featured Works</h2>
-                </div>
-
-
-            </div>
-
-
-            <div class="row text-center" id="featured">
+            <div class="row text-center">
                 {% for project in featured %}
-                <div class='col-md-6 featured-pj' data-toggle='modal' data-target='#Modal'
+                <div class='col-md-3 featured-pj project' data-toggle='modal' data-target='#Modal'
                     data-title='{{project.title}}'
                     data-thumbnail='{{project.thumbnail}}'
                     data-description='{{project.description}}'
@@ -98,84 +52,22 @@
                     data-date='{{project.date}}'
                     data-tools="{{project.tools}}"
                     >
+                    <div class='inside inside-pj container text-center'>
+
+                        <h2 class='inside-text'>{{project.title}}</h2>
+
+                        <h4 class='inside-text'>{{project.description}}</h4>
+
+                    </div>
                     <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
                 </div>
                 {% endfor %}
             </div>
         </div>
 
-
-        <hr>
-        <div class='container'>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-muted">Projects</h2>
-                </div>
-            </div>
-
-            <div class="row text-center" id='projects'>
-                {% for project in projects %}
-                <div class='col-md-4 project-pj' data-toggle='modal' data-target='#Modal'
-                    data-title='{{project.title}}'
-                    data-thumbnail='{{project.thumbnail}}'
-                    data-description='{{project.description}}'
-                    data-details="{{project.details}}"
-                    data-url="{{project.url}}"
-                    data-repo="{{project.repo}}"
-                    data-date='{{project.date}}'
-                    data-tools="{{project.tools}}"
-                    >
-                    <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
-                </div>
-                {% endfor %}
-
-            </div>
-
-        </div>
         </section>
 
-        <hr>
-        <footer class="row">
-            <div class="col-md-2 col-md-offset-1">
-                <p> &copy; 2016 Ian Agpawa</p>
-            </div>
-            <div class="col-md-3">
-                 <i class="fa fa-google fa-f"></i> agpawaji@gmail.com
-            </div>
 
-            <div class="col-md-1 text-justify">
-                <a href="https://www.linkedin.com/in/ianagpawa"
-                    target="_blank" class="letter">
-                    <i class="fa fa-linkedin-square fa-f"></i>
-                </a>
-            </div>
-
-            <div class="col-md-1 text-justify">
-                <a href="https://github.com/ianagpawa" target="_blank"
-                    class="letter">
-                  <i class="fa fa-github-square fa-f"></i>
-                </a>
-            </div>
-
-            <div class="col-md-1 text-justify">
-                <a href="http://www.freecodecamp.com/theartilect"
-                    target="_blank" class="letter">
-                   <i class="fa fa-fire fa-f"></i>
-                 </a>
-            </div>
-
-            <div class="col-md-1 text-justify">
-                <a href="https://twitter.com/theartilect" target="_blank"
-                    class="letter">
-                    <i class="fa fa-twitter fa-f"></i>
-                </a>
-            </div>
-
-
-
-
-
-        </footer>
 
     </div>   <!-- body container -->
 
@@ -190,16 +82,16 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h3 class="modal-title" id="myModalLabel"></h3>
-                        <p id='date-completed'></p>
+                        
                     </div>
                     <div class="modal-body">
-                        <p id='project-description'></p>
+
                         <a id='pj-web-link' target="_blank">
                             <img class="img-responsive"
                             id="modal-img" alt="screenshot of project homepage">
                         </a>
 
-
+                        <br>
                         <p id='details'></p>
 
                         <p id='tools'></p>
@@ -218,6 +110,4 @@
         </div>
     </section>
 
-</body>
-
-</html>
+{% endblock content %}
