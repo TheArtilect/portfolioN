@@ -1,8 +1,8 @@
 body {
     font-family: 'Cormorant', serif;
     font-weight: 800;
-    /*background-color: #F4F4F4;*/
     font-size: 20px;
+    color: #575757;
     background-image: url('/static/images/images_src/fixed/fabric_of_squares_gray.png')
 }
 
@@ -55,13 +55,9 @@ hr {
   text-decoration: none;
   display: block;
   float: right;
-  color: black;
 
 }
 
-.h-li:hover{
-    color: red;
-}
 
 .h-li{
   display: none;
@@ -185,7 +181,7 @@ hr {
 
 
 footer{
-    font-size: 20px;
+    margin-top: 3vh;
 }
 
 /*PROJECTS*/
@@ -209,14 +205,13 @@ footer{
     margin-bottom:2vh;
 }
 .pj-icon{
-    color: black;
     display: inline;
     font-size: 40px;
 }
 
 
 .pj-icon-git{
-    margin-left: 5vw;
+    margin-left: 3vw;
     margin-top: 4vh;
     margin-bottom: 4vh;
 }
