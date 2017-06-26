@@ -27,9 +27,9 @@ function modalClick(){
         modal.find('#git-repo').attr("href", repo)
         // modal.find('#date-completed').text(date)
         modal.find('#tools').text(tools)
+
     })
 }
-
 
 function projectDisplay(){
     $(".project")
@@ -47,6 +47,19 @@ function projectDisplay(){
 
             $(this).css('background-color', "initial")
         })
+
+        .click( function(){
+            $(".nav-bar").css('display', 'none')
+
+        })
+
+    $("#modal-close").click( function(){
+        if ( $("#fixed-side-nav").css('display') == "none" ){
+            $('.nav-bar').css('display', 'initial')
+        } else {
+            $('.nav-bar').css('display', 'none')
+        }
+    })
 
 }
 
