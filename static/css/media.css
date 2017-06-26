@@ -1,88 +1,7 @@
 
-
-@media screen and (min-width: 700px) and (max-width: 990px){
-
-    #name{
-        font-size: 35px;
-    }
-
-    #job{
-        font-size: 15px;
-    }
-
-    .title-logo {
-        width: 20%;
-    }
-
-
-    #close-btn{
-        font-size: 30px;
-        margin-top: 2vh;
-    }
-
-    .nav-li{
-      padding: 0;
-    }
-
-    .featured-works{
-        font-size: 5px;
-    }
-
-    .inside-special,
-    .inside-pj {
-        width: 50vw;
-        margin-left: 18vw;
-        margin-right: 18vw;
-        margin-top: 15vh;
-    }
-
-    .fa-row {
-        margin-top: 2vh;
-    }
+@media screen and (min-width: 1850px){
 
 }
-
-
-
-
-@media screen and (max-width: 450px){
-    body {
-        width: 100vw;
-    }
-
-
-    .text-muted{
-        font-size: 30px;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .project{
-        margin-bottom: 10vh;
-    }
-
-    .pj-title{
-        font-size: 30px;
-    }
-
-    .fa{
-        font-size: 22px;
-    }
-
-    #project-description {
-        font-size: 20px;
-        font-weight: 400;
-    }
-
-    #tools{
-        font-size: 18px;
-    }
-
-    #github-link {
-        font-size: 40px;
-    }
-}
-
 
 
 @media screen and (min-width: 650px) and (max-width: 1000px){
@@ -134,4 +53,135 @@
         font-size: 60px;
     }
 
+}
+
+
+
+@media screen and (min-width: 700px) and (max-width: 990px){
+
+    #name{
+        font-size: 35px;
+    }
+
+    #job{
+        font-size: 15px;
+    }
+
+    .title-logo {
+        width: 20%;
+    }
+
+
+    #close-btn{
+        font-size: 30px;
+        margin-top: 2vh;
+    }
+
+    .nav-li{
+      padding: 0;
+    }
+
+    .featured-works{
+        font-size: 5px;
+    }
+
+    .inside-special,
+    .inside-pj {
+        width: 50vw;
+        margin-left: 18vw;
+        margin-right: 18vw;
+        margin-top: 15vh;
+    }
+
+    .fa-row {
+        margin-top: 2vh;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    body {
+        width: 100vw;
+    }
+
+    #fixed-side-nav{
+        display: none;
+    }
+
+    .nav-bar{
+        display: block;
+        z-index: 9999;
+        opacity: 0.8;
+    }
+
+    #name{
+        margin-top: 13vh;
+    }
+
+    .nav-link{
+        display: inline;
+
+    }
+
+    .nav-ul{
+        margin-top: 3vh;
+    }
+    .n-link{
+        color: white;
+    }
+
+    .text-muted{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .special-pj{
+        margin-top: 8vh;
+    }
+    .featured-works{
+        margin-top: -10vh;
+    }
+
+    .project{
+        margin-bottom: 10vh;
+    }
+
+    .pj-title{
+        font-size: 30px;
+    }
+
+    .fa{
+        font-size: 22px;
+    }
+
+    #project-description {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    #tools{
+        font-size: 18px;
+    }
+
+    #github-link {
+        font-size: 40px;
+    }
+
+    .fa-row{
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+    }
+
+    .links-row{
+        margin-left: 25vw;
+        margin-top: -2vh;
+    }
+
+    .pj-icon{
+        font-size: 30px;
+    }
 }

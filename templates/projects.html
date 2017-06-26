@@ -16,9 +16,9 @@
                 <h5 class="pj-left-text">{{project.date}}</h5>
                 <h3 class="pj-left-text description">{{project.description}}</h3>
                 <h4 class='pj-left-text tools'>{{project.tools}}</h4>
-                <div class='links'>
+                <div class='links-row'>
                     <a href="{{project.url}}" class='pj-icon links' target="_blank">
-                        <i class="fa fa-link pj-icon pj-icon-link" aria-hidden="true"></i>
+                        <i class="fa fa-link pj-icon" aria-hidden="true"></i>
                     </a>
                     <a href="{{project.repo}}" class='pj-icon links' target="_blank">
                         <i class="fa fa-github-square pj-icon pj-icon-git"></i>
@@ -30,8 +30,9 @@
                 <div class='inside col-md-12 inside-pj-all text-left'>
                     <h4 class='inside-text all'>{{project.details}}</h4>
                 </div>
-
-                <img class='img-responsive proj-img all-img' src="/static/images/{{project.thumbnail}}-600.jpg">
+                <a href='{{project.url}}' target="_blank">
+                    <img class='img-responsive proj-img all-img' src="/static/images/{{project.thumbnail}}-600.jpg">
+                </a>
             </div>
 
         </div>

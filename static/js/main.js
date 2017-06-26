@@ -32,7 +32,7 @@ function modalClick(){
 
 
 function projectDisplay(){
-    $(".project, .pj-right")
+    $(".project")
         .mouseover( function() {
             $(this).find('.proj-img').css('opacity', '0')
             $(this).find('.inside').css('display', 'block')
