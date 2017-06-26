@@ -119,6 +119,16 @@
 
     #name{
         margin-top: 13vh;
+        font-size: 60px;
+    }
+
+    .projects-page{
+        font-size: 12px;
+        margin-top: 4vh;
+
+    }
+    #projects{
+        margin-top: -4vh;
     }
 
     .nav-link{
