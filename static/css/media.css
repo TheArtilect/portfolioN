@@ -8,6 +8,12 @@
         margin-left: 5vw;
         padding-top: 1vh;
     }
+
+    .projects-h1{
+        padding-top: 1vh;
+        padding-bottom: 2vh;
+    }
+
 }
 
 @media screen and (max-width: 380px){
