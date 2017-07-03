@@ -220,14 +220,29 @@
     }
 }
 
+
 @media screen and (min-width: 765px) and (max-width: 1023px){
     .name-div{
         margin-right: 4vw;
     }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1100px){
+@media screen and (min-width: 1000px) and (max-width: 1220px){
     .title-super{
         font-size: 60px;
+    }
+
+    .fa-google-div{
+        margin-left: -4vw;
+    }
+    .fa-row{
+        margin-left: 10vw;
+    }
+}
+
+
+@media screen and (max-width: 999px){
+    .fa-row{
+        text-align: center;
     }
 }
