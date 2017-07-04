@@ -6,7 +6,7 @@ from Project import Project
 
 portfolio = Project("Portfolio",
                     "Personal portfolio of projects.",
-                    "",
+                    "Replicated a design mockup in HTML and CSS to create a responsive website, displaying images, descriptions and links to each portfolio project.",
                     "https://ian-agpawa.appspot.com/",
                     "https://github.com/ianagpawa/portfolio",
                     ["Python", "Jinja2", "Webapp2", "Grunt", "Google App Engine"],
@@ -14,17 +14,17 @@ portfolio = Project("Portfolio",
                     "Oct. 2017"
                     )
 chronicle = Project("Tech Blog",
-                    "Personal tech blog.",
-                    "Developed a blog chronicling personal tech projects.",
+                    "Blurbs chronicling personal tech projects.",
+                    "Built simple authentication and registration.  Developed database models for users and posts.",
                     "https://chronicle-170419.appspot.com/",
                     "https://github.com/ianagpawa/tech-blog",
-                    ["Python", "Flask", "Google App Engine"],
+                    ["Python", "Flask", "Google App Engine", "NoSQL"],
                     'chronicle',
                     "Jun. 2017")
 
 weather2 = Project("Weather Forecast",
                 "Local weather forecast.",
-                "Developed a seven day weather forecast web app utilizing the Weather Underground API.  An update on previous weather app.",
+                "Developed a seven day weather forecast web app utilizing the Weather Underground API.",
                 "https://weather-169903.appspot.com",
                 "https://github.com/ianagpawa/weather2.0",
                 ["Python", "Google App Engine", "Weather Underground API"],
@@ -63,7 +63,7 @@ synchronicity = Project("The Synchronicity Collective",
                 "Built an authentication system for users to register, sign in, and then create posts.  Set permissions so that only users can 'Like' and comment on posts.  Developed database schema for storing users and their content.",
                 "https://synchronicity-collective.appspot.com/",
                 "https://github.com/ianagpawa/synchronicity",
-                ["Python", "Google App Engine", "Jinja"],
+                ["Python", "Google App Engine", "Jinja", "NoSQL"],
                 "synchronicity",
                 "Nov. 2016")
 
