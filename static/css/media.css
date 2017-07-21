@@ -246,3 +246,15 @@
         text-align: center;
     }
 }
+
+@media screen and (min-width: 500px) and (max-width: 990px){
+    .pj-left-text{
+        text-align: center;
+    }
+
+    .links-row{
+        width: 20vw;
+        margin-left: 38vw;
+        margin-right: 38vw;
+    }
+}
