@@ -1,3 +1,8 @@
+import json
+import httplib2
+import requests
+
+
 class Project():
     ''' This class is for my projects
     Attributes:
@@ -34,3 +39,10 @@ class Project():
         self.tools = toolString
         self.thumbnail = thumbnail
         self.date = date
+
+    def get_articles(self):
+        pj_name = self.title
+        url = "https://chronicle-170419.appspot.com/projects/%s" % pj_name
+        h = httplib2.Http()
+        article_results = json.loads(h.request(url, 'GET')[1])
+        print article_results
