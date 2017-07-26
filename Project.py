@@ -1,7 +1,7 @@
 import json
 import httplib2
 import requests
-
+import urllib
 
 class Project():
     ''' This class is for my projects
@@ -41,8 +41,11 @@ class Project():
         self.date = date
 
     def get_articles(self):
-        pj_name = self.title
-        url = "https://chronicle-170419.appspot.com/projects/%s" % pj_name
+        # pj_name = self.title
+        pj_name = "Portfolio"
+
+        url = "https://chronicle-170419.appspot.com/projects/%s/JSON" % pj_name
+
         h = httplib2.Http()
-        article_results = json.loads(h.request(url, 'GET')[1])
-        print article_results
+        results = json.loads(h.request(url, 'GET')[1])
+        print results
