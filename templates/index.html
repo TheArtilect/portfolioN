@@ -45,6 +45,7 @@
                     data-repo="{{project.repo}}"
                     data-date='{{project.date}}'
                     data-tools="{{project.tools}}"
+                    data-articles="{{project.get_articles()}}"
                     >
                     <div class='inside inside-pj container text-center'>
 
@@ -97,6 +98,9 @@
                             <i class="fa fa-github" id='github-link'
                                 aria-hidden="true"></i>
                         </a>
+                        <h3 id='articles'>
+
+                        </h3>
 
                     </div>
                     <div class="modal-footer">

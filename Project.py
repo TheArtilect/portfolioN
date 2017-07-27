@@ -2,6 +2,10 @@ import json
 import httplib2
 import requests
 import urllib
+import pprint
+
+def camelCase(word):
+    return word[0].capitalize() + word[1:].lower()
 
 class Project():
     ''' This class is for my projects
@@ -41,11 +45,20 @@ class Project():
         self.date = date
 
     def get_articles(self):
-        # pj_name = self.title
-        pj_name = "Portfolio"
+        pj_name = self.title
+        name = pj_name.split(" ")
+        name = list(map(lambda word: camelCase(word), name))
+        project_name = "_".join(name)
 
-        url = "https://chronicle-170419.appspot.com/projects/%s/JSON" % pj_name
+        url = "https://chronicle-170419.appspot.com/projects/%s/JSON" % project_name
 
         h = httplib2.Http()
         results = json.loads(h.request(url, 'GET')[1])
-        print results
+
+        if results.get('error') is not None:
+            response = make_response(json.dumps(results.get('error')), 500)
+            response.heads['Content-Type'] = 'application/json'
+            return response
+
+        articles = results["Posts"]
+        return articles
