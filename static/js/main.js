@@ -82,8 +82,18 @@ function navIt(){
   })
 }
 
+function getAjax(){
+    var base_url = "https://chronicle-170419.appspot.com/projects/"
+}
+
+
 
 function displayAll(){
+    getAjax(self, function (data) {
+
+    })
+
+
     modalClick();
     projectDisplay();
     navIt();

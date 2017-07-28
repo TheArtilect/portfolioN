@@ -36,13 +36,12 @@ class Project():
         else:
             toolString = tools[0]
 
-
-
         toolString = "Made with " + toolString
 
         self.tools = toolString
         self.thumbnail = thumbnail
         self.date = date
+
 
     def get_articles(self):
         pj_name = self.title
