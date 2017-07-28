@@ -16,7 +16,7 @@ function modalClick(){
         tools = "Built with " + tools
 
         var articles = button.data("articles")
-        articles = $.getJSON(articles)
+
 
 
 
@@ -31,7 +31,7 @@ function modalClick(){
         modal.find('#git-repo').attr("href", repo)
         // modal.find('#date-completed').text(date)
         modal.find('#tools').text(tools)
-        modal.find('#articles').text('')
+        modal.find('#articles').text(articles + " blog posts")
 
     })
 }
