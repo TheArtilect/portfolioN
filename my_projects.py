@@ -41,8 +41,7 @@ tacohub = Project("TacoHub",
                 "https://github.com/ianagpawa/neighborhood-map",
                 ["Knockoutjs", "Python", "Google App Engine", "Jinja"],
                 "tacohub",
-                "Jan. 2017",
-                True)
+                "Jan. 2017")
 
 audacious = Project("Audacious",
                 "Simple script for music playlists.",
