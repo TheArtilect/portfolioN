@@ -20,7 +20,7 @@ class Project():
         date (str): Date completed.
     '''
 
-    def __init__(self, title, description, details, url, repo, tools, thumbnail, date):
+    def __init__(self, title, description, details, url, repo, tools, thumbnail, date, articles=False):
         self.title = title
         self.description = description
         self.details = details
@@ -42,22 +42,31 @@ class Project():
         self.thumbnail = thumbnail
         self.date = date
 
+        project_name = ""
+        if articles:
+            pj_name = self.title
+            name = pj_name.split(" ")
+            name = list(map(lambda word: camelCase(word), name))
+            project_name = "_".join(name)
 
-    def get_articles(self):
-        pj_name = self.title
-        name = pj_name.split(" ")
-        name = list(map(lambda word: camelCase(word), name))
-        project_name = "_".join(name)
+        self.articles = (articles, project_name)
 
-        url = "https://chronicle-170419.appspot.com/projects/%s/JSON" % project_name
-
-        h = httplib2.Http()
-        results = json.loads(h.request(url, 'GET')[1])
-
-        if results.get('error') is not None:
-            response = make_response(json.dumps(results.get('error')), 500)
-            response.heads['Content-Type'] = 'application/json'
-            return response
-
-        articles = results["Posts"]
-        return articles
+    #
+    # def get_articles(self):
+    #     pj_name = self.title
+    #     name = pj_name.split(" ")
+    #     name = list(map(lambda word: camelCase(word), name))
+    #     project_name = "_".join(name)
+    #
+    #     url = "https://chronicle-170419.appspot.com/projects/%s/JSON" % project_name
+    #
+    #     h = httplib2.Http()
+    #     results = json.loads(h.request(url, 'GET')[1])
+    #
+    #     if results.get('error') is not None:
+    #         response = make_response(json.dumps(results.get('error')), 500)
+    #         response.heads['Content-Type'] = 'application/json'
+    #         return response
+    #
+    #     articles = results["Posts"]
+    #     return articles

@@ -11,7 +11,8 @@ portfolio = Project("Portfolio",
                     "https://github.com/ianagpawa/portfolio",
                     ["Python", "Jinja2", "Webapp2", "Grunt", "Google App Engine"],
                     "currentPortfolio",
-                    "Oct. 2017"
+                    "Oct. 2017",
+                    True
                     )
 chronicle = Project("Tech Blog",
                     "Blurbs chronicling personal tech projects.",
@@ -20,7 +21,8 @@ chronicle = Project("Tech Blog",
                     "https://github.com/ianagpawa/tech-blog",
                     ["Python", "Flask", "Google App Engine", "NoSQL"],
                     'chronicle',
-                    "Jun. 2017")
+                    "Jun. 2017",
+                    True)
 
 weather2 = Project("Weather Forecast",
                 "Local weather forecast.",
@@ -29,7 +31,8 @@ weather2 = Project("Weather Forecast",
                 "https://github.com/ianagpawa/weather2.0",
                 ["Python", "Google App Engine", "Weather Underground API"],
                 "weather2",
-                "Jun. 2017")
+                "Jun. 2017",
+                True)
 
 tacohub = Project("TacoHub",
                 "Map of Spanish Harlem's finest tacos.",
@@ -38,7 +41,8 @@ tacohub = Project("TacoHub",
                 "https://github.com/ianagpawa/neighborhood-map",
                 ["Knockoutjs", "Python", "Google App Engine", "Jinja"],
                 "tacohub",
-                "Jan. 2017")
+                "Jan. 2017",
+                True)
 
 audacious = Project("Audacious",
                 "Simple script for music playlists.",
@@ -56,7 +60,8 @@ catalog = Project("Music Catalog",
                 "https://github.com/ianagpawa/catalog",
                 ["Flask", "PostgreSQL","Python", "Amazon Web Services"],
                 "catalog1",
-                "Dec. 2016")
+                "Dec. 2016",
+                True)
 
 synchronicity = Project("The Synchronicity Collective",
                 "Multi-user music blog.",
