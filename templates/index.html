@@ -45,7 +45,11 @@
                     data-repo="{{project.repo}}"
                     data-date='{{project.date}}'
                     data-tools="{{project.tools}}"
+                    data-articles={{project.articles}}
+                    data-linkname="{{project.link_name}}"
                     >
+
+
                     <div class='inside inside-pj container text-center'>
 
                         <h2 class='inside-text'>{{project.title}}</h2>
@@ -97,9 +101,14 @@
                             <i class="fa fa-github" id='github-link'
                                 aria-hidden="true"></i>
                         </a>
-                        <h3 id='articles'>
 
-                        </h3>
+
+                        <a target="_blank" id='articles-link' class='modal-link'>
+                            <i class="fa fa-coffee"
+                                aria-hidden="true"></i>
+                        </a>
+
+
 
                     </div>
                     <div class="modal-footer">

@@ -16,9 +16,7 @@ function modalClick(){
         tools = "Built with " + tools
 
         var articles = button.data("articles")
-
-
-
+        var linkname = button.data("linkname")
 
         var modal = $(this)
 
@@ -31,7 +29,15 @@ function modalClick(){
         modal.find('#git-repo').attr("href", repo)
         // modal.find('#date-completed').text(date)
         modal.find('#tools').text(tools)
-        modal.find('#articles').text(articles + " blog posts")
+        if (articles == 'True'){
+            $("#articles-link").css("display", 'inline')
+
+            var url = "https://chronicle-170419.appspot.com/projects/" + linkname
+
+            modal.find('#articles-link').attr("href", url)
+        } else{
+            $("#articles-link").css("display", 'none')
+        }
 
     })
 }

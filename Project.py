@@ -41,15 +41,18 @@ class Project():
         self.tools = toolString
         self.thumbnail = thumbnail
         self.date = date
+        self.articles = articles
 
+        self.link_name = False
         project_name = ""
         if articles:
             pj_name = self.title
             name = pj_name.split(" ")
             name = list(map(lambda word: camelCase(word), name))
             project_name = "_".join(name)
+            self.link_name = project_name
 
-        self.articles = (articles, project_name)
+
 
     #
     # def get_articles(self):

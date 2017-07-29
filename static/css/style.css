@@ -146,7 +146,11 @@ hr {
     margin-left: 2vw;
 }
 
-.fa:hover{
+#articles-link{
+    display: none;
+}
+
+.fa:hover, #articles-link:hover{
     color: #8F5C00;
 }
 
