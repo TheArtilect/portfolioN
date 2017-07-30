@@ -230,14 +230,11 @@ footer{
 .pj-icon{
     display: inline;
     font-size: 40px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 
-.pj-icon-git{
-    margin-left: 3vw;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
-}
 
 
 .all-img:hover{
@@ -248,9 +245,6 @@ footer{
     color: orange;
 }
 
-.links-row{
-    margin-left: 5vw;
-}
 
 .pj-hr {
     margin-top: 5vh;

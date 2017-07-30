@@ -11,7 +11,7 @@
         {% for project in projects %}
 
         <div class='row col-md-10 col-md-offset-1 pj-tile'>
-            <div class='col-md-offset-2 col-md-4 pj-left bold'>
+            <div class='col-md-offset-1 col-md-5 pj-left bold text-center'>
                 <h1 class="pj-left-text">{{project.title}}</h1>
                 <h5 class="pj-left-text">{{project.date}}</h5>
                 <h3 class="pj-left-text description">{{project.description}}</h3>
@@ -23,6 +23,11 @@
                     <a href="{{project.repo}}" class='pj-icon links' target="_blank">
                         <i class="fa fa-github-square pj-icon pj-icon-git"></i>
                     </a>
+                    {% if project.link_name %}
+                    <a href="https://chronicle-170419.appspot.com/projects/{{project.link_name}}" class='pj-icon links' target="_blank">
+                        <i class="fa fa-coffee pj-icon pj-icon"></i>
+                    </a>
+                    {% endif %}
                 </div>
             </div>
 
