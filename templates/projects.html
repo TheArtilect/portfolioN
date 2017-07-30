@@ -14,8 +14,8 @@
             <div class='col-md-offset-1 col-md-5 pj-left bold text-center'>
                 <h1 class="pj-left-text">{{project.title}}</h1>
                 <h5 class="pj-left-text">{{project.date}}</h5>
-                <h3 class="pj-left-text description">{{project.description}}</h3>
-                <h4 class='pj-left-text tools'>{{project.tools}}</h4>
+
+
                 <div class='links-row'>
                     <a href="{{project.url}}" class='pj-icon links' target="_blank">
                         <i class="fa fa-link pj-icon" aria-hidden="true"></i>
@@ -25,10 +25,12 @@
                     </a>
                     {% if project.link_name %}
                     <a href="https://chronicle-170419.appspot.com/projects/{{project.link_name}}" class='pj-icon links' target="_blank">
-                        <i class="fa fa-coffee pj-icon pj-icon"></i>
+                        <i class="fa fa-coffee pj-icon"></i>
                     </a>
                     {% endif %}
                 </div>
+                <h3 class="pj-left-text description">{{project.description}}</h3>
+                <h5 class='pj-left-text tools'>{{project.tools}}</h5>
             </div>
 
             <div class='col-md-5  pj-right'>

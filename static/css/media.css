@@ -1,20 +1,4 @@
 
-@media screen and (max-width: 500px){
-    .copy-name{
-        margin-top: -6vh;
-    }
-
-    .nav-ul{
-        margin-left: 5vw;
-        padding-top: 1vh;
-    }
-
-    .projects-h1{
-        padding-top: 1vh;
-        padding-bottom: 2vh;
-    }
-
-}
 
 @media screen and (max-width: 380px){
     .nav-ul{
@@ -213,13 +197,23 @@
         margin-bottom: 2vh;
     }
 
-    .links-row{
-        /*margin-left: 25vw;
-        margin-top: -2vh;*/
-    }
 
     .pj-icon{
         font-size: 30px;
+    }
+
+    .copy-name{
+        margin-top: -6vh;
+    }
+
+    .nav-ul{
+        margin-left: 5vw;
+        padding-top: 1vh;
+    }
+
+    .projects-h1{
+        padding-top: 1vh;
+        padding-bottom: 2vh;
     }
 }
 
@@ -255,9 +249,4 @@
         text-align: center;
     }
 
-    .links-row{
-        width: 20vw;
-        margin-left: 38vw;
-        margin-right: 38vw;
-    }
 }
