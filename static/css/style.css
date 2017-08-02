@@ -146,6 +146,8 @@ hr {
     margin-left: 2vw;
 }
 
+
+
 #articles-link{
     display: none;
 }
@@ -154,6 +156,11 @@ hr {
     color: #8F5C00;
 }
 
+#goog:hover,
+.fa-google:hover{
+    color: #404344;
+    cursor: default;
+}
 /*MODAL*/
 .modal-header,
 .modal-footer{
