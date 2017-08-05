@@ -225,6 +225,13 @@
     }
 }
 
+@media screen and (max-width: 765px){
+    #modal-img{
+        padding-left: 8vw;
+        padding-right: 6vw;
+    }
+}
+
 @media screen and (min-width: 1000px) and (max-width: 1220px){
     .title-super{
         font-size: 60px;
@@ -247,8 +254,10 @@
 
     .fa-google-div{
         margin-right: -5vw;
-        /*margin-left: 20vw;
-        margin-right: 20vw;*/
+    }
+
+    #modal-close{
+        font-size: 20px;
     }
 }
 
