@@ -11,7 +11,8 @@ monitor = Project("Monitor",
                 "https://github.com/ianagpawa/monitor",
                 ["Python"],
                 'github',
-                "Aug. 2017"
+                "Aug. 2017",
+                True
                 )
 
 
