@@ -4,6 +4,17 @@ import json
 from Project import Project
 # import transform
 
+monitor = Project("Monitor",
+                "Script for automating tasks with work invoices.",
+                "Developed script to parse data from weekly invoices in Excel to create and update a spreadsheet of therapist submissions for tracking and monitoring.",
+                "https://github.com/ianagpawa/monitor",
+                "https://github.com/ianagpawa/monitor",
+                ["Python"],
+                'github',
+                "Aug. 2017"
+                )
+
+
 portfolio = Project("Portfolio",
                     "Personal portfolio of projects.",
                     "Replicated a design mockup in HTML and CSS to create a responsive website, displaying images, descriptions and links to each portfolio project.",
@@ -14,6 +25,7 @@ portfolio = Project("Portfolio",
                     "Oct. 2017",
                     True
                     )
+
 chronicle = Project("Tech Blog",
                     "Blurbs chronicling personal tech projects.",
                     "Built simple authentication and registration system.  Developed database models for users and posts.",
@@ -239,5 +251,5 @@ portfolio_old = Project("Portfolio",
 special = catalog
 featured = [chronicle, tacohub, weather2, simon]
 
-projects = [special] + featured + [synchronicity, portfolio, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
+projects = [special] + featured + [portfolio, synchronicity, monitor, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
             timestamp, metadata, weather, finance, tribute, blog, portfolio_old]
