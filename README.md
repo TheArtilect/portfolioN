@@ -11,7 +11,7 @@
 2.  In the app folder location, create folder `lib`.
 3.  Install the following third-party libraries with the following command:
 ```
-pip install -t lib/ <library_name>
+$   pip install -t lib/ <library_name>
 ```
 ##### Libraries:
    `httplib2`
@@ -26,10 +26,25 @@ from google.appengine.ext import vendor
 vendor.add('lib')
 ```
 
+
+5.  `npm` and `node`, must be installed on your system. `npm` and `node` typically come with with most Linux distros, if not use the following commands to install them:
+```
+$   sudo apt-get update
+$   sudo apt-get install nodejs
+$   sudo apt-get install npm
+```
+
+6.  Run the following commands to install `grunt` on your system and install the necessary dependencies.
+```
+$   npm install -g grunt-cli
+$   npm install
+```
+
+
 #### Viewing the app locally
 In order to view the app locally, you will need to have `Google App Engine` installed on your system.  Once the terminal is the project folder, run command
 ```
-dev_appserver.py .
+$   dev_appserver.py .
 ```
 Then point your browser to `http://0.0.0.0:8080/`.
 
@@ -39,16 +54,12 @@ Updating project information is done within the `my_projects.py` file.  To add p
 
 After which, using the following command will update/generate the `projects.js` file.
 ```
-python my_projects.py
+$   python my_projects.py
 ```
 
 The `convertImages.py` script was used to convert the original image files stored in `images/images_src/` into .jpg files and then migrate them to `images/images-jpg/`.  
 
-A `grunt` command was then executed resize the images appropriately.  In order to run the `grunt` command, `grunt` must be installed on your system.  To do so, run the following commands to install `grunt` on your system, and install the necessary dependencies.
-```
-npm install -g grunt-cli
-npm install
-```
+To resize the images appropriately run `grunt` to execute the command.
 
 
 ### What's included
