@@ -9,7 +9,7 @@ from ProjectArticles import ProjectArticles
 
 app = webapp2.WSGIApplication([ ("/", FrontPage),
                                 ("/projects", OtherProjects),
-                                ("/articles", ProjectArticles)
+                                ("/articles/([a-zA-Z]+)", ProjectArticles)
                                 ]
                                 # debug=True
                                 )
