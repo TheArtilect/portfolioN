@@ -4,12 +4,13 @@
     <h1 class='text-center'>Articles for {{project_name}} </h1>
 
     {% for article in articles %}
-    <div class='col-md-8 col-md-offset-2'>
-        <h2>{{article.title}}</h2>
-        <h5>{{article.created}}</h5>
-        <p>{{article.content}}</p>
-
-    </div>
+    <a href="https://chronicle-170419.appspot.com/post/{{article.post}}/" target="_blank">
+        <div class='col-md-8 col-md-offset-2'>
+            <h2>{{article.title}}</h2>
+            <h5>{{article.created}}</h5>
+            <p>{{article.content}}</p>
+        </div>
+    </a>
     {% endfor %}
 
 </div>
