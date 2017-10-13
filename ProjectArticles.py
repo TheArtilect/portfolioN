@@ -7,9 +7,10 @@ from Handler import Handler
 
 
 class ProjectArticles(Handler):
-    def get(self, article_name):
+    def get(self, project_name):
 
-        url = "https://chronicle-170419.appspot.com/projects/%s/JSON" % article_name
+        url = "https://chronicle-170419.appspot.com/projects/%s/JSON" % project_name
         h = httplib2.Http()
-        results = json.loads(h.request(url, "GET")[1])
+        articles = json.loads(h.request(url, "GET")[1])["Posts"]
         # pprint.pprint(results)
+        return self.render('articles.html', articles=articles, project_name=project_name)
