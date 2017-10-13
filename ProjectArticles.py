@@ -8,9 +8,8 @@ from Handler import Handler
 
 class ProjectArticles(Handler):
     def get(self, article_name):
-        print article_name
 
-        # project = "Monitor"
-        # url = "https://chronicle-170419.appspot.com/projects/%s/JSON" % project
-        # h = httplib2.Http()
-        # results = json.loads(h.request(url, "GET")[1])
+        url = "https://chronicle-170419.appspot.com/projects/%s/JSON" % article_name
+        h = httplib2.Http()
+        results = json.loads(h.request(url, "GET")[1])
+        # pprint.pprint(results)
