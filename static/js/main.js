@@ -117,10 +117,10 @@ function displayAll(){
     //     console.log(posts)
     // })
 
-
+    navIt();
     modalClick();
     projectDisplay();
-    navIt();
+
 }
 
 

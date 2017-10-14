@@ -67,7 +67,7 @@ hr {
 
 }
 
-.n-link{
+.n-link, .article-links{
     color: #575757;
     font-size: 20px;
 }
