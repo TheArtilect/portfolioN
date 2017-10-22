@@ -88,35 +88,10 @@ function navIt(){
   })
 }
 
-// function getAjax(self, callback){
-//     var base_url = "http://chronicle-170419.appspot.com/projects/"
-//
-//     var url = base_url + "Tech_Blog/JSON"
-//
-//     $.ajax({
-//         datatype: "jsonp",
-//         url: url,
-//         success: function(tech_blog) {
-//             data = tech_blog
-//             callback(data)
-//         },
-//         error: function (error) {
-//             alert ("Something went wrong!")
-//         }
-//     })
-// }
-//
-//
-
 
 
 
 function displayAll(){
-    // getAjax(self, function (data) {
-    //     var posts = data["Posts"]
-    //     console.log(posts)
-    // })
-
     navIt();
     modalClick();
     projectDisplay();

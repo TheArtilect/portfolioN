@@ -8,8 +8,8 @@ from ProjectArticles import ProjectArticles
 
 
 app = webapp2.WSGIApplication([ ("/", FrontPage),
-                                ("/projects", OtherProjects),
-                                ("/articles/([a-zA-Z]+)", ProjectArticles)
+                                ("/projects", OtherProjects)
+                                # ("/articles/([a-zA-Z]+)", ProjectArticles)
                                 ]
                                 # debug=True
                                 )
