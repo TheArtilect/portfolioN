@@ -11,8 +11,7 @@ google = Project("Google Search",
                 "https://github.com/ianagpawa/search-extension",
                 ["Javascript", "XML"],
                 'github',
-                "Sep. 2017",
-                False
+                "Sep. 2017"
                 )
 
 monitor = Project("Monitor",
@@ -65,7 +64,8 @@ tacohub = Project("TacoHub",
                 "https://github.com/ianagpawa/neighborhood-map",
                 ["Knockoutjs", "Python", "Google App Engine", "Jinja"],
                 "tacohub",
-                "Jan. 2017")
+                "Jan. 2017",
+                True)
 
 audacious = Project("Audacious",
                 "Simple script for music playlists.",
@@ -74,7 +74,8 @@ audacious = Project("Audacious",
                 "https://github.com/ianagpawa/audacious",
                 ["Python"],
                 "github",
-                "Jan. 2017")
+                "Jan. 2017",
+                True)
 
 catalog = Project("Music Catalog",
                 "Item catalog that stores playlists of songs.",
