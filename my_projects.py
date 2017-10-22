@@ -4,6 +4,17 @@ import json
 from Project import Project
 # import transform
 
+google = Project("Google Search",
+                "A google search extension for Chrome.",
+                "Developed Chrome extension that uses Google search.",
+                "https://github.com/ianagpawa/search-extension",
+                "https://github.com/ianagpawa/search-extension",
+                ["Javascript", "XML"],
+                'github',
+                "Sep. 2017",
+                False
+                )
+
 monitor = Project("Monitor",
                 "Script for automating tasks with work invoices.",
                 "Developed script to parse data from weekly invoices in Excel to create and update a spreadsheet of therapist submissions for tracking and monitoring.",
@@ -252,5 +263,5 @@ portfolio_old = Project("Portfolio",
 special = catalog
 featured = [chronicle, tacohub, weather2, simon]
 
-projects = [special] + featured + [portfolio, synchronicity, monitor, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
+projects = [special] + featured + [portfolio, synchronicity, monitor, google, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
             timestamp, metadata, weather, finance, tribute, blog, portfolio_old]
