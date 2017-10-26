@@ -2,126 +2,115 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class="container-fluid">
 
-        <div class='container-fluid'>
-
-            <div class='col-md-8 col-md-offset-2 special-pj project' data-toggle='modal' data-target='#Modal'
-                data-title='{{special.title}}'
-                data-thumbnail='{{special.thumbnail}}'
-                data-description='{{special.description}}'
-                data-details="{{special.details}}"
-                data-url="{{special.url}}"
-                data-repo="{{special.repo}}"
-                data-date='{{special.date}}'
-                data-tools="{{special.tools}}"
-                data-articles={{special.articles}}
-                data-linkname="{{special.link_name}}">
-                <div class='inside inside-special inside-s text-center col-md-10 col-md-offset-1'>
-                    <h1 class='inside-text inside-text-special'>{{special.title}}</h1>
-                    <h3 class='inside-text'>{{special.description}}</h3>
-                </div>
-                <img class='img-responsive proj-img special-img' src="/static/images/images-jpg/{{special.thumbnail}}.jpg">
+        <div class='col-md-8 col-md-offset-2 special-pj project' data-toggle='modal' data-target='#Modal'
+            data-title='{{special.title}}'
+            data-thumbnail='{{special.thumbnail}}'
+            data-description='{{special.description}}'
+            data-details="{{special.details}}"
+            data-url="{{special.url}}"
+            data-repo="{{special.repo}}"
+            data-date='{{special.date}}'
+            data-tools="{{special.tools}}"
+            data-articles={{special.articles}}
+            data-linkname="{{special.link_name}}">
+            <div class='inside inside-special inside-s text-center col-md-12'>
+                <h1 class='inside-text inside-text-special'>{{special.title}}</h1>
+                <h3 class='inside-text'>{{special.description}}</h3>
             </div>
-
-
-        </div>
-        <br>
-
-
-        <section class='container-fluid'>
-        <div class="col-md-12 text-left"  id="featured">
-            <div class='container-fluid featured-works'>
-                <p class="text-muted">Featured Works</p>
-            </div>
-            <hr>
-
-            <div class="row text-center">
-                {% for project in featured %}
-                <div class='col-md-3 featured-pj project' data-toggle='modal' data-target='#Modal'
-                    data-title='{{project.title}}'
-                    data-thumbnail='{{project.thumbnail}}'
-                    data-description='{{project.description}}'
-                    data-details="{{project.details}}"
-                    data-url="{{project.url}}"
-                    data-repo="{{project.repo}}"
-                    data-date='{{project.date}}'
-                    data-tools="{{project.tools}}"
-                    data-articles={{project.articles}}
-                    data-linkname="{{project.link_name}}"
-                    >
-
-
-                    <div class='inside inside-pj container text-center'>
-
-                        <h2 class='inside-text'>{{project.title}}</h2>
-
-                        <h4 class='inside-text'>{{project.description}}</h4>
-
-                    </div>
-                    <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
-                </div>
-                {% endfor %}
-            </div>
+            <img class='img-responsive proj-img special-img' src="/static/images/images-jpg/{{special.thumbnail}}.jpg">
         </div>
 
-        </section>
+    <br>
 
-
-
-    </div>   <!-- body container -->
-
-
-
-    <!-- Modal -->
-
-    <section>
-        <div class="modal fade text-center" id="Modal" tabindex="-1" role="dialog"
-            aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3 class="modal-title" id="myModalLabel"></h3>
-
-                    </div>
-                    <div class="modal-body">
-
-                        <a id='pj-web-link' target="_blank">
-                            <img class="img-responsive"
-                            id="modal-img" alt="screenshot of project homepage">
-                        </a>
-
-
-                        <br>
-                        <p id='details'></p>
-
-
-                        <a target="_blank" id='web-link' class='modal-link'>
-                            <i class="fa fa-link"
-                                aria-hidden="true"></i>
-                        </a>
-                        <a target="_blank" id="git-repo" class='modal-link'>
-                            <i class="fa fa-github" id='github-link'
-                                aria-hidden="true"></i>
-                        </a>
-
-
-                        <a target="_blank" id='articles-link' class='modal-link'>
-                            <i class="fa fa-coffee"
-                                aria-hidden="true"></i>
-                        </a>
-
-                        <p id='tools'></p>
-
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" id='modal-close' class="btn btn-default"
-                            data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
+    <section class='container-fluid'>
+    <div class="col-md-12 text-left"  id="featured">
+        <div class='container-fluid featured-works'>
+            <p id='featured-works-p' class="text-muted">Featured Works</p>
         </div>
+        <hr>
+
+        <div class="row text-center">
+            {% for project in featured %}
+            <div class='col-md-3 featured-pj project' data-toggle='modal' data-target='#Modal'
+                data-title='{{project.title}}'
+                data-thumbnail='{{project.thumbnail}}'
+                data-description='{{project.description}}'
+                data-details="{{project.details}}"
+                data-url="{{project.url}}"
+                data-repo="{{project.repo}}"
+                data-date='{{project.date}}'
+                data-tools="{{project.tools}}"
+                data-articles={{project.articles}}
+                data-linkname="{{project.link_name}}"
+                >
+
+
+                <div class='inside inside-pj container text-center'>
+
+                    <h2 class='inside-text'>{{project.title}}</h2>
+
+                    <h4 class='inside-text'>{{project.description}}</h4>
+
+                </div>
+                <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
     </section>
+
+
+<!-- Modal -->
+
+<section>
+    <div class="modal fade text-center" id="Modal" tabindex="-1" role="dialog"
+        aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="myModalLabel"></h3>
+
+                </div>
+                <div class="modal-body">
+
+                    <a id='pj-web-link' target="_blank">
+                        <img class="img-responsive"
+                        id="modal-img" alt="screenshot of project homepage">
+                    </a>
+
+
+                    <br>
+                    <p id='details'></p>
+
+
+                    <a target="_blank" id='web-link' class='modal-link'>
+                        <i class="fa fa-link"
+                            aria-hidden="true"></i>
+                    </a>
+                    <a target="_blank" id="git-repo" class='modal-link'>
+                        <i class="fa fa-github" id='github-link'
+                            aria-hidden="true"></i>
+                    </a>
+
+
+                    <a target="_blank" id='articles-link' class='modal-link'>
+                        <i class="fa fa-coffee"
+                            aria-hidden="true"></i>
+                    </a>
+
+                    <p id='tools'></p>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id='modal-close' class="btn btn-default"
+                        data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 {% endblock content %}

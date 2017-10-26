@@ -84,11 +84,18 @@ hr {
 }
 
 .title-super {
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 600;
     font-variant: small-caps;
 }
 
+#job{
+    margin-top: -2vh;
+}
+
+#featured-works-p{
+    font-size: 25px;
+}
 
 .featured-pj:hover,
 .special-img:hover {
@@ -96,10 +103,10 @@ hr {
 
 }
 
-.special-img,
+/*.special-img,
 .proj-img{
     position: relative;
-}
+}*/
 
 
 .inside {
