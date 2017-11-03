@@ -13,7 +13,6 @@ function modalClick(){
         var repo = button.data('repo')
         // var date = button.data('date')
         var tools = button.data('tools')
-        tools = "Built with " + tools
 
         var articles = button.data("articles")
         var linkname = button.data("linkname")

@@ -36,7 +36,7 @@ class Project():
         else:
             toolString = tools[0]
 
-        toolString = "Made with " + toolString
+        toolString = "Built with " + toolString
 
         self.tools = toolString
         self.thumbnail = thumbnail
