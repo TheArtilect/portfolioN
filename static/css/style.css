@@ -169,11 +169,15 @@ hr {
     cursor: default;
 }
 /*MODAL*/
+#Modal{
+    height: 100vh;
+}
 .modal-header,
 .modal-footer{
     background-color: #404344;
     color: white;
 }
+
 
 .modal-title{
     font-weight: bold;
@@ -192,6 +196,7 @@ hr {
     margin-bottom: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
+    font-size: 0.92em;
 }
 
 
