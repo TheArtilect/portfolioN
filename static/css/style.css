@@ -169,8 +169,8 @@ hr {
     cursor: default;
 }
 /*MODAL*/
-#Modal{
-    height: 100vh;
+.modal-content{
+    max-height: 100vh;
 }
 .modal-header,
 .modal-footer{
@@ -184,6 +184,10 @@ hr {
 }
 .modal-content{
     background-color: #F2F1F1;
+}
+
+#details{
+    max-height: 50vh;
 }
 
 .modal-link{
