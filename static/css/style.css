@@ -103,16 +103,13 @@ hr {
 
 }
 
-/*.special-img,
-.proj-img{
-    position: relative;
-}*/
 
 
 .inside {
     display: none;
     position: absolute;
 }
+
 
 .inside-text{
     font-weight: bold;
@@ -121,7 +118,8 @@ hr {
 }
 
 .inside-special{
-    bottom: 12em;
+    margin-top: 20vh;
+    /*bottom: 12em;*/
 }
 
 .inside-pj {
