@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 380px){
     .nav-ul{
-        margin-left: -3vw;
+        /*margin-left: -3vw;*/
         padding-top: 1vh;
     }
 
@@ -150,7 +150,6 @@
 
     .nav-ul{
         margin-top: 3vh;
-        margin-left: 2vw;
         padding-top: 1vh;
     }
 
@@ -261,7 +260,7 @@
 
 @media screen and (min-width: 500px) and (max-width: 800px){
     .nav-ul{
-        margin-left: 20vw;
+        padding-left: 20vw;
     }
 
     .n-link{
