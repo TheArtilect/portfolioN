@@ -82,7 +82,8 @@ hr {
 
 /*FRONTPAGE*/
 
-.name-div-media{
+.name-div-media,
+.media-text{
     display: none;
 }
 

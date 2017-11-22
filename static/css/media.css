@@ -123,9 +123,6 @@
         display: none;
     }
 
-    .name-div-media{
-        display: block;
-    }
 
     .nav-bar{
         display: block;
@@ -136,6 +133,15 @@
     #name{
         margin-top: 13vh;
         font-size: 60px;
+    }
+
+    .name-div-media,
+    .media-text{
+        display: block;
+    }
+
+    #featured-works-p{
+        font-size: 40px;
     }
 
     .projects-page{

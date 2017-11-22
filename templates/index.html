@@ -14,11 +14,13 @@
             data-tools="{{special.tools}}"
             data-articles={{special.articles}}
             data-linkname="{{special.link_name}}">
+
             <div class='inside inside-special inside-s text-center col-md-12'>
                 <h1 class='inside-text inside-text-special'>{{special.title}}</h1>
                 <h3 class='inside-text'>{{special.description}}</h3>
             </div>
             <img class='img-responsive proj-img special-img' src="/static/images/images-jpg/{{special.thumbnail}}.jpg">
+            <p class='media-text media-text-special text-center text-muted'>{{special.title}}</p>
         </div>
 
     <br>
@@ -54,6 +56,7 @@
 
                 </div>
                 <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
+                <p class='media-text text-center text-muted'>{{project.title}}</p>
             </div>
             {% endfor %}
         </div>
