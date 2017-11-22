@@ -82,6 +82,10 @@ hr {
 
 /*FRONTPAGE*/
 
+.name-div-media{
+    display: none;
+}
+
 
 #featured h2{
     display: inline;

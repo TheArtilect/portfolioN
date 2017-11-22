@@ -119,8 +119,12 @@
         width: 100vw;
     }
 
-    #fixed-side-nav{
+    #fixed-side-nav, .name-div{
         display: none;
+    }
+
+    .name-div-media{
+        display: block;
     }
 
     .nav-bar{
