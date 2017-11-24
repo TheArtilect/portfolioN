@@ -141,6 +141,10 @@
         display: block;
     }
 
+    #featured-works-p{
+        display: none;
+    }
+
     #showcase{
         font-size: 45px;
         padding-top: 5vh;
@@ -183,9 +187,14 @@
         margin-top: 8vh;
     }*/
 
-    .featured-works{
+    /*.featured-works{
         margin-top: -10vh;
+    }*/
+
+    .footer{
+        margin-top: -7vh;
     }
+
 
     .project{
         margin-bottom: 10vh;
@@ -215,6 +224,11 @@
     .fa-row{
         margin-top: 2vh;
         margin-bottom: 2vh;
+        margin-left: 0;
+    }
+
+    .fa-google-div{
+        margin-left: -4vw;
     }
 
 
@@ -222,9 +236,6 @@
         font-size: 30px;
     }
 
-    .copy-name{
-        margin-top: -6vh;
-    }
 
     .projects-h1{
         padding-top: 1vh;
