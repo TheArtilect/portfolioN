@@ -95,9 +95,9 @@
 
     .inside-special,
     .inside-pj {
-        width: 50vw;
+        width: 80vw;
         margin-left: 18vw;
-        margin-right: 18vw;
+        /*margin-right: 18vw;*/
         margin-top: 15vh;
     }
 
@@ -142,7 +142,7 @@
     }
 
     #featured-works-p{
-        display: none;
+        font-size: 5px;
     }
 
     #showcase{
