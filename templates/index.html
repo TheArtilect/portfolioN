@@ -30,16 +30,13 @@
 
     <br>
 
-    <section class='col-md-12'>
-    <!-- <div class="col-md-12 text-left"  id="featured"> -->
-        <!-- <div class='featured-works'> -->
+    <section class='container-fluid'>
+    <div class="col-md-12 text-left"  id="featured">
         <p id='featured-works-p' class="text-left text-muted">Featured Works</p>
-        <!-- </div> -->
         <hr class='hide'>
 
         <div class="row text-center">
             {% for project in featured %}
-
             <div class='col-md-3 featured-pj project' data-toggle='modal' data-target='#Modal'
                 data-title='{{project.title}}'
                 data-thumbnail='{{project.thumbnail}}'
@@ -52,17 +49,17 @@
                 data-articles={{project.articles}}
                 data-linkname="{{project.link_name}}"
                 >
-                <div class='col-md-12 inside inside-pj text-center'>
+                <div class='inside inside-pj'>
                     <h2 class='inside-text'>{{project.title}}</h2>
                     <h4 class='inside-text'>{{project.description}}</h4>
                 </div>
-                <img class='img-responsive proj-img' src="/static/images/{{project.thumbnail}}-600.jpg">
+                <img class='img-responsive proj-img'
+                    src="/static/images/{{project.thumbnail}}-600.jpg">
                 <p class='media-text text-center text-muted'>{{project.title}}</p>
             </div>
             {% endfor %}
         </div>
-    <!-- </div> -->
-
+    </div>
     </section>
 
 

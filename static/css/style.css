@@ -105,8 +105,8 @@ hr {
 .featured-pj:hover,
 .special-img:hover {
     cursor: pointer;
-
 }
+
 
 
 
@@ -119,20 +119,15 @@ hr {
 .inside-text{
     font-weight: bold;
     color: white;
-    margin-right: 3vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .inside-special{
-    margin-top: 20vh;
+    height: 0;
+    width: 100%;
+    padding-top: 15vh;
 }
-
-.inside-pj {
-    margin-top: 5vh;
-    width: 25vw;
-
-}
-
-
 
 
 .project:hover  {
