@@ -107,14 +107,10 @@ hr {
     cursor: pointer;
 }
 
-
-
-
 .inside {
     display: none;
     position: absolute;
 }
-
 
 .inside-text{
     font-weight: bold;
@@ -129,7 +125,6 @@ hr {
     padding-top: 15vh;
 }
 
-
 .project:hover  {
     cursor: pointer;
     opacity: 0.8;
@@ -139,8 +134,6 @@ hr {
     border: 2px solid #828283;
 }
 
-
-
 .fa{
     font-size: 28px;
     color: #404344;
@@ -149,8 +142,6 @@ hr {
 .fa-f {
     margin-left: 2vw;
 }
-
-
 
 #articles-link{
     display: none;

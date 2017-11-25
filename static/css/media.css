@@ -147,6 +147,10 @@
         display: block;
     }
 
+    .media-text{
+        padding-top: 3vh;
+    }
+
     #featured-works-p{
         display: none;
     }
@@ -163,7 +167,7 @@
 
     .inside-pj{
         text-align: center;
-        padding-left: 28%;
+        margin-left: 20vw;
         padding-top: 15%;
     }
 
@@ -200,20 +204,9 @@
         text-align: center;
     }
 
-    /*.special-pj{
-        margin-top: 8vh;
-    }*/
-
-    /*.featured-works{
-        margin-top: -10vh;
-    }*/
-
-
-
     .footer{
-        margin-top: -7vh;
+        margin-top: -5vh;
     }
-
 
     .project{
         margin-bottom: 10vh;
