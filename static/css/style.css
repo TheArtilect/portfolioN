@@ -157,9 +157,7 @@ hr {
     cursor: default;
 }
 /*MODAL*/
-.modal-content{
-    max-height: 100vh;
-}
+
 .modal-header,
 .modal-footer{
     background-color: #404344;
@@ -188,13 +186,14 @@ hr {
     margin-bottom: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
-    font-size: 0.92em;
+    font-size: 0.85em;
 }
 
 
 #tools{
     font-size: 0.8em;
     margin-top: 1vh;
+    /*font-weight: bold;*/
 }
 
 
