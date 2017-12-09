@@ -133,7 +133,7 @@
     .nav-bar{
         display: block;
         z-index: 9999;
-        opacity: 0.8;
+        opacity: 0.9;
         height: 11vh;
     }
 
@@ -306,9 +306,6 @@
     .middle{
         position: 0;
     }
-    /*.nav-ul{
-        height:
-    }*/
 
     .n-link{
         font-size: 35px;
