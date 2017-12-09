@@ -165,11 +165,18 @@
         display: none;
     }
 
-    .inside-pj{
-        text-align: center;
-        margin-left: 20vw;
-        padding-top: 15%;
+    .inside-special{
+        padding-top: 10%;
     }
+
+    .inside-pj{
+        left: 0;
+        /*text-align: center;
+        padding-left: 33%;
+        padding-right: 33%;
+        padding-top: 12%;*/
+    }
+
 
     .special-pj:hover .media-text-special,
     .featured-pj:hover .media-text{
