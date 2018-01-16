@@ -4,6 +4,16 @@ import json
 from Project import Project
 # import transform
 
+forecast = Project("Weather React",
+                    "A 5 day weather forecast",
+                    "Developed React weather forecast app.",
+                    "https://weather-forecast-192305.appspot.com",
+                    "https://github.com/ianagpawa/weather-forecast",
+                    ["ES6", "React", "Redux"],
+                    'forecast',
+                    'Jan. 2018'
+                    )
+
 google = Project("Google Search",
                 "A google search extension for Chrome.",
                 "Developed Chrome extension that uses Google search.",
