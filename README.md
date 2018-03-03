@@ -44,7 +44,7 @@ $   npm install
 #### Viewing the app locally
 In order to view the app locally, you will need to have `Google App Engine` installed on your system.  Once the terminal is the project folder, run command
 ```
-$   dev_appserver.py .
+$   dev_appserver.py . --host 0.0.0.0
 ```
 Then point your browser to `http://0.0.0.0:8080/`.
 
