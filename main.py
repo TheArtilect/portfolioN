@@ -11,5 +11,3 @@ app = webapp2.WSGIApplication([ ("/", FrontPage),
                                 ("/projects", OtherProjects)
                                 # ("/articles/([a-zA-Z]+)", ProjectArticles)
                                 ]
-                                # debug=True
-                                )
