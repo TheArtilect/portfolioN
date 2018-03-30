@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta name="viewport" content='width=device-width, initial-scale=1'>
     <meta name="author" content="Ian Agpawa">
@@ -13,10 +13,6 @@
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <!-- <link rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous"> -->
     <link
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         rel="stylesheet"
@@ -34,65 +30,37 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <!-- <script crossorigin="anonymous"
-        src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous">
-    </script> -->
     <script type="text/javascript" src="/static/js/main.js"></script>
-  </head>
-  <body class='container-fluid'>
-      <header>
-          <div class="row container-fluid" id='header'>
-              <div class='col-md-12 nav-bar'>
-                  <ul class='nav-ul'>
-                    <li class="nav-link col-md-4"  role="presentation" >
-                        <a href="/" class="n-link" id="in-page-link">Home</a>
+</head>
+<body class='container-fluid'>
+    <header class="row col-md-12" id='header'>
+        <div class="col-md-6 ">
+            <nav id="fixed-side-nav">
+                <ul id='nav-ul'>
+                    <li class="nav-li n-link col-md-4" role="presentation">
+                    <i id="close-btn" class="fa fa-bars fa-2x" aria-hidden="true"></i>
                     </li>
-                    <li class="nav-link col-md-4" role="presentation" >
-                        <a href="/projects" class="n-link home-drop">Projects</a>
+                    <li class="nav-li h-li col-md-4"  role="presentation" >
+                      <a href="/" class="n-link" id="in-page-link">Home</a>
                     </li>
-                    <li class="nav-link col-md-4" role="presentation" >
-                        <a href="#contact" class="nav-drop n-link home-drop">Contact</a>
+                    <li class="nav-li h-li col-md-4" role="presentation" >
+                      <a href="/projects" class="n-link home-drop">Projects</a>
                     </li>
-                  </ul>
-              </div>
-              <div class="col-md-3">
-                  <nav id="fixed-side-nav">
-                      <div id='side-Nav' class="s-nav container-fluid">
-                        <ul>
-                          <li class="nav-li n-link col-md-8" role="presentation">
-                            <i id="close-btn" class="fa fa-bars fa-2x" aria-hidden="true"></i>
-                          </li>
-                          <li class="nav-li h-li col-md-8"  role="presentation" >
-                              <a href="/" class="n-link" id="in-page-link">Home</a>
-                          </li>
-                          <li class="nav-li h-li col-md-8" role="presentation" >
-                              <a href="/projects" class="n-link home-drop">Projects</a>
-                          </li>
-                          <li class="nav-li h-li col-md-8" role="presentation" >
-                              <a href="#contact" class="nav-drop n-link home-drop">Contact</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </nav>
-              </div>
-              <div class="col-md-4 col-md-offset-4 text-right name-div">
-                  <h1 class="title-super" id="name">Ian Agpawa</h1>
-                  <p id='job'>Web Developer</p>
-              </div>
-              <div class="col-md-4 col-md-offset-4 text-center name-div-media">
-                  <h1 class="title-super" id="name">Ian Agpawa</h1>
-                  <p id='job'>Web Developer</p>
-              </div>
-          </div>
-      </header>
+                    <li class="nav-li h-li col-md-4" role="presentation" >
+                      <a href="#contact" class="nav-drop n-link home-drop">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-md-3 offset-md-3 text-right">
+            <h1 class="title-super" id="name">Ian Agpawa</h1>
+            <p id='job'>Web Developer</p>
+        </div>
+    </header>
     {% block content %}
     {% endblock %}
     <div class='container-fluid footer'>
-    <footer id='contact' class="row text-center">
+    <footer id='contact' class="row justify-content-center text-center">
         <div class="col-md-2 col-md-offset-2 copy-name">
             <p> &copy; 2016 Ian Agpawa</p>
         </div>
@@ -127,5 +95,5 @@
         </div>
     </footer>
     </div>
-    </body>
+</body>
 </html>
