@@ -72,24 +72,24 @@
 // }
 
 
-function navIt(){
-  var shown = false;
-  $("#close-btn").on("click", function(){
-    if (shown){
-      $(".h-li").css("display", 'none')
-      shown = false;
-    } else {
-      $(".h-li").show();
-      shown = true;
-    }
-  })
-}
+// function navIt(){
+//   var shown = false;
+//   $("#close-btn").on("click", function(){
+//     if (shown){
+//       $(".h-li").css("display", 'none')
+//       shown = false;
+//     } else {
+//       $(".h-li").show();
+//       shown = true;
+//     }
+//   })
+// }
 
 
 
 
 function displayAll(){
-    navIt();
+    // navIt();
     // modalClick();
     // projectDisplay();
 

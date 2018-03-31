@@ -16,9 +16,10 @@ a:hover{
 }
 
 .title-super {
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 600;
     font-variant: small-caps;
+    margin-top: 1vh;
 }
 
 #job{
@@ -36,14 +37,10 @@ a:hover{
   top: 0;
   left: 5vw;
   z-index: 9999;
-  /* height: 20vh; */
-  /* padding-top: 1vh; */
+  margin-top: 4vh;
+  font-size: 30px;
 }
 
-#close-btn{
-    font-size: 50px;
-    margin-top: 2vh;
-}
 
 #nav-ul{
     margin: 0;
@@ -56,13 +53,10 @@ a:hover{
 }
 
 .nav-li{
-  /* padding: 11px 15px; */
-  /* text-decoration: none; */
   display: inline;
-  /* float: right; */
 }
 
-.n-link, .article-links{
+.n-link{
     color: #575757;
     font-size: 20px;
 
