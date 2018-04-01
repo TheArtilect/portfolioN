@@ -84,6 +84,7 @@ a:hover{
     text-shadow: 2px 1px white;
 }
 
+
 .carousel-special-title,
 .carousel-special-description{
     color: white;
@@ -94,6 +95,10 @@ a:hover{
     height: 75vh;
 }
 
+.carousel-control{
+    font-size: 55px;
+    color: red;
+}
 /* Footer */
 .fa-google:hover{
     opacity: 1;
