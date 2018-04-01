@@ -78,18 +78,13 @@ a:hover{
     filter: brightness(70%);
 }
 
-.carousel-title,
-.carousel-description{
-    color: white;
-    font-weight: bold;
-    text-shadow: 2px 1px black;
-}
 
 .carousel-inner{
     border: 2px solid #bdbdbd;
 }
 
-
+.carousel-title,
+.carousel-description,
 .carousel-special-title,
 .carousel-special-description{
     color: white;
