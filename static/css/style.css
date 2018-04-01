@@ -2,7 +2,7 @@ body {
     font-family: 'Cormorant', serif;
     font-weight: 800;
     font-size: 20px;
-    color: #575757;
+    /* color: #575757; */
     background-image: url('/static/images/images_src/fixed/fabric_of_squares_gray.png')
 }
 
@@ -104,40 +104,13 @@ a:hover{
 }
 
 /* Footer */
-.fa-google:hover{
-    opacity: 1;
-}
-
-#github-link{
-    font-size: 40px;
-    cursor: pointer;
-}
-
 
 footer{
     margin-top: 3vh;
 }
 
-.fa{
-    font-size: 28px;
-    color: #404344;
-}
 
 .fa-f {
+    color: black;
     margin-left: 2vw;
-}
-
-
-.fa:hover, #articles-link:hover{
-    color: #8F5C00;
-}
-
-#goog:hover,
-.fa-google:hover{
-    color: #404344;
-    cursor: default;
-}
-
-#goog{
-    font-size: 18px;
 }
