@@ -78,7 +78,9 @@ a:hover{
     color: black;
 }
 
-
+.carousel-item{
+    height: 75vh;
+}
 
 /* Footer */
 .fa-google:hover{
