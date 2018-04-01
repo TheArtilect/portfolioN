@@ -75,7 +75,7 @@ a:hover{
 }
 
 .carousel-img{
-    filter: brightness(70%);
+    filter: brightness(65%);
 }
 
 
@@ -83,23 +83,26 @@ a:hover{
     border: 2px solid #bdbdbd;
 }
 
-.carousel-title,
-.carousel-description,
-.carousel-special-title,
-.carousel-special-description{
+.carousel-item{
+    height: 75vh;
+}
+
+.carousel-text{
     color: white;
     font-weight: bold;
     text-shadow: 2px 1px black;
 }
 
-.carousel-item{
-    height: 75vh;
+
+.pj-icon{
+    color: white;
+    margin: 10px;
 }
 
-.carousel-control{
-    font-size: 55px;
-    color: red;
+.pj-icon:hover{
+    color: orange;
 }
+
 /* Footer */
 .fa-google:hover{
     opacity: 1;
