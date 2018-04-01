@@ -71,6 +71,14 @@ a:hover{
 }
 
 
+/*  Carousel */
+
+.carousel-title,
+.carousel-description{
+    color: black;
+}
+
+
 
 /* Footer */
 .fa-google:hover{
