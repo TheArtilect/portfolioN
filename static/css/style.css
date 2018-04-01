@@ -17,14 +17,11 @@ a:hover{
 
 .title-super {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: bold;
     font-variant: small-caps;
-    margin-top: 1vh;
+    margin-top: 2vh;
 }
 
-#job{
-    margin-top: -2vh;
-}
 
 /* NAV */
 
@@ -137,4 +134,8 @@ footer{
 .fa-google:hover{
     color: #404344;
     cursor: default;
+}
+
+#goog{
+    font-size: 18px;
 }
