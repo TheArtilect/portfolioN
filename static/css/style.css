@@ -85,6 +85,10 @@ a:hover{
     text-shadow: 2px 1px black;
 }
 
+.carousel-inner{
+    border: 2px solid #bdbdbd;
+}
+
 
 .carousel-special-title,
 .carousel-special-description{
