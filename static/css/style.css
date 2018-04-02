@@ -24,14 +24,9 @@ a:hover{
 
 /* NAV */
 
-.test{
-    background-color: red;
-}
-
 #fixed-side-nav{
   top: 0;
   z-index: 9999;
-  margin-top: 4vh;
   font-size: 30px;
 }
 
@@ -81,7 +76,7 @@ a:hover{
 }
 
 .carousel-item{
-    height: 75vh;
+    height: 100%;
 }
 
 .carousel-text{
