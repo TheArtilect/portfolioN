@@ -3,4 +3,4 @@ from my_projects import  projects
 
 class OtherProjects(Handler):
     def get(self):
-        return self.render("projects.html", projects=projects)
+        return self.render("test.html", projects=projects)
