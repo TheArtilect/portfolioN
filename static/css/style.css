@@ -29,9 +29,7 @@ a:hover{
 }
 
 #fixed-side-nav{
-  position: fixed;
   top: 0;
-  left: 5vw;
   z-index: 9999;
   margin-top: 4vh;
   font-size: 30px;
