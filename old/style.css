@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Cormorant', serif;
+    font-weight: 800;
+    font-size: 20px;
+    background-image: url('/static/images/images_src/fixed/fabric_of_squares_gray.png');
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.fa:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.title-super {
+    font-size: 50px;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-top: 2vh;
+}
+
+
+/* NAV */
+
+#fixed-side-nav{
+  top: 0;
+  z-index: 9999;
+  font-size: 30px;
+}
+
+
+#nav-ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#nav-ul li {
+    display: inline;
+}
+
+.nav-li{
+  display: inline;
+}
+
+.n-link{
+    color: #575757;
+    font-size: 20px;
+
+}
+
+.n-link:hover{
+    color: #8F5C00;
+}
+
+.h-li{
+  display: none;
+}
+
+
+/*  Carousel */
+
+
+
+.carousel-indicators li:hover{
+    background-color: orange;
+}
+
+.carousel-img{
+    filter: brightness(60%);
+}
+
+
+.carousel-inner{
+    /* border: 2px solid black; */
+}
+
+
+
+.carousel-text{
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 1px black;
+}
+
+
+.pj-icon{
+    color: white;
+    margin: 10px;
+}
+
+.pj-icon:hover{
+    color: orange;
+}
+
+
+/* Cards */
+
+.card-title{
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 3vh;
+}
+
+
+.fa-f {
+    color: black;
+    margin-left: 2vw;
+}
