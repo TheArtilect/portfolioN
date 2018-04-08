@@ -7,19 +7,17 @@
         <div class="card col-4">
             <img class="card-img-top" src="/static/images/{{project.thumbnail}}-600.jpg" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">{{project.title}}</h5>
+                <h3 class="card-title">{{project.title}}</h3>
                 <p class="card-text">{{project.description}}</p>
+                <h5 card="card-subtext">{{project.tools}}</h5>
             </div>
 
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-
             <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <a target="_blank" href="{{project.url}}" class="card-link">Link</a>
+                <a target="_blank" href="{{project.repo}}" class="card-link">Repo</a>
+                {% if project.articles %}
+                    <a target="_blank" href="https://chronicle-170419.appspot.com/projects/{{project.link_name}}" class="card-link">Blog Posts</a>
+                {% endif %}
             </div>
         </div>
         {% endfor %}
