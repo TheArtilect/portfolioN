@@ -62,22 +62,19 @@ a:hover{
 
 /*  Carousel */
 .carousel-indicators li{
-    border: 1px solid black;
-    background-color: grey;
+    background-color: white;
 }
 
 .carousel-img{
-    filter: brightness(50%);
+    filter: brightness(60%);
 }
 
 
 .carousel-inner{
     border: 2px solid #bdbdbd;
+
 }
 
-.carousel-item{
-    height: 100%;
-}
 
 .carousel-text{
     color: white;
