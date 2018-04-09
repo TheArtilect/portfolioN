@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<div class='container text-center'>
+<div class='container col-10 text-center'>
     <h1 class='projects-h1'>Projects</h1>
     <div class='row justify-content-between'>
         {% for project in projects %}
@@ -30,7 +30,7 @@
       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+            <h2 class="modal-title text-center"></h2>
             <button type="button" class="close" data-dismiss="modal"
                 aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -43,14 +43,14 @@
                     alt='screenshot of project homepage'>
             </a>
             <p id='description'></p>
-            <a target="_blank" id='web-link' class='modal-link'>
-                <i class="fa fa-link" aria-hidden="true"></i>
+            <a target="_blank" id='web-link' class='modal-icon'>
+                <i class="fas fa-link fa-2x" aria-hidden="true"></i>
             </a>
-            <a target="_blank" id="git-repo" class='modal-link'>
-                <i class="fab fa-github" id='github-link' aria-hidden="true"></i>
+            <a target="_blank" id="git-repo" class='modal-icon'>
+                <i class="fab fa-github fa-2x" id='github-link' aria-hidden="true"></i>
             </a>
-            <a target="_blank" id='articles-link' class='modal-link'>
-                <i class="fa fa-coffee" aria-hidden="true"></i>
+            <a target="_blank" id='articles-link' class='modal-icon'>
+                <i class="fas fa-coffee fa-2x" aria-hidden="true"></i>
             </a>
             <p id='tools'></p>
           </div>

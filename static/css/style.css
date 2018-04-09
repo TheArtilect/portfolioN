@@ -51,18 +51,15 @@ a:hover{
 
 }
 
-.n-link:hover{
-    color: #8F5C00;
+.n-link:hover,
+.modal-icon:hover,
+.pj-icon:hover{
+    /* color: #8F5C00; */
+    color: orange;
 }
-
-.h-li{
-  display: none;
-}
-
 
 /*  Carousel */
 .carousel-indicators li:hover{
-    /* background-color: white; */
     background-color: orange;
 }
 
@@ -89,10 +86,14 @@ a:hover{
     margin: 10px;
 }
 
-.pj-icon:hover{
-    color: orange;
+.modal-icon{
+    margin: 10px;
 }
 
+.modal-title{
+    font-weight: bold;
+    text-align: center;
+}
 
 /* Cards */
 
@@ -100,6 +101,10 @@ a:hover{
     font-weight: bold;
 }
 
+/*  Modal */
+.modal-icon{
+    color: black;
+}
 
 /* Footer */
 
