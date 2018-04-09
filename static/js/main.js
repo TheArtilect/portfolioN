@@ -85,12 +85,44 @@
 //   })
 // }
 
+// Modal
+function modalClick(){
+    $('#ModalLong').on('show.bs.modal', function (event) {
+      const button = $(event.relatedTarget); // Button that triggered the modal
+      const modal = $(this);
 
+      const title = button.data('title');
+      modal.find('.modal-title').text(title);
+      let thumbnail = button.data('thumbnail');
+      thumbnail = "/static/images/" + thumbnail + "-600.jpg";
+      console.log(thumbnail)
+      modal.find("#modal-img").attr('src', thumbnail);
+      const description = button.data('description');
+      // const details = button.data('details');
+      modal.find('#description').text(description);
+      const url = button.data('url');
+      modal.find('#modal-weblink').attr("href", url);
+      modal.find('#web-link').attr("href", url);
+      const repo = button.data('repo');
+      modal.find('#git-repo').attr("href", repo);
+      const tools = button.data('tools');
+      modal.find('#tools').text(tools);
+      const articles = button.data("articles");
+      if (articles == 'True'){
+          const linkname = button.data("linkname");
+          $("#articles-link").css("display", 'inline');
+          const articlesUrl = "https://chronicle-170419.appspot.com/projects/" + linkname;
+          modal.find('#articles-link').attr("href", articlesUrl);
+      } else{
+          $("#articles-link").css("display", 'none');
+      }
+    })
+}
 
 
 function displayAll(){
     // navIt();
-    // modalClick();
+    modalClick();
     // projectDisplay();
 
 }

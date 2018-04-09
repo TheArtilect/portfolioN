@@ -4,12 +4,21 @@
     <h1 class='projects-h1'>Projects</h1>
     <div class='row justify-content-between'>
         {% for project in projects %}
-        <div class="card col-4 mb-3">
+        <div class="card col-2 mb-3"
+            data-toggle="modal"
+            data-target="#ModalLong"
+            data-title="{{project.title}}"
+            data-thumbnail='{{project.thumbnail}}'
+            data-description='{{project.description}}'
+            data-details='{{project.details}}'
+            data-url='{{project.url}}'
+            data-repo='{{project.repo}}'
+            data-tools="{{project.tools}}"
+            data-articles="{{project.articles}}"
+            data-linkname='{{project.name}}'>
             <img class="card-img-top"
                 src="/static/images/{{project.thumbnail}}-600.jpg"
                 alt="Card image cap"
-                data-toggle="modal"
-                data-target="#ModalLong"
                 >
         </div>
         {% endfor %}
@@ -21,16 +30,33 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+            <button type="button" class="close" data-dismiss="modal"
+                aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
+            <a id='modal-weblink' target="_blank">
+                <img class='w-100'
+                    id='modal-img'
+                    alt='screenshot of project homepage'>
+            </a>
+            <p id='description'></p>
+            <a target="_blank" id='web-link' class='modal-link'>
+                <i class="fa fa-link" aria-hidden="true"></i>
+            </a>
+            <a target="_blank" id="git-repo" class='modal-link'>
+                <i class="fa fa-github" id='github-link' aria-hidden="true"></i>
+            </a>
+            <a target="_blank" id='articles-link' class='modal-link'>
+                <i class="fa fa-coffee" aria-hidden="true"></i>
+            </a>
+            <p id='tools'></p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-secondary"
+                data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
