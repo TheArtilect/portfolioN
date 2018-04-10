@@ -1,55 +1,62 @@
 {% extends "base.html" %}
-
 {% block content %}
-
-<div class='container-fluid'>
-    <div class='col-md-12 text-center projects-page'>
-        <h1 class='projects-h1'>Projects</h1>
-    </div>
-    <div class="text-left col-md-12" id='projects'>
-
+<div class='container col-10 text-center'>
+    <h1 class='projects-h1'>Projects</h1>
+    <div class='row justify-content-between'>
         {% for project in projects %}
-
-        <div class='row col-md-10 col-md-offset-1 pj-tile'>
-            <div class='col-md-offset-1 col-md-5 pj-left bold text-center'>
-                <h1 class="pj-left-text">{{project.title}}</h1>
-                <h5 class="pj-left-text">{{project.date}}</h5>
-
-                <h3 class="pj-left-text description">{{project.description}}</h3>
-
-                <h5 class='pj-left-text tools'>{{project.tools}}</h5>
-                <div class='links-row'>
-                    <a href="{{project.url}}" class='pj-icon links' target="_blank">
-                        <i class="fa fa-link pj-icon" aria-hidden="true"></i>
-                    </a>
-                    <a href="{{project.repo}}" class='pj-icon links' target="_blank">
-                        <i class="fa fa-github-square pj-icon pj-icon-git"></i>
-                    </a>
-                    {% if project.link_name %}
-                    <a href="https://chronicle-170419.appspot.com/projects/{{project.link_name}}" class='pj-icon links' target="_blank">
-                        <i class="fa fa-coffee pj-icon"></i>
-                    </a>
-                    {% endif %}
-                </div>
-
-            </div>
-
-            <div class='col-md-5  pj-right'>
-                <div class='inside col-md-12 inside-pj-all text-left'>
-                    <h4 class='inside-text all'>{{project.details}}</h4>
-                </div>
-                <a href='{{project.url}}' target="_blank">
-                    <img class='img-responsive proj-img all-img' src="/static/images/{{project.thumbnail}}-600.jpg">
-                </a>
-            </div>
-
+        <div class="card col-2 mb-3"
+            data-toggle="modal"
+            data-target="#ModalLong"
+            data-title="{{project.title}}"
+            data-thumbnail='{{project.thumbnail}}'
+            data-description='{{project.description}}'
+            data-details='{{project.details}}'
+            data-url='{{project.url}}'
+            data-repo='{{project.repo}}'
+            data-tools="{{project.tools}}"
+            data-articles="{{project.articles}}"
+            data-linkname='{{project.name}}'>
+            <img class="card-img-top"
+                src="/static/images/{{project.thumbnail}}-600.jpg"
+                alt="Card image cap"
+                >
         </div>
-
-        <hr class='col-md-8 col-md-offset-2 pj-hr'>
-
         {% endfor %}
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="ModalLong" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <h3 class="modal-title text-center"></h3>
+          </div>
+          <div class="modal-body">
+            <a id='modal-weblink' target="_blank">
+                <img class='w-100'
+                    id='modal-img'
+                    alt='screenshot of project homepage'>
+            </a>
+            <p id='description'></p>
+            <a target="_blank" id='web-link' class='modal-icon'>
+                <i class="fas fa-link fa-2x" aria-hidden="true"></i>
+            </a>
+            <a target="_blank" id="git-repo" class='modal-icon'>
+                <i class="fab fa-github fa-2x" id='github-link' aria-hidden="true"></i>
+            </a>
+            <a target="_blank" id='articles-link' class='modal-icon'>
+                <i class="fas fa-coffee fa-2x" aria-hidden="true"></i>
+            </a>
+            <p id='tools'></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default modal-btn"
+                data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 
 {% endblock %}
