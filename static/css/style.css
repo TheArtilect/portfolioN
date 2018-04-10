@@ -113,6 +113,12 @@ a:hover{
 }
 
 /*  Modal */
+.modal-header,
+.modal-footer{
+    background-color: #404344;
+    color: white;
+}
+
 .modal-icon{
     color: black;
 }
