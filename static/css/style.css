@@ -53,13 +53,14 @@ a:hover{
 
 .n-link:hover,
 .modal-icon:hover,
-.pj-icon:hover{
+.pj-icon:hover,
+.fa-f:hover{
     /* color: #8F5C00; */
     color: orange;
 }
 
 .projects-h1{
-    bold;
+    font-weight: bold;
 }
 /*  Carousel */
 .carousel-indicators li:hover{
@@ -104,6 +105,9 @@ a:hover{
     background-color: transparent;
 }
 
+.card-img-top:hover{
+    cursor: pointer;
+}
 .card-img-top{
     border: 2px solid black;
 }
@@ -127,6 +131,10 @@ a:hover{
 
 footer{
     margin-top: 3vh;
+}
+
+.fa-google-div{
+    margin-left: 2vw;
 }
 
 

@@ -271,7 +271,7 @@ portfolio_old = Project("Portfolio",
 
 
 special = catalog
-featured = [chronicle, forecast, tacohub, simon]
+featured = [forecast, chronicle, tacohub]
 
-projects = [special] + featured + [portfolio, synchronicity, monitor, google, weather2, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
+projects = [special] + featured + [portfolio, synchronicity, monitor, google, simon, weather2, quote, image, tictactoe, calculator, pomodoro, shortener, audacious, wiki, header,
             timestamp, metadata, weather, finance, tribute, blog, portfolio_old]
