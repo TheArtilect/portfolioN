@@ -58,6 +58,9 @@ a:hover{
     color: orange;
 }
 
+.projects-h1{
+    bold;
+}
 /*  Carousel */
 .carousel-indicators li:hover{
     background-color: orange;
@@ -96,6 +99,14 @@ a:hover{
 }
 
 /* Cards */
+.card{
+    border: 0px;
+    background-color: transparent;
+}
+
+.card-img-top{
+    border: 2px solid black;
+}
 
 .card-title{
     font-weight: bold;
