@@ -100,16 +100,13 @@ a:hover{
 }
 
 /* Cards */
-.card{
-    border: 0px;
-    background-color: transparent;
-}
 
 .card-img-top:hover{
     cursor: pointer;
 }
 .card-img-top{
-    border: 2px solid black;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 .card-title{
